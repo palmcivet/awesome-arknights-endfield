@@ -18,7 +18,7 @@
     },
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Home Page",
         "url": "https://talospioneers.com/"
       }
     ],
@@ -44,7 +44,7 @@
     "repository": "https://github.com/Terra-Online/Atlos",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Home Page",
         "url": "https://opendfieldmap.cn/"
       }
     ],
@@ -70,7 +70,7 @@
     "repository": "https://github.com/JamboChen/endfield-tool",
     "website": [
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://jambochen.github.io/endfield-tool/"
       }
     ],
@@ -95,7 +95,7 @@
     },
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Home Page",
         "url": "https://www.zmdmap.com/"
       }
     ],
@@ -116,7 +116,7 @@
     "repository": "https://github.com/Lieyuan621/Endaxis",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Home Page",
         "url": "https://lieyuan.top/Endaxis/"
       }
     ],
@@ -141,11 +141,11 @@
     "repository": "https://github.com/HetmesAskalana/efsim",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Home Page",
         "url": "https://efsim.unacas.com/"
       },
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://hetmesaskalana.github.io/efsim/"
       }
     ],
@@ -170,11 +170,11 @@
     "repository": "https://github.com/Arknights-yituliu/ef-frontend-v1",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Home Page",
         "url": "https://ef.yituliu.cn/"
       },
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://arknights-yituliu.github.io/ef-frontend-v1/"
       }
     ],
