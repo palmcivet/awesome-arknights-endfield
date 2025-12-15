@@ -4,12 +4,12 @@
 
 - [欢迎贡献](#欢迎贡献)
 - [提交收录](#提交收录)
-    - [方式 A：Pull Request](#方式-apull-request)
-    - [方式 B：Issue](#方式-bissue)
+  - [方式 A：Pull Request](#方式-apull-request)
+  - [方式 B：Issue](#方式-bissue)
 - [报告问题](#报告问题)
 - [撰写规范](#撰写规范)
-    - [JSON 格式规范](#json-格式规范)
-    - [中文写作规范](#中文写作规范)
+  - [JSON 格式规范](#json-格式规范)
+  - [中文写作规范](#中文写作规范)
 
 ## 欢迎贡献
 
@@ -24,7 +24,7 @@
 ### 方式 A：Pull Request
 
 1. Fork 本仓库
-2. 基于最新的 `main` 分支创建新分支，例如：`git checkout -b feat/new-entry`
+2. 基于最新的 `main` 分支创建新分支，例如：`git checkout -b docs/new-entry`
 3. 编辑 `data/LIST.json`，按照既有结构与字段规范添加新条目
 4. 提交 [Pull Request](https://github.com/palmcivet/awesome-arknights-endfield/pulls)，并在描述中简要说明该资源的用途和特点
 

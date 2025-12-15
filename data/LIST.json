@@ -189,5 +189,34 @@
     "id": 7,
     "addedAt": "2025-12-13",
     "openSource": true
+  },
+  {
+    "name": "ChuwuYo/Endfield-Pomodoro",
+    "description": {
+      "en-US": "A Pomodoro timer app with an Arknights: Endfield theme.",
+      "zh-CN": "一个融合 Cyber UI 和《终末地》风格的沉浸式 Web 番茄钟应用。"
+    },
+    "repository": "https://github.com/ChuwuYo/Endfield-Pomodoro",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://pomo.chuwu.top"
+      },
+      {
+        "title": "Vercel",
+        "url": "https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/"
+      }
+    ],
+    "author": {
+      "name": "ChuwuYo",
+      "url": "https://github.com/ChuwuYo"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Pomodoro"
+    ],
+    "id": 8,
+    "addedAt": "2025-12-13",
+    "openSource": true
   }
 ]

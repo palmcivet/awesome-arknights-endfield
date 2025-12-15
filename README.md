@@ -57,6 +57,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
     - [Website](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
     - The frontend interface of the “一图流” (interactive resource overview) project.
+- [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
+    - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
+    - A Pomodoro timer app with an Arknights: Endfield theme.
 
 ## Contributing
 

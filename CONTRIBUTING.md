@@ -4,11 +4,11 @@ English | [简体中文](./CONTRIBUTING.zh-CN.md)
 
 - [Welcome Contributions](#welcome-contributions)
 - [Submitting Resources](#submitting-resources)
-    - [Option A: Pull Request](#option-a-pull-request)
-    - [Option B: Issue](#option-b-issue)
+  - [Option A: Pull Request](#option-a-pull-request)
+  - [Option B: Issue](#option-b-issue)
 - [Reporting Issues](#reporting-issues)
 - [Writing Guidelines](#writing-guidelines)
-    - [JSON Format Guidelines](#json-format-guidelines)
+  - [JSON Format Guidelines](#json-format-guidelines)
 
 ## Welcome Contributions
 
@@ -23,7 +23,7 @@ If you discover high-quality related resources (such as tutorials, tools, or com
 ### Option A: Pull Request
 
 1. Fork this repository.
-2. Create a new branch based on the latest `main` branch, for example: `git checkout -b feat/new-entry`.
+2. Create a new branch based on the latest `main` branch, for example: `git checkout -b docs/new-entry`.
 3. Edit `data/LIST.json` and add a new entry following the existing structure and field conventions.
 4. Submit a [Pull Request](https://github.com/palmcivet/awesome-arknights-endfield/pulls), and briefly describe the purpose and key features of the resource in the PR description.
 

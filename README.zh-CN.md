@@ -57,6 +57,9 @@
 - [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
     - [网站](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
     - 基于 Nuxt 4.x 开发的《明日方舟：终末地》一图流网站。
+- [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
+    - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
+    - 一个融合 Cyber UI 和《终末地》风格的沉浸式 Web 番茄钟应用
 
 ## 贡献
 
