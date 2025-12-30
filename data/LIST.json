@@ -213,7 +213,8 @@
     },
     "category": "Auxiliary Tools",
     "tags": [
-      "Pomodoro"
+      "Pomodoro",
+      "Endfield-themed"
     ],
     "id": 8,
     "addedAt": "2025-12-13",
@@ -247,5 +248,30 @@
     "id": 9,
     "addedAt": "2025-12-29",
     "openSource": true
+  },
+  {
+    "name": "Kiotlin/callMeDoctor",
+    "description": {
+      "en-US": "Fan-made Endfield-themed website featuring AI-generated illustration.",
+      "zh-CN": "终末地同人项目，提供 AI 生成插图的网页展示。"
+    },
+    "repository": "https://github.com/Kiotlin/callMeDoctor",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "http://call-me-doctor.vercel.app/"
+      }
+    ],
+    "author": {
+      "name": "Kiotlin",
+      "url": "https://github.com/Kiotlin"
+    },
+    "category": "Portfolios",
+    "tags": [
+      "Endfield-themed"
+    ],
+    "id": 10,
+    "addedAt": "2025-12-30",
+    "openSource": false
   }
 ]

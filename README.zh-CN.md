@@ -63,6 +63,9 @@
 - [endfield-calc/factoriolab](https://github.com/endfield-calc/factoriolab)
   - [网站](https://factory.ef.yituliu.cn/) | [GitHub Pages](https://endfield-calc.github.io/)
   - 终末地量化计算器
+- [Kiotlin/callMeDoctor](https://github.com/Kiotlin/callMeDoctor)
+  - [网站](http://call-me-doctor.vercel.app/)
+  - 终末地同人项目，提供 AI 生成插图的网页展示。
 
 ## 贡献
 

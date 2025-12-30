@@ -63,6 +63,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [endfield-calc/factoriolab](https://github.com/endfield-calc/factoriolab)
   - [网站](https://factory.ef.yituliu.cn/) | [GitHub Pages](https://endfield-calc.github.io/)
   - Angular-based calculator for Arknights: Endfield
+- [Kiotlin/callMeDoctor](https://github.com/Kiotlin/callMeDoctor)
+  - [Website](http://call-me-doctor.vercel.app/)
+  - Fan-made Endfield-themed website featuring AI-generated illustration.
 
 ## Contributing
 
