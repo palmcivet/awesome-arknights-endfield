@@ -1,7 +1,17 @@
-export default function () {
+import Hero from '@/components/hero';
+import Navigation from '@/components/navigation';
+import SearchBox from '@/components/search-box';
+import ProjectGallery from '@/components/project-gallery';
+import Footer from '@/components/footer';
+
+export default function App() {
   return (
     <>
-      <h1>Awesome Arknights Endfield</h1>
+      <Navigation />
+      <Hero />
+      <SearchBox />
+      <ProjectGallery />
+      <Footer />
     </>
   );
 }
