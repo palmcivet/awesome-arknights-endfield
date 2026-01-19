@@ -62,16 +62,16 @@
     "license": "GNU Affero General Public License v3.0"
   },
   {
-    "name": "JamboChen/endfield-tool",
+    "name": "JamboChen/endfield-calc",
     "description": {
       "en-US": "Production calculator and factory planner for Arknights: Endfield.",
       "zh-CN": "明日方舟终末地工厂计算器。它帮助玩家规划和优化资源生产：建造设施、制作物品、管理配方，并计算所需原材料及生产时间。"
     },
-    "repository": "https://github.com/JamboChen/endfield-tool",
+    "repository": "https://github.com/JamboChen/endfield-calc",
     "website": [
       {
         "title": "GitHub Pages",
-        "url": "https://jambochen.github.io/endfield-tool/"
+        "url": "https://jambochen.github.io/endfield-calc/"
       }
     ],
     "author": {
@@ -184,7 +184,7 @@
     },
     "category": "Materials & Resources",
     "tags": [
-      "Overview yituliu"
+      "One-page visualization"
     ],
     "id": 7,
     "addedAt": "2025-12-13",
