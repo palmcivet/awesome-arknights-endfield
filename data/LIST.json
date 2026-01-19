@@ -273,5 +273,32 @@
     "id": 10,
     "addedAt": "2025-12-30",
     "openSource": false
+  },
+  {
+    "name": "cloud-oc/endspace",
+    "description": {
+      "en-US": "NotionNext theme inspired by the official website of Arknights: Endfield.",
+      "zh-CN": "受《明日方舟：终末地》官网启发制作的NotionNext主题。"
+    },
+    "repository": "https://github.com/cloud-oc/endspace",
+    "website": [
+      {
+        "title": "Home Page",
+        "url": "https://cloud09.space/article/endspace"
+      }
+    ],
+    "author": {
+      "name": "Cloud09",
+      "url": "https://github.com/cloud-oc"
+    },
+    "category": "Blog Themes",
+    "tags": [
+      "Endfield-themed",
+      "Blog",
+      "NotionNext"
+    ],
+    "id": 11,
+    "addedAt": "2026-01-19",
+    "openSource": true
   }
 ]
