@@ -1,0 +1,17 @@
+{
+  "name": "awesome-arknights-endfield-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "check:list": "bun scripts/check.ts"
+  },
+  "dependencies": {
+    "zod": "^4.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "chalk": "^5.6.2",
+    "typescript": "~5.9.3"
+  }
+}

@@ -2,7 +2,8 @@
   {
     "name": "Awesome Arknights Endfield",
     "description": {
-      "en-US": "This entry is reserved and should not be used."
+      "en-US": "This entry is reserved and should not be used.",
+      "zh-CN": "这个条目是保留的，不应该被使用。"
     },
     "category": "Uncategorized",
     "tags": [],
@@ -18,7 +19,7 @@
     },
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://talospioneers.com/"
       }
     ],
@@ -44,7 +45,7 @@
     "repository": "https://github.com/Terra-Online/Atlos",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://opendfieldmap.cn/"
       }
     ],
@@ -70,7 +71,7 @@
     "repository": "https://github.com/JamboChen/endfield-calc",
     "website": [
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://jambochen.github.io/endfield-calc/"
       }
     ],
@@ -95,7 +96,7 @@
     },
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://www.zmdmap.com/"
       }
     ],
@@ -116,7 +117,7 @@
     "repository": "https://github.com/Lieyuan621/Endaxis",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://lieyuan.top/Endaxis/"
       }
     ],
@@ -141,11 +142,11 @@
     "repository": "https://github.com/HetmesAskalana/efsim",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://efsim.unacas.com/"
       },
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://hetmesaskalana.github.io/efsim/"
       }
     ],
@@ -170,11 +171,11 @@
     "repository": "https://github.com/Arknights-yituliu/ef-frontend-v1",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://ef.yituliu.cn/"
       },
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://arknights-yituliu.github.io/ef-frontend-v1/"
       }
     ],
@@ -199,11 +200,11 @@
     "repository": "https://github.com/ChuwuYo/Endfield-Pomodoro",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://pomo.chuwu.top"
       },
       {
-        "title": "Vercel",
+        "provider": "Vercel",
         "url": "https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/"
       }
     ],
@@ -229,11 +230,11 @@
     "repository": "https://github.com/endfield-calc/factoriolab",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://factory.ef.yituliu.cn/"
       },
       {
-        "title": "GitHub Pages",
+        "provider": "GitHub Pages",
         "url": "https://endfield-calc.github.io/factoriolab/"
       }
     ],
@@ -258,7 +259,7 @@
     "repository": "https://github.com/Kiotlin/callMeDoctor",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "http://call-me-doctor.vercel.app/"
       }
     ],
@@ -278,12 +279,12 @@
     "name": "cloud-oc/endspace",
     "description": {
       "en-US": "NotionNext theme inspired by the official website of Arknights: Endfield.",
-      "zh-CN": "受《明日方舟：终末地》官网启发制作的NotionNext主题。"
+      "zh-CN": "受《明日方舟：终末地》官网启发制作的 NotionNext 主题。"
     },
     "repository": "https://github.com/cloud-oc/endspace",
     "website": [
       {
-        "title": "Home Page",
+        "provider": "Custom",
         "url": "https://cloud09.space"
       }
     ],
