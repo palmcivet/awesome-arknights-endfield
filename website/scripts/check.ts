@@ -39,12 +39,11 @@ function displayHelp(): void {
 
 function readFile(filePath: string): string {
   console.info(chalk.bold.blue('> Reading file...'));
-  console.info(chalk.dim(`  File path: ${filePath}\n`));
+  console.info(chalk.dim(`  File path: ${filePath}`));
 
   try {
     const fileContent = readFileSync(filePath, 'utf-8');
-    console.info(chalk.green('✓ File read successfully'));
-    console.info(chalk.dim(`  File size: ${fileContent.length} characters\n`));
+    console.info(chalk.green('✓ File read successfully\n'));
     return fileContent;
   } catch (error: any) {
     console.error(chalk.bold.red('✗ File read failed\n'));
@@ -71,15 +70,14 @@ function readFile(filePath: string): string {
 }
 
 function parseJson(content: string): any {
-  console.info(chalk.bold.blue('> Parsing JSON...\n'));
+  console.info(chalk.bold.blue('> Parsing JSON...'));
+  console.info(chalk.dim(`  Data size: ${content.length} characters`));
 
   try {
     const jsonData = JSON.parse(content);
-    console.info(chalk.green('✓ JSON parsed successfully'));
+    console.info(chalk.green('✓ JSON parsed successfully\n'));
 
-    if (Array.isArray(jsonData)) {
-      console.info(chalk.dim(`  Total entries: ${jsonData.length}\n`));
-    } else {
+    if (!Array.isArray(jsonData)) {
       console.info(chalk.yellow('⚠ Warning: Root element is not an array\n'));
     }
 
@@ -115,11 +113,11 @@ function parseJson(content: string): any {
 }
 
 function validateWithZod(json: any): void {
-  console.info(chalk.bold.blue('> Validating schema...\n'));
+  console.info(chalk.bold.blue('> Validating schema...'));
+  console.info(chalk.dim(`  Total entries: ${json.length}`));
 
   try {
     parseProjects(json);
-
     console.info(chalk.bold.green('✓ Validation successful\n'));
   } catch (error) {
     console.error(chalk.bold.red('✗ Schema Validation Failed\n'));
@@ -135,25 +133,29 @@ function validateWithZod(json: any): void {
   }
 }
 
-// Parse command line arguments
-const { filePath, showHelp } = parseArgs();
+function main() {
+  // Parse command line arguments
+  const { filePath, showHelp } = parseArgs();
 
-// Show help if requested
-if (showHelp) {
-  displayHelp();
+  // Show help if requested
+  if (showHelp) {
+    displayHelp();
+    process.exit(0);
+  }
+
+  // Read file (exit if fails)
+  const fileContent = readFile(filePath);
+
+  // Parse JSON (exit if fails)
+  const jsonContent = parseJson(fileContent);
+
+  // Validate with Zod (exit if fails)
+  validateWithZod(jsonContent);
+
+  // All stages passed
+  console.info(chalk.bold.green('✓ All validation stages passed'));
+
   process.exit(0);
 }
 
-// Read file (exit if fails)
-const fileContent = readFile(filePath);
-
-// Parse JSON (exit if fails)
-const jsonData = parseJson(fileContent);
-
-// Validate with Zod (exit if fails)
-validateWithZod(jsonData);
-
-// All stages passed
-console.info(chalk.bold.green('✓ All validation stages passed'));
-
-process.exit(0);
+main();

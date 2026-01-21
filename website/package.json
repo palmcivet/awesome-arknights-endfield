@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "check:list": "bun scripts/check.ts"
+    "format:list": "bun ./scripts/format.ts",
+    "check:list": "bun ./scripts/check.ts"
   },
   "dependencies": {
     "zod": "^4.2.1"
