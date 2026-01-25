@@ -95,6 +95,8 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - Endfield puzzle solving tool.
   - Backend repository [SihenZhang/ak-endfield-puzzle-api](https://github.com/SihenZhang/ak-endfield-puzzle-api)
+- [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)
+  - Scripts to retrieve the Arknights: Endfield gacha history URL for gacha history management services.
 
 ## Contributing
 

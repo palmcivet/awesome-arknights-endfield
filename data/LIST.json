@@ -301,5 +301,24 @@
     "id": 11,
     "addedAt": "2026-01-19",
     "openSource": true
+  },
+  {
+    "name": "daydreamer-json/ak-endfield-gacha-link-gen",
+    "description": {
+      "en-US": "Scripts to retrieve the Arknights: Endfield gacha history URL for gacha history management services.",
+      "zh-CN": "用于获取《明日方舟：终末地》扭蛋记录URL的脚本，供扭蛋记录管理服务使用。"
+    },
+    "repository": "https://github.com/daydreamer-json/ak-endfield-gacha-link-gen",
+    "author": {
+      "name": "daydreamer-json",
+      "url": "https://github.com/daydreamer-json"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Gacha"
+    ],
+    "id": 12,
+    "addedAt": "2026-01-25",
+    "openSource": true
   }
 ]

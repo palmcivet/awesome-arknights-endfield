@@ -95,6 +95,9 @@
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - 终末地拼图解谜工具
   - 后端仓库 [SihenZhang/ak-endfield-puzzle-api](https://github.com/SihenZhang/ak-endfield-puzzle-api)
+- [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)
+  - 用于获取《明日方舟：终末地》扭蛋记录URL的脚本，供扭蛋记录管理服务使用。
+
 
 ## 贡献
 
