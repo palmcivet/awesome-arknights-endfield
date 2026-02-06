@@ -15,7 +15,9 @@
     <img src="https://img.shields.io/github/license/palmcivet/awesome-arknights-endfield?label=License" alt="License" />
   </a>
 
-  <img src="https://img.shields.io/badge/Projects-20-blue" alt="Projects" />
+  <!-- BADGE_COUNT_START -->
+  <img src="https://img.shields.io/badge/Projects-21-blue" alt="Projects" />
+  <!-- BADGE_COUNT_END -->
 </p>
 
 English | [简体中文](./README.zh-CN.md)
@@ -30,6 +32,7 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [Tables of Contents](#tables-of-contents)
 - [List](#list)
+- [Recent Updates](#recent-updates)
 - [Contributing](#contributing)
 - [Badge](#badge)
 - [License](#license)
@@ -37,66 +40,32 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 ## List
 
-- [Talos Pioneers](https://talospioneers.com/)
-  - Talos Pioneers is a community resource for Arknights: Endfield, designed to help Endministrators share their Automated Industry Complex (AIC) blueprints with each other.
-  - [GitHub Organization](https://github.com/Talos-Pioneers)
-- [ENDFIELD MAP](https://www.zmdmap.com/)
-  - Interactive Resource Map for Arknights: Endfield.
-- [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
-  - [Website](https://opendfieldmap.cn/)
-  - Online interactive map for Arknights: Endfield.
-- [JamboChen/endfield-calc](https://github.com/JamboChen/endfield-calc)
-  - [Website](https://jambochen.github.io/endfield-calc/)
-  - Production calculator and factory planner for Arknights: Endfield.
-- [Lieyuan621/Endaxis](https://github.com/Lieyuan621/Endaxis)
-  - [Website](https://lieyuan.top/Endaxis/)
-  - A web-based visual timeline editing tool specifically designed for Arknights: Endfield.
-- [HetmesAskalana/efsim](https://github.com/HetmesAskalana/efsim)
-  - [Website](https://efsim.unacas.com/) | [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
-  - Endfield originium circuit repair calculator.
-- [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
-  - [Website](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
-  - The frontend interface of the “一图流” (interactive resource overview) project.
-- [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
-  - [Website](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
-  - An immersive web Pomodoro timer app blending Cyber UI and Endfield aesthetics.
-- [endfield-calc/factoriolab](https://github.com/endfield-calc/factoriolab)
-  - [Website](https://factory.ef.yituliu.cn/) | [GitHub Pages](https://endfield-calc.github.io/)
-  - Endfield quantitative calculator
-- [Kiotlin/callMeDoctor](https://github.com/Kiotlin/callMeDoctor)
-  - [Vercel](http://call-me-doctor.vercel.app/)
-  - Fan-made Endfield-themed website featuring AI-generated illustration.
-- [Yue-plus/astro-endfield](https://github.com/Yue-plus/astro-endfield)
-  - [Website](http://astro.endfield.icu)
-  - An Astro theme in the style of Arknights: Endfield.
-- [Yue-plus/endfield_icons](https://github.com/Yue-plus/endfield_icons)
-  - [Website](http://icons.endfield.icu)
-  - Arknights: Endfield icon set.
-- [MoguJunn/endfield-gacha](https://github.com/MoguJunn/endfield-gacha)
-  - [Vercel](https://endfield-gacha.vercel.app/)
-  - A comprehensive gacha record analysis tool designed for Arknights: Endfield, featuring cloud sync, multi-user collaboration, and server-wide data statistics.
-- [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)
-  - Hypergryph Endfield UID automatic lookup.
+\>\> See [LIST.md](./LIST.md) for the full list of projects.
+
+## Recent Updates
+
+<!-- RECENT_START -->
 - [zigotan/endfield-schedule](https://github.com/zigotan/endfield-schedule)
   - [Vercel](https://endfield-schedule.vercel.app/)
   - Arknights: Endfield event calendar.
-- [cloud-oc/endspace](https://github.com/cloud-oc/endspace)
-  - [Website](https://cloud09.space/)
-  - A NotionNext theme inspired by the visual aesthetics of Arknights: Endfield.
+
 - [vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare](https://github.com/vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare)
   - Gacha strategy simulation script.
+
 - [mark9804/endfield-gacha-calculator](https://github.com/mark9804/endfield-gacha-calculator)
-  - Arknights: Endfield gacha calculator.
   - [Vercel](https://endfield-gacha-calculator.vercel.app/)
+  - Arknights: Endfield gacha calculator.
+
 - [yawarakatai/endfield-production-planner](https://github.com/yawarakatai/endfield-production-planner)
   - [GitHub Pages](https://yawarakatai.github.io/endfield-production-planner/)
   - Endfield production planner.
+
 - [SihenZhang/ak-endfield-puzzle](https://github.com/SihenZhang/ak-endfield-puzzle)
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - Endfield puzzle solving tool.
-  - Backend repository [SihenZhang/ak-endfield-puzzle-api](https://github.com/SihenZhang/ak-endfield-puzzle-api)
-- [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)
-  - Scripts to retrieve the Arknights: Endfield gacha history URL for gacha history management services.
+<!-- RECENT_END -->
+
+More projects can be found in the [full list](./LIST.md).
 
 ## Contributing
 

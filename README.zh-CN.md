@@ -15,7 +15,9 @@
     <img src="https://img.shields.io/github/license/palmcivet/awesome-arknights-endfield?label=License" alt="License" />
   </a>
 
-  <img src="https://img.shields.io/badge/Projects-20-blue" alt="Projects" />
+  <!-- BADGE_COUNT_START -->
+  <img src="https://img.shields.io/badge/Projects-21-blue" alt="Projects" />
+  <!-- BADGE_COUNT_END -->
 </p>
 
 [English](./README.md) | 简体中文
@@ -30,6 +32,7 @@
 
 - [目录](#目录)
 - [列表](#列表)
+- [最近更新](#最近更新)
 - [贡献](#贡献)
 - [徽标](#徽标)
 - [协议](#协议)
@@ -37,67 +40,32 @@
 
 ## 列表
 
-- [Talos Pioneers](https://talospioneers.com/)
-  - Talos Pioneers 是一个正在开发中的《明日方舟：终末地》社区资源项目，旨在为管理员们（Endministrators）提供相互分享集成工业系统（AIC）蓝图的平台。
-  - [GitHub Organization](https://github.com/Talos-Pioneers)
-- [ENDFIELD MAP](https://www.zmdmap.com/)
-  - 终末地地图资源查询。
-- [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
-  - [网站](https://opendfieldmap.cn/)
-  - 终末地互动地图。
-- [JamboChen/endfield-calc](https://github.com/JamboChen/endfield-calc)
-  - [网站](https://jambochen.github.io/endfield-calc/)
-  - 明日方舟终末地工厂计算器。它帮助玩家规划和优化资源生产：建造设施、制作物品、管理配方，并计算所需原材料及生产时间。
-- [Lieyuan621/Endaxis](https://github.com/Lieyuan621/Endaxis)
-  - [网站](https://lieyuan.top/Endaxis/)
-  - 基于 Web 专为《明日方舟：终末地》设计的可视化时间轴编辑工具。
-- [HetmesAskalana/efsim](https://github.com/HetmesAskalana/efsim)
-  - [网站](https://efsim.unacas.com/) | [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
-  - 终末地源石电路修复计算器。
-- [Arknights-yituliu/ef-frontend-v1](https://github.com/Arknights-yituliu/ef-frontend-v1)
-  - [网站](https://ef.yituliu.cn/) | [GitHub Pages](https://arknights-yituliu.github.io/ef-frontend-v1/)
-  - 基于 Nuxt 4.x 开发的《明日方舟：终末地》一图流网站。
-- [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
-  - [网站](https://pomo.chuwu.top) | [Vercel](https://endfield-pomodoro-kc6a3886k-s1805948721s-projects.vercel.app/)
-  - 一个融合 Cyber UI 和《终末地》风格的沉浸式 Web 番茄钟应用
-- [endfield-calc/factoriolab](https://github.com/endfield-calc/factoriolab)
-  - [网站](https://factory.ef.yituliu.cn/) | [GitHub Pages](https://endfield-calc.github.io/)
-  - 终末地量化计算器
-- [Kiotlin/callMeDoctor](https://github.com/Kiotlin/callMeDoctor)
-  - [Vercel](http://call-me-doctor.vercel.app/)
-  - 终末地同人项目，提供 AI 生成插图的网页展示。
-- [Yue-plus/astro-endfield](https://github.com/Yue-plus/astro-endfield)
-  - [网站](http://astro.endfield.icu)
-  - 明日方舟：终末地风格的 Astro 主题
-- [Yue-plus/endfield_icons](https://github.com/Yue-plus/endfield_icons)
-  - [网站](http://icons.endfield.icu)
-  - 明日方舟：终末地图标
-- [MoguJunn/endfield-gacha](https://github.com/MoguJunn/endfield-gacha)
-  - [网站](https://endfield-gacha.vercel.app/)
-  - 一个功能完善的抽卡记录分析工具，专为《明日方舟：终末地》设计，支持云端同步、多用户协作和全服数据统计。
-- [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)
-  - 鹰角网络终末地 UID 自动查询
+\>\> 请移步 [LIST.md](./LIST.zh-CN.md) 以查看完整项目列表。
+
+## 最近更新
+
+<!-- RECENT_START -->
 - [zigotan/endfield-schedule](https://github.com/zigotan/endfield-schedule)
   - [Vercel](https://endfield-schedule.vercel.app/)
   - 《明日方舟：终末地》活动日历
-- [cloud-oc/endspace](https://github.com/cloud-oc/endspace)
-  - [网站](https://cloud09.space/)
-  - 受《明日方舟：终末地》视觉美学启发的 NotionNext 主题
+
 - [vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare](https://github.com/vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare)
   - 抽卡策略模拟脚本
+
 - [mark9804/endfield-gacha-calculator](https://github.com/mark9804/endfield-gacha-calculator)
   - [Vercel](https://endfield-gacha-calculator.vercel.app/)
   - 明日方舟：终末地抽卡计算器
+
 - [yawarakatai/endfield-production-planner](https://github.com/yawarakatai/endfield-production-planner)
   - [GitHub Pages](https://yawarakatai.github.io/endfield-production-planner/)
   - 终末地生产计划器
+
 - [SihenZhang/ak-endfield-puzzle](https://github.com/SihenZhang/ak-endfield-puzzle)
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - 终末地拼图解谜工具
-  - 后端仓库 [SihenZhang/ak-endfield-puzzle-api](https://github.com/SihenZhang/ak-endfield-puzzle-api)
-- [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)
-  - 用于获取《明日方舟：终末地》扭蛋记录URL的脚本，供扭蛋记录管理服务使用。
+<!-- RECENT_END -->
 
+更多项目请参阅 [完整列表](./LIST.zh-CN.md)。
 
 ## 贡献
 

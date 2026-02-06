@@ -111,7 +111,7 @@
   {
     "name": "Lieyuan621/Endaxis",
     "description": {
-      "en-US": "Endfield timeline editor.",
+      "en-US": "A web-based visual timeline editing tool specifically designed for Arknights: Endfield.",
       "zh-CN": "基于 Web 专为《明日方舟：终末地》设计的可视化时间轴编辑工具。"
     },
     "repository": "https://github.com/Lieyuan621/Endaxis",
@@ -224,7 +224,7 @@
   {
     "name": "endfield-calc/factoriolab",
     "description": {
-      "en-US": "Angular-based calculator for Arknights: Endfield",
+      "en-US": "Endfield quantitative calculator",
       "zh-CN": "终末地量化计算器"
     },
     "repository": "https://github.com/endfield-calc/factoriolab",
@@ -235,14 +235,14 @@
       },
       {
         "provider": "GitHub Pages",
-        "url": "https://endfield-calc.github.io/factoriolab/"
+        "url": "https://endfield-calc.github.io/"
       }
     ],
     "author": {
       "name": "endfield-calc",
       "url": "https://github.com/endfield-calc"
     },
-    "category": "Auxiliary Tools",
+    "category": "Materials & Resources",
     "tags": [
       "Calculator"
     ],
@@ -259,7 +259,7 @@
     "repository": "https://github.com/Kiotlin/callMeDoctor",
     "website": [
       {
-        "provider": "Custom",
+        "provider": "Vercel",
         "url": "http://call-me-doctor.vercel.app/"
       }
     ],
@@ -319,6 +319,223 @@
     ],
     "id": 12,
     "addedAt": "2026-01-25",
+    "openSource": true
+  },
+  {
+    "name": "Yue-plus/astro-endfield",
+    "description": {
+      "en-US": "An Astro theme in the style of Arknights: Endfield.",
+      "zh-CN": "明日方舟：终末地风格的 Astro 主题"
+    },
+    "repository": "https://github.com/Yue-plus/astro-endfield",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "http://astro.endfield.icu"
+      }
+    ],
+    "author": {
+      "name": "Yue-plus",
+      "url": "https://github.com/Yue-plus"
+    },
+    "category": "Blog Themes",
+    "tags": [
+      "Endfield-themed",
+      "Astro",
+      "Blog"
+    ],
+    "id": 13,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "Yue-plus/endfield_icons",
+    "description": {
+      "en-US": "Arknights: Endfield icon set.",
+      "zh-CN": "明日方舟：终末地图标"
+    },
+    "repository": "https://github.com/Yue-plus/endfield_icons",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "http://icons.endfield.icu"
+      }
+    ],
+    "author": {
+      "name": "Yue-plus",
+      "url": "https://github.com/Yue-plus"
+    },
+    "category": "Blog Themes",
+    "tags": [
+      "Icons"
+    ],
+    "id": 14,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "MoguJunn/endfield-gacha",
+    "description": {
+      "en-US": "A comprehensive gacha record analysis tool designed for Arknights: Endfield, featuring cloud sync, multi-user collaboration, and server-wide data statistics.",
+      "zh-CN": "一个功能完善的抽卡记录分析工具，专为《明日方舟：终末地》设计，支持云端同步、多用户协作和全服数据统计。"
+    },
+    "repository": "https://github.com/MoguJunn/endfield-gacha",
+    "website": [
+      {
+        "provider": "Vercel",
+        "url": "https://endfield-gacha.vercel.app/"
+      }
+    ],
+    "author": {
+      "name": "MoguJunn",
+      "url": "https://github.com/MoguJunn"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Gacha"
+    ],
+    "id": 15,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "Mapleawaa/Hypergryph-Endfield-UID-Checker",
+    "description": {
+      "en-US": "Hypergryph Endfield UID automatic lookup.",
+      "zh-CN": "鹰角网络终末地 UID 自动查询"
+    },
+    "repository": "https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker",
+    "author": {
+      "name": "Mapleawaa",
+      "url": "https://github.com/Mapleawaa"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "UID"
+    ],
+    "id": 16,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "zigotan/endfield-schedule",
+    "description": {
+      "en-US": "Arknights: Endfield event calendar.",
+      "zh-CN": "《明日方舟：终末地》活动日历"
+    },
+    "repository": "https://github.com/zigotan/endfield-schedule",
+    "website": [
+      {
+        "provider": "Vercel",
+        "url": "https://endfield-schedule.vercel.app/"
+      }
+    ],
+    "author": {
+      "name": "zigotan",
+      "url": "https://github.com/zigotan"
+    },
+    "category": "General Websites",
+    "tags": [
+      "Calendar"
+    ],
+    "id": 17,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare",
+    "description": {
+      "en-US": "Gacha strategy simulation script.",
+      "zh-CN": "抽卡策略模拟脚本"
+    },
+    "repository": "https://github.com/vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare",
+    "author": {
+      "name": "vvhusbyudust",
+      "url": "https://github.com/vvhusbyudust"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Gacha"
+    ],
+    "id": 18,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "mark9804/endfield-gacha-calculator",
+    "description": {
+      "en-US": "Arknights: Endfield gacha calculator.",
+      "zh-CN": "明日方舟：终末地抽卡计算器"
+    },
+    "repository": "https://github.com/mark9804/endfield-gacha-calculator",
+    "website": [
+      {
+        "provider": "Vercel",
+        "url": "https://endfield-gacha-calculator.vercel.app/"
+      }
+    ],
+    "author": {
+      "name": "mark9804",
+      "url": "https://github.com/mark9804"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Gacha",
+      "Calculator"
+    ],
+    "id": 19,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "yawarakatai/endfield-production-planner",
+    "description": {
+      "en-US": "Endfield production planner.",
+      "zh-CN": "终末地生产计划器"
+    },
+    "repository": "https://github.com/yawarakatai/endfield-production-planner",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://yawarakatai.github.io/endfield-production-planner/"
+      }
+    ],
+    "author": {
+      "name": "yawarakatai",
+      "url": "https://github.com/yawarakatai"
+    },
+    "category": "Materials & Resources",
+    "tags": [
+      "Calculator",
+      "Factory"
+    ],
+    "id": 20,
+    "addedAt": "2026-02-06",
+    "openSource": true
+  },
+  {
+    "name": "SihenZhang/ak-endfield-puzzle",
+    "description": {
+      "en-US": "Endfield puzzle solving tool.",
+      "zh-CN": "终末地拼图解谜工具"
+    },
+    "repository": "https://github.com/SihenZhang/ak-endfield-puzzle",
+    "website": [
+      {
+        "provider": "Vercel",
+        "url": "https://ak-endfield-puzzle.vercel.app/"
+      }
+    ],
+    "author": {
+      "name": "SihenZhang",
+      "url": "https://github.com/SihenZhang"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Puzzle"
+    ],
+    "id": 21,
+    "addedAt": "2026-02-06",
     "openSource": true
   }
 ]
