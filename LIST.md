@@ -97,4 +97,3 @@
 - [Yue-plus/endfield_icons](https://github.com/Yue-plus/endfield_icons)
   - [Home Page](http://icons.endfield.icu)
   - Arknights: Endfield icon set.
-

@@ -148,6 +148,9 @@ function generateList(lang: Language, projects: Array<Project>) {
     });
   }
 
+  // Remove trailing newline
+  doc = doc.trimEnd() + LINE_BREAK;
+
   const fileName = LIST_MAP[lang];
   const outputFile = resolve(PROJECT_ROOT, fileName);
 
