@@ -35,12 +35,14 @@
 - [最近更新](#最近更新)
 - [贡献](#贡献)
 - [徽标](#徽标)
+  - [添加徽标](#添加徽标)
+  - [更多样式](#更多样式)
 - [协议](#协议)
 - [版权](#版权)
 
 ## 列表
 
-\>\> 请移步 [LIST.md](./LIST.zh-CN.md) 以查看完整项目列表。
+\>\> 请移步 [LIST.zh-CN.md](./LIST.zh-CN.md) 以查看完整项目列表。
 
 ## 最近更新
 
@@ -65,7 +67,7 @@
   - 终末地拼图解谜工具
 <!-- RECENT_END -->
 
-更多项目请参阅 [完整列表](./LIST.zh-CN.md)。
+更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
 
 ## 贡献
 
@@ -74,8 +76,9 @@
 更多详细步骤请参阅 [CONTRIBUTING.md](./CONTRIBUTING.md) 文件。
 
 ## 徽标
+### 添加徽标
 
-如果您维护着一个与《明日方舟：终末地》相关的项目，希望收录在本列表中，欢迎在项目的 README 中添加以下徽标以示支持：
+如果您维护着与《明日方舟：终末地》相关的项目，希望收录在本列表中，欢迎在项目的 README 中添加徽标以示支持：
 
 - Markdown
 
@@ -87,7 +90,7 @@
 
   ```html
   <a href="https://github.com/palmcivet/awesome-arknights-endfield">
-    <img src="./assets/badge.svg" alt="Awesome Arknights Endfield badge" />
+    <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge.svg" alt="Awesome Arknights Endfield badge" />
   </a>
   ```
 
@@ -97,9 +100,51 @@
 
 将会显示如下：
 
-<a href="https://github.com/palmcivet/awesome-arknights-endfield">
-  <img src="./assets/badge.svg" alt="Awesome Arknights Endfield badge" />
-</a>
+![badge](./assets/badge.svg)
+
+### 更多样式
+
+默认为 `flat` 样式的徽标，如果需要其他样式，可以使用以下链接：
+
+- `flat-square` ![flat square](./assets/badge-flat-square.svg)
+
+  - Markdown
+
+    ```markdown
+    ![![Awesome Arknights Endfield](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-flat-square.svg)](https://github.com/palmcivet/awesome-arknights-endfield)
+    ```
+
+  - HTML
+
+    ```html
+    <a href="https://github.com/palmcivet/awesome-arknights-endfield">
+      <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-flat-square.svg" alt="Awesome Arknights Endfield badge" />
+    </a>
+    ```
+
+  - 源文件
+
+    下载 [badge-flat-square.svg](./assets/badge-flat-square.svg)
+
+- `for-the-badge` ![for the badge](./assets/badge-for-the-badge.svg)
+
+  - Markdown
+
+    ```markdown
+    ![![Awesome Arknights Endfield](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg)](https://github.com/palmcivet/awesome-arknights-endfield)
+    ```
+
+  - HTML
+
+    ```html
+    <a href="https://github.com/palmcivet/awesome-arknights-endfield">
+      <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield badge" />
+    </a>
+    ```
+
+  - 源文件
+
+    下载 [badge-for-the-badge.svg](./assets/badge-for-the-badge.svg)
 
 ## 协议
 
@@ -107,6 +152,6 @@
 
 ## 版权
 
-本项目仅用于收录《明日方舟：终末地《（Arknights: Endfield）相关的资源和开源项目，对所收录项目的有效性和合法性不作保证，用户须审慎使用本项目以及所收录项目，一切后果须自行承担，与本项目无关。
+本项目仅用于收录《明日方舟：终末地》（Arknights: Endfield）相关的资源和开源项目，对所收录项目的有效性和合法性不作保证，用户须审慎使用本项目以及所收录项目，一切后果须自行承担，与本项目无关。
 
 《明日方舟：终末地》这一 IP 及其版权归属 [上海鹰角网络有限公司](https://www.hypergryph.com/) 所有。不得用于商业用途，不得损害版权方的利益。

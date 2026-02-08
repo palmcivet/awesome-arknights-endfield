@@ -35,6 +35,7 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [Recent Updates](#recent-updates)
 - [Contributing](#contributing)
 - [Badge](#badge)
+- [More Styles](#more-styles)
 - [License](#license)
 - [Copyright](#copyright)
 
@@ -65,7 +66,7 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - Endfield puzzle solving tool.
 <!-- RECENT_END -->
 
-More projects can be found in the [full list](./LIST.md).
+More projects can be found in the [LIST.md](./LIST.md).
 
 ## Contributing
 
@@ -100,6 +101,44 @@ The badge will appear as follows:
 <a href="https://github.com/palmcivet/awesome-arknights-endfield">
   <img src="./assets/badge.svg" alt="Awesome Arknights Endfield badge" />
 </a>
+
+## More Styles
+
+The default badge uses the `flat` style. If you need other styles, you can use the following links:
+
+- `flat-square` <img src="./assets/badge-flat-square.svg" alt="flat square" />
+  - Markdown
+
+    ```markdown
+    ![![Awesome Arknights Endfield](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-flat-square.svg)](https://github.com/palmcivet/awesome-arknights-endfield)
+    ```
+
+  - HTML
+
+    ```html
+    <a href="https://github.com/palmcivet/awesome-arknights-endfield">
+      <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-flat-square.svg" alt="Awesome Arknights Endfield badge" />
+    </a>
+    ```
+
+  - Source file: Download [badge-flat-square.svg](./assets/badge-flat-square.svg)
+
+- `for-the-badge` <img src="./assets/badge-for-the-badge.svg" alt="for the badge" />
+  - Markdown
+
+    ```markdown
+    ![![Awesome Arknights Endfield](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg)](https://github.com/palmcivet/awesome-arknights-endfield)
+    ```
+
+  - HTML
+
+    ```html
+    <a href="https://github.com/palmcivet/awesome-arknights-endfield">
+      <img src="https://github.com/palmcivet/awesome-arknights-endfield/blob/main/assets/badge-for-the-badge.svg" alt="Awesome Arknights Endfield badge" />
+    </a>
+    ```
+
+  - Source file: Download [badge-for-the-badge.svg](./assets/badge-for-the-badge.svg)
 
 ## License
 
