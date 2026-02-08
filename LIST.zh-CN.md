@@ -50,6 +50,9 @@
 - [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
   - 自动化 API 响应存档，监控明日方舟：终末地 API 变化，提供游戏包、补丁和资源的下载库。
 
+- [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
+  - 一个《明日方舟：终末地》的抽卡记录分析工具，使用 Electron 构建，通过游戏 API 获取并分析抽卡记录。
+
 ## 综合网站
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
@@ -91,6 +94,10 @@
 - [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
   - [主页](https://dige.aunly.cn)
   - 帝江号严选精细化集成工业系统能源生产及存储管理系统设计器。一个用于计算明日方舟：终末地中热能池最优发电方案的工具。
+
+- [fa93hws/endfield-industry-helper](https://github.com/fa93hws/endfield-industry-helper)
+  - [Cloudflare](https://endfield-industry-helper.pages.dev/)
+  - 一个帮助你查看和管理终末地游戏中各种生产配方的响应式 Web 应用，支持生产计算和搜索功能。
 
 ## 作品集
 

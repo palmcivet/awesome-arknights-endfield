@@ -631,5 +631,52 @@
     "addedAt": "2026-02-08",
     "openSource": true,
     "license": "GNU Affero General Public License v3.0"
+  },
+  {
+    "name": "fa93hws/endfield-industry-helper",
+    "description": {
+      "en-US": "A responsive web application that helps you view and manage various production recipes in Endfield, with production calculator and search functionality.",
+      "zh-CN": "一个帮助你查看和管理终末地游戏中各种生产配方的响应式 Web 应用，支持生产计算和搜索功能。"
+    },
+    "repository": "https://github.com/fa93hws/endfield-industry-helper",
+    "website": [
+      {
+        "provider": "Cloudflare",
+        "url": "https://endfield-industry-helper.pages.dev/"
+      }
+    ],
+    "author": {
+      "name": "fa93hws",
+      "url": "https://github.com/fa93hws"
+    },
+    "category": "Materials & Resources",
+    "tags": [
+      "Calculator",
+      "Factory"
+    ],
+    "id": 26,
+    "addedAt": "2026-02-08",
+    "openSource": true,
+    "license": "ISC License"
+  },
+  {
+    "name": "AiverAiva/Endfield-Permit-Export",
+    "description": {
+      "en-US": "A tracker for Endfield permit headhunting history exporter, built with Electron to retrieve and analyze gacha records using the game's API.",
+      "zh-CN": "一个《明日方舟：终末地》的抽卡记录分析工具，使用 Electron 构建，通过游戏 API 获取并分析抽卡记录。"
+    },
+    "repository": "https://github.com/AiverAiva/Endfield-Permit-Export",
+    "author": {
+      "name": "AiverAiva",
+      "url": "https://github.com/AiverAiva"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Gacha"
+    ],
+    "id": 27,
+    "addedAt": "2026-02-08",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

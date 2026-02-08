@@ -50,6 +50,9 @@
 - [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
   - Automated API response archive monitoring changes to Arknights: Endfield APIs, providing a download library for game packages, patches, and resources.
 
+- [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
+  - A tracker for Endfield permit headhunting history exporter, built with Electron to retrieve and analyze gacha records using the game's API.
+
 ## General Websites
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)
@@ -91,6 +94,10 @@
 - [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
   - [Home Page](https://dige.aunly.cn)
   - An optimization tool that automatically calculates optimal power generation solutions for thermal pools in Arknights: Endfield's AIC system.
+
+- [fa93hws/endfield-industry-helper](https://github.com/fa93hws/endfield-industry-helper)
+  - [Cloudflare](https://endfield-industry-helper.pages.dev/)
+  - A responsive web application that helps you view and manage various production recipes in Endfield, with production calculator and search functionality.
 
 ## Portfolios
 

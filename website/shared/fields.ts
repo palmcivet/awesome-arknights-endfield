@@ -56,7 +56,13 @@ export const CATEGORY_LABEL: Record<Category, Record<Language, string>> = {
 /**
  * @description Supported website providers
  */
-export const WEBSITE_PROVIDERS = ['Custom', 'GitHub Pages', 'Vercel', 'Netlify'] as const;
+export const WEBSITE_PROVIDERS = [
+  'Custom',
+  'GitHub Pages',
+  'Vercel',
+  'Netlify',
+  'Cloudflare',
+] as const;
 
 export type WebsiteProvider = (typeof WEBSITE_PROVIDERS)[number];
 
@@ -76,6 +82,10 @@ export const WEBSITE_PROVIDER_LABEL: Record<WebsiteProvider, Record<Language, st
   Netlify: {
     'en-US': 'Netlify',
     'zh-CN': 'Netlify',
+  },
+  Cloudflare: {
+    'en-US': 'Cloudflare',
+    'zh-CN': 'Cloudflare',
   },
 } as const;
 
