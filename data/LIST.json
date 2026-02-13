@@ -678,5 +678,31 @@
     "addedAt": "2026-02-08",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "misaka10843/Hi3Helper.Plugin.Endfield",
+    "description": {
+      "en-US": "A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.",
+      "zh-CN": "为 Collapse Launcher (Collapse 启动器) 开发的第三方插件，旨在支持 《明日方舟：终末地》 的下载、更新与启动。"
+    },
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://collapselauncher.com/plugin/catalog.html"
+      }
+    ],
+    "repository": "https://github.com/misaka10843/Hi3Helper.Plugin.Endfield",
+    "author": {
+      "name": "misaka10843",
+      "url": "https://github.com/misaka10843"
+    },
+    "category": "Auxiliary Tools",
+    "tags": [
+      "Launcher"
+    ],
+    "id": 28,
+    "addedAt": "2026-02-13",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

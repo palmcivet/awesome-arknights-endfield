@@ -62,6 +62,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
   - A tracker for Endfield permit headhunting history exporter, built with Electron to retrieve and analyze gacha records using the game's API.
+
+- [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
+  - A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
