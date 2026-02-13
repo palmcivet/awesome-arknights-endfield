@@ -4,8 +4,11 @@ English | [简体中文](./CONTRIBUTING.zh-CN.md)
 
 - [Welcome Contributions](#welcome-contributions)
 - [Submitting Resources](#submitting-resources)
-  - [Option A: Pull Request](#option-a-pull-request)
-  - [Option B: Issue](#option-b-issue)
+  - [Option A: Issue](#option-a-issue)
+  - [Option B: Pull Request](#option-b-pull-request)
+    - [1. Submit New Entry](#1-submit-new-entry)
+    - [2. Update Documentation (Optional)](#2-update-documentation-optional)
+    - [3. Submit Pull Request](#3-submit-pull-request)
 - [Reporting Issues](#reporting-issues)
 - [Writing Guidelines](#writing-guidelines)
   - [JSON Format Guidelines](#json-format-guidelines)
@@ -20,14 +23,7 @@ We appreciate your attention and support. Whether you are adding high-quality re
 
 If you discover high-quality related resources (such as tutorials, tools, or communities), you are welcome to recommend them for inclusion.
 
-### Option A: Pull Request
-
-1. Fork this repository.
-2. Create a new branch based on the latest `main` branch, for example: `git checkout -b docs/new-entry`.
-3. Edit `data/LIST.json` and add a new entry following the existing structure and field conventions.
-4. Submit a [Pull Request](https://github.com/palmcivet/awesome-arknights-endfield/pulls), and briefly describe the purpose and key features of the resource in the PR description.
-
-### Option B: Issue
+### Option A: Issue
 
 If you are not familiar with the Pull Request workflow, you may recommend a resource by creating an Issue: [Create an Issue](https://github.com/palmcivet/awesome-arknights-endfield/issues/new).
 
@@ -38,6 +34,38 @@ Please include the following information in the Issue:
 - Description of the resource and applicable use cases (if available)
 
 After evaluation, we will assist with adding the resource to the list.
+
+### Option B: Pull Request
+
+#### 1. Submit New Entry
+
+1. Fork this repository.
+2. Create a new branch based on the latest `main` branch, for example: `git checkout -b docs/new-entry`.
+3. Edit `data/LIST.json` and add a new entry following the existing structure and field conventions.
+
+#### 2. Update Documentation (Optional)
+
+To lower the contribution barrier, this project does not enforce automatic validation in the CI workflow. Maintainers will update the documentation periodically.
+
+If you are familiar with the GitHub contribution workflow and have [bun](https://bun.sh/) installed, you may validate and preview your changes after editing.
+
+```bash
+cd website
+bun install
+
+# Validate
+bun check:list
+
+# Format
+bun format:list
+
+# Generate LIST and update README
+bun generate:list
+```
+
+#### 3. Submit Pull Request
+
+Fill out the [Pull Request template](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/.github/PULL_REQUEST_TEMPLATE.md) and submit your [Pull Request](https://github.com/palmcivet/awesome-arknights-endfield/pulls).
 
 ## Reporting Issues
 

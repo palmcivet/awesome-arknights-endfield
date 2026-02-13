@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-27-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-28-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,10 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
-  - [Home Page](https://dige.aunly.cn)
-  - An optimization tool that automatically calculates optimal power generation solutions for thermal pools in Arknights: Endfield's AIC system.
-
 - [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
   - An image-recognition-based automation tool for End Field, with background mode support, developed with ok-script.
 
@@ -64,6 +60,7 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - A tracker for Endfield permit headhunting history exporter, built with Electron to retrieve and analyze gacha records using the game's API.
 
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
+  - [Home Page](https://collapselauncher.com/plugin/catalog.html)
   - A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.
 <!-- RECENT_END -->
 

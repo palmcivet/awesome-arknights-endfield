@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-27-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-28-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,10 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [djkcyl/D.I.G.E.](https://github.com/djkcyl/D.I.G.E.)
-  - [主页](https://dige.aunly.cn)
-  - 帝江号严选精细化集成工业系统能源生产及存储管理系统设计器。一个用于计算明日方舟：终末地中热能池最优发电方案的工具。
-
 - [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
   - 一个基于图像识别的终末地自动化程序，支持后台运行，基于 ok-script 开发。
 
@@ -65,6 +61,7 @@
   - 一个《明日方舟：终末地》的抽卡记录分析工具，使用 Electron 构建，通过游戏 API 获取并分析抽卡记录。
 
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
+  - [主页](https://collapselauncher.com/plugin/catalog.html)
   - 为 Collapse Launcher (Collapse 启动器) 开发的第三方插件，旨在支持 《明日方舟：终末地》 的下载、更新与启动。
 <!-- RECENT_END -->
 

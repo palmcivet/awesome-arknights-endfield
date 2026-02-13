@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "generate:list": "bun ./scripts/generate.ts",
+    "check:list": "bun ./scripts/check.ts",
     "format:list": "bun ./scripts/format.ts",
-    "check:list": "bun ./scripts/check.ts"
+    "generate:list": "bun ./scripts/generate.ts"
   },
   "dependencies": {
     "zod": "^4.2.1"

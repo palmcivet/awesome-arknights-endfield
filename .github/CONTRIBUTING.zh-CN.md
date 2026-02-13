@@ -4,8 +4,11 @@
 
 - [欢迎贡献](#欢迎贡献)
 - [提交收录](#提交收录)
-  - [方式 A：Pull Request](#方式-apull-request)
-  - [方式 B：Issue](#方式-bissue)
+  - [方式 A：Issue](#方式-aissue)
+  - [方式 B：Pull Request](#方式-bpull-request)
+    - [一、提交新条目](#一提交新条目)
+    - [二、更新文档（可选）](#二更新文档可选)
+    - [三、提交 Pull Request](#三提交-pull-request)
 - [报告问题](#报告问题)
 - [撰写规范](#撰写规范)
   - [JSON 格式规范](#json-格式规范)
@@ -21,14 +24,7 @@
 
 如果您发现了高质量的相关资源（教程、工具、社区等），欢迎推荐收录。
 
-### 方式 A：Pull Request
-
-1. Fork 本仓库
-2. 基于最新的 `main` 分支创建新分支，例如：`git checkout -b docs/new-entry`
-3. 编辑 `data/LIST.json`，按照既有结构与字段规范添加新条目
-4. 提交 [Pull Request](https://github.com/palmcivet/awesome-arknights-endfield/pulls)，并在描述中简要说明该资源的用途和特点
-
-### 方式 B：Issue
+### 方式 A：Issue
 
 如果您不熟悉 Pull Request 流程，可通过创建 Issue 的方式进行推荐：[创建 Issue](https://github.com/palmcivet/awesome-arknights-endfield/issues/new)。
 
@@ -39,6 +35,38 @@
 - 资源内容及适用场景（如有）
 
 我们将会在评估后协助完成收录。
+
+### 方式 B：Pull Request
+
+#### 一、提交新条目
+
+1. Fork 本仓库
+2. 基于最新的 `main` 分支创建新分支，例如：`git checkout -b docs/new-entry`
+3. 编辑 `data/LIST.json`，按照既有结构与字段规范添加新条目
+
+#### 二、更新文档（可选）
+
+为尽可能降低贡献的门槛，本项目不会在 CI 流程自动校验，维护者会不定期更新文档。
+
+如果您熟悉 GitHub 贡献流程，且安装有 [bun](https://bun.sh/) 工具，可在修改之后进行校验和预览。
+
+```bash
+cd website
+bun install
+
+# 校验
+bun check:list
+
+# 格式化
+bun format:list
+
+# 生成 LIST 并更新 README
+bun generate:list
+```
+
+#### 三、提交 Pull Request
+
+按照 [模板](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/.github/PULL_REQUEST_TEMPLATE.md) 填写，并提交 [Pull Request](https://github.com/palmcivet/awesome-arknights-endfield/pulls)
 
 ## 报告问题
 
@@ -51,6 +79,7 @@
 您可以选择创建 Issue，或直接提交 Pull Request 并说明修改内容。请尽量提供清晰、具体的说明，以便快速定位与处理。
 
 ## 撰写规范
+
 ### JSON 格式规范
 
 [`data/LIST.json`](./data/LIST.json) 中的每个条目需遵循统一的数据结构。字段说明如下，其中部分字段为可选项：
