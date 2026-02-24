@@ -6,46 +6,41 @@ export type ProjectId = number;
  * @description Supported categories
  */
 export const CATEGORIES = [
-  'Auxiliary Tools',
-  'Blog Themes',
-  'Community',
-  'General Websites',
-  'Information',
-  'Materials & Resources',
-  'Portfolios',
+  'Production & Factory',
+  'Maps & Guides',
+  'Gacha',
+  'Game Utilities',
+  'Themes & Design',
+  'Fan Creations',
   'Uncategorized',
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
 
 export const CATEGORY_LABEL: Record<Category, Record<Language, string>> = {
-  'Auxiliary Tools': {
-    'en-US': 'Auxiliary Tools',
-    'zh-CN': '辅助工具',
+  'Production & Factory': {
+    'en-US': 'Production & Factory',
+    'zh-CN': '生产规划',
   },
-  'Blog Themes': {
-    'en-US': 'Blog Themes',
-    'zh-CN': '博客主题',
+  'Maps & Guides': {
+    'en-US': 'Maps & Guides',
+    'zh-CN': '地图与攻略',
   },
-  Community: {
-    'en-US': 'Community',
-    'zh-CN': '社区',
+  Gacha: {
+    'en-US': 'Gacha',
+    'zh-CN': '抽卡分析',
   },
-  'General Websites': {
-    'en-US': 'General Websites',
-    'zh-CN': '综合网站',
+  'Game Utilities': {
+    'en-US': 'Game Utilities',
+    'zh-CN': '游戏工具',
   },
-  Information: {
-    'en-US': 'Information',
-    'zh-CN': '信息',
+  'Themes & Design': {
+    'en-US': 'Themes & Design',
+    'zh-CN': '主题与设计资源',
   },
-  'Materials & Resources': {
-    'en-US': 'Materials & Resources',
-    'zh-CN': '资料 & 资源',
-  },
-  Portfolios: {
-    'en-US': 'Portfolios',
-    'zh-CN': '作品集',
+  'Fan Creations': {
+    'en-US': 'Fan Creations',
+    'zh-CN': '同人创作',
   },
   Uncategorized: {
     'en-US': 'Uncategorized',
