@@ -1,6 +1,6 @@
 <h2>Contributing</h2>
 
-English | [简体中文](./CONTRIBUTING.zh-CN.md)
+English | [简体中文](.github/CONTRIBUTING.zh-CN.md)
 
 - [Welcome Contributions](#welcome-contributions)
 - [Submitting Resources](#submitting-resources)

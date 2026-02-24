@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-28-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-29-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,9 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
-  - 一个基于图像识别的终末地自动化程序，支持后台运行，基于 ok-script 开发。
-
 - [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
   - 自动化 API 响应存档，监控明日方舟：终末地 API 变化，提供游戏包、补丁和资源的下载库。
 
@@ -63,6 +60,9 @@
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
   - [主页](https://collapselauncher.com/plugin/catalog.html)
   - 为 Collapse Launcher (Collapse 启动器) 开发的第三方插件，旨在支持 《明日方舟：终末地》 的下载、更新与启动。
+
+- [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
+  - 基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

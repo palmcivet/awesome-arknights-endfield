@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-28-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-29-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,9 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [ok-oldking/ok-end-field](https://github.com/ok-oldking/ok-end-field)
-  - An image-recognition-based automation tool for End Field, with background mode support, developed with ok-script.
-
 - [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
   - Automated API response archive monitoring changes to Arknights: Endfield APIs, providing a download library for game packages, patches, and resources.
 
@@ -62,6 +59,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
   - [Home Page](https://collapselauncher.com/plugin/catalog.html)
   - A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.
+
+- [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
+  - A Typst presentation theme inspired by the visual style of Arknights: Endfield, built on the Touying framework.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

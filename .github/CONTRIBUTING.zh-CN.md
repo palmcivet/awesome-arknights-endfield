@@ -1,6 +1,6 @@
 <h2>Contributing</h2>
 
-[English](./CONTRIBUTING.md) | 简体中文
+[English](./github/CONTRIBUTING.md) | 简体中文
 
 - [欢迎贡献](#欢迎贡献)
 - [提交收录](#提交收录)

@@ -128,3 +128,6 @@
 - [Yue-plus/endfield_icons](https://github.com/Yue-plus/endfield_icons)
   - [主页](http://icons.endfield.icu)
   - 明日方舟：终末地图标
+
+- [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
+  - 基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。

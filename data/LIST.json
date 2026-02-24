@@ -704,5 +704,27 @@
     "addedAt": "2026-02-13",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "leostudiooo/typst-touying-theme-endfield",
+    "description": {
+      "en-US": "A Typst presentation theme inspired by the visual style of Arknights: Endfield, built on the Touying framework.",
+      "zh-CN": "基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。"
+    },
+    "repository": "https://github.com/leostudiooo/typst-touying-theme-endfield",
+    "author": {
+      "name": "leostudiooo",
+      "url": "https://github.com/leostudiooo"
+    },
+    "category": "Blog Themes",
+    "tags": [
+      "Endfield-themed",
+      "Typst",
+      "Presentation"
+    ],
+    "id": 29,
+    "addedAt": "2026-02-24",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
