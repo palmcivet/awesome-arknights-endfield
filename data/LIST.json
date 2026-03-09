@@ -724,5 +724,26 @@
     "addedAt": "2026-02-24",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "Wanye-7300/baker-dx",
+    "description": {
+      "en-US": "A Baker clone project based on Dioxus with session editing and playback functions.",
+      "zh-CN": "基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。"
+    },
+    "repository": "https://github.com/Wanye-7300/baker-dx",
+    "author": {
+      "name": "Wanye-7300",
+      "url": "https://github.com/Wanye-7300"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "UI",
+      "Baker"
+    ],
+    "id": 30,
+    "addedAt": "2026-03-08",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
