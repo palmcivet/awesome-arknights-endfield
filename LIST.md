@@ -84,6 +84,10 @@
   - [Vercel](http://call-me-doctor.vercel.app/)
   - Fan-made Endfield-themed website featuring AI-generated illustration.
 
+- [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
+  - [Vercel](https://baker-dx.vercel.app/)
+  - A Baker clone project based on Dioxus with session editing and playback functions.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

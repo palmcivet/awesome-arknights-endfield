@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-29-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-30-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,9 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
-  - Automated API response archive monitoring changes to Arknights: Endfield APIs, providing a download library for game packages, patches, and resources.
-
 - [fa93hws/endfield-industry-helper](https://github.com/fa93hws/endfield-industry-helper)
   - [Cloudflare](https://endfield-industry-helper.pages.dev/)
   - A responsive web application that helps you view and manage various production recipes in Endfield, with production calculator and search functionality.
@@ -62,6 +59,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
   - A Typst presentation theme inspired by the visual style of Arknights: Endfield, built on the Touying framework.
+
+- [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
+  - [Vercel](https://baker-dx.vercel.app/)
+  - A Baker clone project based on Dioxus with session editing and playback functions.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

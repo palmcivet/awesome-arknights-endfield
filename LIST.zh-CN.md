@@ -84,6 +84,10 @@
   - [Vercel](http://call-me-doctor.vercel.app/)
   - 终末地同人项目，提供 AI 生成插图的网页展示。
 
+- [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
+  - [Vercel](https://baker-dx.vercel.app/)
+  - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

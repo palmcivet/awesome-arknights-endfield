@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-29-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-30-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,9 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [daydreamer-json/ak-endfield-api-archive](https://github.com/daydreamer-json/ak-endfield-api-archive)
-  - 自动化 API 响应存档，监控明日方舟：终末地 API 变化，提供游戏包、补丁和资源的下载库。
-
 - [fa93hws/endfield-industry-helper](https://github.com/fa93hws/endfield-industry-helper)
   - [Cloudflare](https://endfield-industry-helper.pages.dev/)
   - 一个帮助你查看和管理终末地游戏中各种生产配方的响应式 Web 应用，支持生产计算和搜索功能。
@@ -63,6 +60,10 @@
 
 - [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
   - 基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。
+
+- [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
+  - [Vercel](https://baker-dx.vercel.app/)
+  - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

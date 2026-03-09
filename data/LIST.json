@@ -731,6 +731,12 @@
       "en-US": "A Baker clone project based on Dioxus with session editing and playback functions.",
       "zh-CN": "基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。"
     },
+    "website": [
+      {
+        "provider": "Vercel",
+        "url": "https://baker-dx.vercel.app/"
+      }
+    ],
     "repository": "https://github.com/Wanye-7300/baker-dx",
     "author": {
       "name": "Wanye-7300",

@@ -1,6 +1,6 @@
 <h2>代码指南</h2>
 
-[English](.github/CODE_OF_CONDUCT.md) | 简体中文
+[English](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/.github/CODE_OF_CONDUCT.md) | 简体中文
 
 - [分类指南](#分类指南)
 - [标签指南](#标签指南)

@@ -1,6 +1,6 @@
 <h2>Code of conduct</h2>
 
-English | [简体中文](.github/CODE_OF_CONDUCT.zh-CN.md)
+English | [简体中文](https://github.com/palmcivet/awesome-arknights-endfield/blob/main/.github/CODE_OF_CONDUCT.zh-CN.md)
 
 - [Categories](#categories)
 - [Tags](#tags)
