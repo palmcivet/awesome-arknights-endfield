@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-32-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-33-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,10 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
-  - [主页](https://collapselauncher.com/plugin/catalog.html)
-  - 为 Collapse Launcher (Collapse 启动器) 开发的第三方插件，旨在支持 《明日方舟：终末地》 的下载、更新与启动。
-
 - [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
   - 基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。
 
@@ -66,6 +62,9 @@
   - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - [Cloudflare](https://end-8jk.pages.dev/)
   - 源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。
+
+- [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
+  - 《明日方舟：终末地》寻访（抽卡）统计工具，支持官服/B服/国际服。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

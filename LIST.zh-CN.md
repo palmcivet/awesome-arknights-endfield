@@ -133,6 +133,9 @@
 - [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
   - 一个《明日方舟：终末地》的抽卡记录分析工具，使用 Electron 构建，通过游戏 API 获取并分析抽卡记录。
 
+- [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
+  - 《明日方舟：终末地》寻访（抽卡）统计工具，支持官服/B服/国际服。
+
 ## 游戏工具
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

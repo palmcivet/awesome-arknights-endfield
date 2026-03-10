@@ -133,6 +133,9 @@
 - [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
   - A tracker for Endfield permit headhunting history exporter, built with Electron to retrieve and analyze gacha records using the game's API.
 
+- [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
+  - A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.
+
 ## Game Utilities
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-32-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-33-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,10 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
-  - [Home Page](https://collapselauncher.com/plugin/catalog.html)
-  - A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.
-
 - [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
   - A Typst presentation theme inspired by the visual style of Arknights: Endfield, built on the Touying framework.
 
@@ -65,6 +61,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - [Cloudflare](https://end-8jk.pages.dev/)
   - A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.
+
+- [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
+  - A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

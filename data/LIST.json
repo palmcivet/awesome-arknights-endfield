@@ -809,5 +809,26 @@
     "id": 32,
     "addedAt": "2026-03-10",
     "openSource": true
+  },
+  {
+    "name": "bhaoo/endfield-gacha",
+    "description": {
+      "en-US": "A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.",
+      "zh-CN": "《明日方舟：终末地》寻访（抽卡）统计工具，支持官服/B服/国际服。"
+    },
+    "repository": "https://github.com/bhaoo/endfield-gacha",
+    "author": {
+      "name": "bhaoo",
+      "url": "https://github.com/bhaoo"
+    },
+    "category": "Gacha",
+    "tags": [
+      "Gacha",
+      "Desktop App"
+    ],
+    "id": 33,
+    "addedAt": "2026-03-10",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
