@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-30-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-32-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,13 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [fa93hws/endfield-industry-helper](https://github.com/fa93hws/endfield-industry-helper)
-  - [Cloudflare](https://endfield-industry-helper.pages.dev/)
-  - 一个帮助你查看和管理终末地游戏中各种生产配方的响应式 Web 应用，支持生产计算和搜索功能。
-
-- [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
-  - 一个《明日方舟：终末地》的抽卡记录分析工具，使用 Electron 构建，通过游戏 API 获取并分析抽卡记录。
-
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
   - [主页](https://collapselauncher.com/plugin/catalog.html)
   - 为 Collapse Launcher (Collapse 启动器) 开发的第三方插件，旨在支持 《明日方舟：终末地》 的下载、更新与启动。
@@ -64,6 +57,15 @@
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
   - [Vercel](https://baker-dx.vercel.app/)
   - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
+
+- [hsyhhssyy/IndustrialPlanner](https://github.com/hsyhhssyy/IndustrialPlanner)
+  - [主页](https://endfield.anonymous-test.top/)
+  - 一个运行在浏览器里的《集成工业》产线布置与仿真工具。
+
+- [sssxks/end-cli](https://github.com/sssxks/end-cli)
+  - [GitHub Pages](https://sssxks.github.io/end-cli/)
+  - [Cloudflare](https://end-8jk.pages.dev/)
+  - 源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

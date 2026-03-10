@@ -751,5 +751,63 @@
     "addedAt": "2026-03-08",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "hsyhhssyy/IndustrialPlanner",
+    "description": {
+      "en-US": "A browser-based production line layout and simulation tool for Arknights: Endfield's Integrated Industry system.",
+      "zh-CN": "一个运行在浏览器里的《集成工业》产线布置与仿真工具。"
+    },
+    "repository": "https://github.com/hsyhhssyy/IndustrialPlanner",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://endfield.anonymous-test.top/"
+      }
+    ],
+    "author": {
+      "name": "hsyhhssyy",
+      "url": "https://github.com/hsyhhssyy"
+    },
+    "category": "Production & Factory",
+    "tags": [
+      "Planner",
+      "Factory",
+      "Simulator"
+    ],
+    "id": 31,
+    "addedAt": "2026-03-10",
+    "openSource": true
+  },
+  {
+    "name": "sssxks/end-cli",
+    "description": {
+      "en-US": "A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.",
+      "zh-CN": "源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。"
+    },
+    "repository": "https://github.com/sssxks/end-cli",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://sssxks.github.io/end-cli/"
+      },
+      {
+        "provider": "Cloudflare",
+        "url": "https://end-8jk.pages.dev/"
+      }
+    ],
+    "author": {
+      "name": "sssxks",
+      "url": "https://github.com/sssxks"
+    },
+    "category": "Production & Factory",
+    "tags": [
+      "Calculator",
+      "Planner",
+      "Factory"
+    ],
+    "id": 32,
+    "addedAt": "2026-03-10",
+    "openSource": true
   }
 ]

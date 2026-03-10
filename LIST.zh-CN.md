@@ -46,6 +46,15 @@
   - [Cloudflare](https://endfield-industry-helper.pages.dev/)
   - 一个帮助你查看和管理终末地游戏中各种生产配方的响应式 Web 应用，支持生产计算和搜索功能。
 
+- [hsyhhssyy/IndustrialPlanner](https://github.com/hsyhhssyy/IndustrialPlanner)
+  - [主页](https://endfield.anonymous-test.top/)
+  - 一个运行在浏览器里的《集成工业》产线布置与仿真工具。
+
+- [sssxks/end-cli](https://github.com/sssxks/end-cli)
+  - [GitHub Pages](https://sssxks.github.io/end-cli/)
+  - [Cloudflare](https://end-8jk.pages.dev/)
+  - 源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。
+
 ## 地图与攻略
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

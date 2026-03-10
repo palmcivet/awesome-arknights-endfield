@@ -46,6 +46,15 @@
   - [Cloudflare](https://endfield-industry-helper.pages.dev/)
   - A responsive web application that helps you view and manage various production recipes in Endfield, with production calculator and search functionality.
 
+- [hsyhhssyy/IndustrialPlanner](https://github.com/hsyhhssyy/IndustrialPlanner)
+  - [Home Page](https://endfield.anonymous-test.top/)
+  - A browser-based production line layout and simulation tool for Arknights: Endfield's Integrated Industry system.
+
+- [sssxks/end-cli](https://github.com/sssxks/end-cli)
+  - [GitHub Pages](https://sssxks.github.io/end-cli/)
+  - [Cloudflare](https://end-8jk.pages.dev/)
+  - A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.
+
 ## Maps & Guides
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

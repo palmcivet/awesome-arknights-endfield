@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-30-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-32-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,13 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [fa93hws/endfield-industry-helper](https://github.com/fa93hws/endfield-industry-helper)
-  - [Cloudflare](https://endfield-industry-helper.pages.dev/)
-  - A responsive web application that helps you view and manage various production recipes in Endfield, with production calculator and search functionality.
-
-- [AiverAiva/Endfield-Permit-Export](https://github.com/AiverAiva/Endfield-Permit-Export)
-  - A tracker for Endfield permit headhunting history exporter, built with Electron to retrieve and analyze gacha records using the game's API.
-
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
   - [Home Page](https://collapselauncher.com/plugin/catalog.html)
   - A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.
@@ -63,6 +56,15 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
   - [Vercel](https://baker-dx.vercel.app/)
   - A Baker clone project based on Dioxus with session editing and playback functions.
+
+- [hsyhhssyy/IndustrialPlanner](https://github.com/hsyhhssyy/IndustrialPlanner)
+  - [Home Page](https://endfield.anonymous-test.top/)
+  - A browser-based production line layout and simulation tool for Arknights: Endfield's Integrated Industry system.
+
+- [sssxks/end-cli](https://github.com/sssxks/end-cli)
+  - [GitHub Pages](https://sssxks.github.io/end-cli/)
+  - [Cloudflare](https://end-8jk.pages.dev/)
+  - A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
