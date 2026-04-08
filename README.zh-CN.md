@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-33-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-34-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,9 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
-  - 基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。
-
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
   - [Vercel](https://baker-dx.vercel.app/)
   - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
@@ -65,6 +62,9 @@
 
 - [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
   - 《明日方舟：终末地》寻访（抽卡）统计工具，支持官服/B服/国际服。
+
+- [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
+  - 《明日方舟：终末地》自动化与监控工具，支持自动签到、体力追踪、每日任务提醒及 Discord/Telegram 机器人集成。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

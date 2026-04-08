@@ -830,5 +830,24 @@
     "addedAt": "2026-03-10",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "torikushiii/endfield-auto",
+    "description": {
+      "en-US": "An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.",
+      "zh-CN": "《明日方舟：终末地》自动化与监控工具，支持自动签到、体力追踪、每日任务提醒及 Discord/Telegram 机器人集成。"
+    },
+    "repository": "https://github.com/torikushiii/endfield-auto",
+    "author": {
+      "name": "torikushiii",
+      "url": "https://github.com/torikushiii"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Automation"
+    ],
+    "id": 34,
+    "addedAt": "2026-04-08",
+    "openSource": true
   }
 ]

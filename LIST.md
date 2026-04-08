@@ -150,3 +150,6 @@
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
   - [Home Page](https://collapselauncher.com/plugin/catalog.html)
   - A third-party plugin for Collapse Launcher, designed to support the downloading, updating, and launching of Arknights: Endfield.
+
+- [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
+  - An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.

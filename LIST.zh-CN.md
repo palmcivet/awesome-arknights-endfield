@@ -150,3 +150,6 @@
 - [misaka10843/Hi3Helper.Plugin.Endfield](https://github.com/misaka10843/Hi3Helper.Plugin.Endfield)
   - [主页](https://collapselauncher.com/plugin/catalog.html)
   - 为 Collapse Launcher (Collapse 启动器) 开发的第三方插件，旨在支持 《明日方舟：终末地》 的下载、更新与启动。
+
+- [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
+  - 《明日方舟：终末地》自动化与监控工具，支持自动签到、体力追踪、每日任务提醒及 Discord/Telegram 机器人集成。

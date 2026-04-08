@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-33-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-34-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,9 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
-  - A Typst presentation theme inspired by the visual style of Arknights: Endfield, built on the Touying framework.
-
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
   - [Vercel](https://baker-dx.vercel.app/)
   - A Baker clone project based on Dioxus with session editing and playback functions.
@@ -64,6 +61,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
   - A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.
+
+- [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
+  - An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
