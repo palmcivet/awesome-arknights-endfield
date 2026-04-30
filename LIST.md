@@ -97,6 +97,12 @@
   - [Vercel](https://baker-dx.vercel.app/)
   - A Baker clone project based on Dioxus with session editing and playback functions.
 
+- [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
+  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
+  - [Cloudflare](https://endfield-docmaker.phi.zone/)
+  - [Vercel](https://endfield.phi.zone/docmaker/)
+  - A browser-based tool for generating in-game-style documents from Arknights: Endfield, featuring real-time PDF preview, Typst markup support, and multiple templates.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

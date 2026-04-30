@@ -97,6 +97,12 @@
   - [Vercel](https://baker-dx.vercel.app/)
   - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
 
+- [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
+  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
+  - [Cloudflare](https://endfield-docmaker.phi.zone/)
+  - [Vercel](https://endfield.phi.zone/docmaker/)
+  - 一个基于浏览器的《明日方舟：终末地》游戏内风格文件生成工具，支持实时 PDF 预览、Typst 排版和多种模板。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

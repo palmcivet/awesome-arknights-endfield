@@ -876,5 +876,39 @@
     "addedAt": "2026-04-30",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "Naptie/endfield-docmaker",
+    "description": {
+      "en-US": "A browser-based tool for generating in-game-style documents from Arknights: Endfield, featuring real-time PDF preview, Typst markup support, and multiple templates.",
+      "zh-CN": "一个基于浏览器的《明日方舟：终末地》游戏内风格文件生成工具，支持实时 PDF 预览、Typst 排版和多种模板。"
+    },
+    "repository": "https://github.com/Naptie/endfield-docmaker",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://naptie.github.io/endfield-docmaker/"
+      },
+      {
+        "provider": "Cloudflare",
+        "url": "https://endfield-docmaker.phi.zone/"
+      },
+      {
+        "provider": "Vercel",
+        "url": "https://endfield.phi.zone/docmaker/"
+      }
+    ],
+    "author": {
+      "name": "Naptie",
+      "url": "https://github.com/Naptie"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "Generator"
+    ],
+    "id": 36,
+    "addedAt": "2026-04-30",
+    "openSource": true,
+    "license": "Mozilla Public License 2.0"
   }
 ]
