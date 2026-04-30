@@ -136,6 +136,10 @@
 - [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
   - 《明日方舟：终末地》寻访（抽卡）统计工具，支持官服/B服/国际服。
 
+- [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
+  - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
+  - 一个本地优先的《明日方舟：终末地》抽卡记录追踪器，打包为单个 HTML 文件，支持基于 WebRTC 的跨设备同步。
+
 ## 游戏工具
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

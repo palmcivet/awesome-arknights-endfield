@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-34-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-35-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,10 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
-  - [Vercel](https://baker-dx.vercel.app/)
-  - A Baker clone project based on Dioxus with session editing and playback functions.
-
 - [hsyhhssyy/IndustrialPlanner](https://github.com/hsyhhssyy/IndustrialPlanner)
   - [Home Page](https://endfield.anonymous-test.top/)
   - A browser-based production line layout and simulation tool for Arknights: Endfield's Integrated Industry system.
@@ -64,6 +60,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
   - An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.
+
+- [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
+  - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
+  - A local-first pull tracker for Arknights: Endfield, packaged as a single HTML file with WebRTC-based cross-device sync.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-34-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-35-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,10 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
-  - [Vercel](https://baker-dx.vercel.app/)
-  - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
-
 - [hsyhhssyy/IndustrialPlanner](https://github.com/hsyhhssyy/IndustrialPlanner)
   - [主页](https://endfield.anonymous-test.top/)
   - 一个运行在浏览器里的《集成工业》产线布置与仿真工具。
@@ -65,6 +61,10 @@
 
 - [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
   - 《明日方舟：终末地》自动化与监控工具，支持自动签到、体力追踪、每日任务提醒及 Discord/Telegram 机器人集成。
+
+- [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
+  - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
+  - 一个本地优先的《明日方舟：终末地》抽卡记录追踪器，打包为单个 HTML 文件，支持基于 WebRTC 的跨设备同步。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

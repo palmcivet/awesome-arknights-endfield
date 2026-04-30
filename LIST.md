@@ -136,6 +136,10 @@
 - [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
   - A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.
 
+- [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
+  - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
+  - A local-first pull tracker for Arknights: Endfield, packaged as a single HTML file with WebRTC-based cross-device sync.
+
 ## Game Utilities
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

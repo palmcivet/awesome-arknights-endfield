@@ -849,5 +849,32 @@
     "id": 34,
     "addedAt": "2026-04-08",
     "openSource": true
+  },
+  {
+    "name": "mmgfrcs/ake-tracker",
+    "description": {
+      "en-US": "A local-first pull tracker for Arknights: Endfield, packaged as a single HTML file with WebRTC-based cross-device sync.",
+      "zh-CN": "一个本地优先的《明日方舟：终末地》抽卡记录追踪器，打包为单个 HTML 文件，支持基于 WebRTC 的跨设备同步。"
+    },
+    "repository": "https://github.com/mmgfrcs/ake-tracker",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://mmgfrcs.github.io/ake-tracker/"
+      }
+    ],
+    "author": {
+      "name": "mmgfrcs",
+      "url": "https://github.com/mmgfrcs"
+    },
+    "category": "Gacha",
+    "tags": [
+      "Tracker",
+      "Gacha"
+    ],
+    "id": 35,
+    "addedAt": "2026-04-30",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
