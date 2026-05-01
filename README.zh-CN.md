@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-36-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-37-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,11 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [sssxks/end-cli](https://github.com/sssxks/end-cli)
-  - [GitHub Pages](https://sssxks.github.io/end-cli/)
-  - [Cloudflare](https://end-8jk.pages.dev/)
-  - 源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。
-
 - [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
   - 《明日方舟：终末地》寻访（抽卡）统计工具，支持官服/B服/国际服。
 
@@ -67,6 +62,10 @@
   - [Cloudflare](https://endfield-docmaker.phi.zone/)
   - [Vercel](https://endfield.phi.zone/docmaker/)
   - 一个基于浏览器的《明日方舟：终末地》游戏内风格文件生成工具，支持实时 PDF 预览、Typst 排版和多种模板。
+
+- [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
+  - [主页](https://maaend.com)
+  - 基于 MaaFramework 的明日方舟：终末地自动化工具，利用计算机视觉实现日常任务、战斗、解谜和资源管理的自动化，支持 PC 和安卓平台。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

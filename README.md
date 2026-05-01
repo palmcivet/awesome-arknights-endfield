@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-36-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-37-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,11 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [sssxks/end-cli](https://github.com/sssxks/end-cli)
-  - [GitHub Pages](https://sssxks.github.io/end-cli/)
-  - [Cloudflare](https://end-8jk.pages.dev/)
-  - A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.
-
 - [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
   - A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.
 
@@ -66,6 +61,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - [Cloudflare](https://endfield-docmaker.phi.zone/)
   - [Vercel](https://endfield.phi.zone/docmaker/)
   - A browser-based tool for generating in-game-style documents from Arknights: Endfield, featuring real-time PDF preview, Typst markup support, and multiple templates.
+
+- [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
+  - [Home Page](https://maaend.com)
+  - An AI-powered automation tool for Arknights: Endfield, using computer vision to automate daily tasks, combat, puzzle solving, and resource management on PC and Android.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

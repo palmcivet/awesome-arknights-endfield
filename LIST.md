@@ -95,6 +95,7 @@
 
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
   - [Vercel](https://baker-dx.vercel.app/)
+  - [Home Page](https://baker.wanye7300.xyz)
   - A Baker clone project based on Dioxus with session editing and playback functions.
 
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
@@ -163,3 +164,7 @@
 
 - [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
   - An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.
+
+- [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
+  - [Home Page](https://maaend.com)
+  - An AI-powered automation tool for Arknights: Endfield, using computer vision to automate daily tasks, combat, puzzle solving, and resource management on PC and Android.

@@ -95,6 +95,7 @@
 
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
   - [Vercel](https://baker-dx.vercel.app/)
+  - [主页](https://baker.wanye7300.xyz)
   - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
 
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
@@ -163,3 +164,7 @@
 
 - [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
   - 《明日方舟：终末地》自动化与监控工具，支持自动签到、体力追踪、每日任务提醒及 Discord/Telegram 机器人集成。
+
+- [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
+  - [主页](https://maaend.com)
+  - 基于 MaaFramework 的明日方舟：终末地自动化工具，利用计算机视觉实现日常任务、战斗、解谜和资源管理的自动化，支持 PC 和安卓平台。
