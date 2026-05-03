@@ -168,3 +168,7 @@
 - [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
   - [Home Page](https://maaend.com)
   - An AI-powered automation tool for Arknights: Endfield, using computer vision to automate daily tasks, combat, puzzle solving, and resource management on PC and Android.
+
+- [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
+  - [Home Page](https://calc.endfield.tools)
+  - A profit calculator for Arknights: Endfield's trading system, helping players optimize buy/sell decisions with multilingual support and dark mode.

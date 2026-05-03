@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-37-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-38-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,9 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [bhaoo/endfield-gacha](https://github.com/bhaoo/endfield-gacha)
-  - A gacha record statistics and analysis tool for Arknights: Endfield, supporting official server, Bilibili server, and global servers.
-
 - [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
   - An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.
 
@@ -65,6 +62,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
   - [Home Page](https://maaend.com)
   - An AI-powered automation tool for Arknights: Endfield, using computer vision to automate daily tasks, combat, puzzle solving, and resource management on PC and Android.
+
+- [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
+  - [Home Page](https://calc.endfield.tools)
+  - A profit calculator for Arknights: Endfield's trading system, helping players optimize buy/sell decisions with multilingual support and dark mode.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

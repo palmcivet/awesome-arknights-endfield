@@ -168,3 +168,7 @@
 - [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
   - [主页](https://maaend.com)
   - 基于 MaaFramework 的明日方舟：终末地自动化工具，利用计算机视觉实现日常任务、战斗、解谜和资源管理的自动化，支持 PC 和安卓平台。
+
+- [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
+  - [主页](https://calc.endfield.tools)
+  - 《明日方舟：终末地》交易利润计算器，帮助玩家优化买卖决策，支持多语言和深色模式。

@@ -940,5 +940,31 @@
     "addedAt": "2026-05-01",
     "openSource": true,
     "license": "GNU Affero General Public License v3.0"
+  },
+  {
+    "name": "meloncafe/endfield-tools-goods-calc",
+    "description": {
+      "en-US": "A profit calculator for Arknights: Endfield's trading system, helping players optimize buy/sell decisions with multilingual support and dark mode.",
+      "zh-CN": "《明日方舟：终末地》交易利润计算器，帮助玩家优化买卖决策，支持多语言和深色模式。"
+    },
+    "repository": "https://github.com/meloncafe/endfield-tools-goods-calc",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://calc.endfield.tools"
+      }
+    ],
+    "author": {
+      "name": "meloncafe",
+      "url": "https://github.com/meloncafe"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Calculator"
+    ],
+    "id": 38,
+    "addedAt": "2026-05-03",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
