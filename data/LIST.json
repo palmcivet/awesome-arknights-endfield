@@ -986,5 +986,26 @@
     "addedAt": "2026-05-06",
     "openSource": true,
     "license": "ISC License"
+  },
+  {
+    "name": "EIHRTeam/End-WikiPlus",
+    "description": {
+      "en-US": "A cross-platform open-source toolbox for the SKLAND/SKPORT Endfield Wiki, built with Tauri v2.",
+      "zh-CN": "一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。"
+    },
+    "repository": "https://github.com/EIHRTeam/End-WikiPlus",
+    "author": {
+      "name": "EIHRTeam",
+      "url": "https://github.com/EIHRTeam"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Desktop App",
+      "Wiki"
+    ],
+    "id": 40,
+    "addedAt": "2026-05-06",
+    "openSource": true,
+    "license": "Apache License 2.0"
   }
 ]

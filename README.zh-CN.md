@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-39-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-40-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,10 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
-  - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
-  - 一个本地优先的《明日方舟：终末地》抽卡记录追踪器，打包为单个 HTML 文件，支持基于 WebRTC 的跨设备同步。
-
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
   - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
   - [Cloudflare](https://endfield-docmaker.phi.zone/)
@@ -67,6 +63,9 @@
 
 - [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
   - 《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。
+
+- [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
+  - 一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

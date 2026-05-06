@@ -175,3 +175,6 @@
 
 - [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
   - A Discord bot for Arknights: Endfield featuring gacha simulation, pull history sync, daily check-in, player profiles, and news feed.
+
+- [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
+  - A cross-platform open-source toolbox for the SKLAND/SKPORT Endfield Wiki, built with Tauri v2.

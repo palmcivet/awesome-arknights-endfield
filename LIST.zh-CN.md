@@ -175,3 +175,6 @@
 
 - [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
   - 《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。
+
+- [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
+  - 一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。

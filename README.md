@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-39-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-40-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,10 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
-  - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
-  - A local-first pull tracker for Arknights: Endfield, packaged as a single HTML file with WebRTC-based cross-device sync.
-
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
   - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
   - [Cloudflare](https://endfield-docmaker.phi.zone/)
@@ -66,6 +62,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
   - A Discord bot for Arknights: Endfield featuring gacha simulation, pull history sync, daily check-in, player profiles, and news feed.
+
+- [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
+  - A cross-platform open-source toolbox for the SKLAND/SKPORT Endfield Wiki, built with Tauri v2.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
