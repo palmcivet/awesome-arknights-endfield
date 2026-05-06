@@ -172,3 +172,6 @@
 - [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
   - [主页](https://calc.endfield.tools)
   - 《明日方舟：终末地》交易利润计算器，帮助玩家优化买卖决策，支持多语言和深色模式。
+
+- [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
+  - 《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。

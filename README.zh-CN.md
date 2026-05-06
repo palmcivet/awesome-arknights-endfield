@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-38-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-39-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -47,9 +47,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
-  - 《明日方舟：终末地》自动化与监控工具，支持自动签到、体力追踪、每日任务提醒及 Discord/Telegram 机器人集成。
-
 - [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
   - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
   - 一个本地优先的《明日方舟：终末地》抽卡记录追踪器，打包为单个 HTML 文件，支持基于 WebRTC 的跨设备同步。
@@ -67,6 +64,9 @@
 - [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
   - [主页](https://calc.endfield.tools)
   - 《明日方舟：终末地》交易利润计算器，帮助玩家优化买卖决策，支持多语言和深色模式。
+
+- [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
+  - 《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

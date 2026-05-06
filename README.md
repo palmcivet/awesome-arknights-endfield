@@ -16,7 +16,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-38-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-39-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -46,9 +46,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [torikushiii/endfield-auto](https://github.com/torikushiii/endfield-auto)
-  - An automation and monitoring suite for Arknights: Endfield, featuring auto sign-in, stamina tracking, daily mission reminders, and Discord/Telegram bot integration.
-
 - [mmgfrcs/ake-tracker](https://github.com/mmgfrcs/ake-tracker)
   - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
   - A local-first pull tracker for Arknights: Endfield, packaged as a single HTML file with WebRTC-based cross-device sync.
@@ -66,6 +63,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
   - [Home Page](https://calc.endfield.tools)
   - A profit calculator for Arknights: Endfield's trading system, helping players optimize buy/sell decisions with multilingual support and dark mode.
+
+- [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
+  - A Discord bot for Arknights: Endfield featuring gacha simulation, pull history sync, daily check-in, player profiles, and news feed.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

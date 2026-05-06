@@ -172,3 +172,6 @@
 - [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
   - [Home Page](https://calc.endfield.tools)
   - A profit calculator for Arknights: Endfield's trading system, helping players optimize buy/sell decisions with multilingual support and dark mode.
+
+- [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
+  - A Discord bot for Arknights: Endfield featuring gacha simulation, pull history sync, daily check-in, player profiles, and news feed.

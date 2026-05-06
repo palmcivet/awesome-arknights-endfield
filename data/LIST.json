@@ -966,5 +966,25 @@
     "addedAt": "2026-05-03",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "yeci226/endfield-discord-bot",
+    "description": {
+      "en-US": "A Discord bot for Arknights: Endfield featuring gacha simulation, pull history sync, daily check-in, player profiles, and news feed.",
+      "zh-CN": "《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。"
+    },
+    "repository": "https://github.com/yeci226/endfield-discord-bot",
+    "author": {
+      "name": "yeci226",
+      "url": "https://github.com/yeci226"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Bot"
+    ],
+    "id": 39,
+    "addedAt": "2026-05-06",
+    "openSource": true,
+    "license": "ISC License"
   }
 ]
