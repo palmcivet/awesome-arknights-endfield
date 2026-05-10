@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
-import { X, Github, Globe } from 'lucide-react';
+import { X, Globe } from 'lucide-react';
+import { GithubIcon } from '@/components/icons';
 import type { WebsiteProvider } from '@/shared';
 import { WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/context/drawer-context';
@@ -15,7 +16,7 @@ function parseRepoName(name: string): { owner: string; repo: string } | null {
 function getProviderIcon(provider: WebsiteProvider) {
   switch (provider) {
     case 'GitHub Pages':
-      return <Github className="size-3.5" />;
+      return <GithubIcon className="size-3.5" />;
     default:
       return <Globe className="size-3.5" />;
   }
@@ -189,7 +190,7 @@ export default function ProjectDetailDrawer() {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border hover:text-foreground"
                   >
-                    <Github className="size-3.5" />
+                    <GithubIcon className="size-3.5" />
                     <span className="truncate">{project.repository}</span>
                   </a>
                 )}

@@ -1,4 +1,5 @@
-import { Github, Globe, Image } from 'lucide-react';
+import { Globe, Image } from 'lucide-react';
+import { GithubIcon } from '@/components/icons';
 import type { Project, WebsiteProvider } from '@/shared';
 import { WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/context/drawer-context';
@@ -18,7 +19,7 @@ function parseRepoName(name: string): { owner: string; repo: string } | null {
 function getProviderIcon(provider: WebsiteProvider) {
   switch (provider) {
     case 'GitHub Pages':
-      return <Github className="size-3" />;
+      return <GithubIcon className="size-3" />;
     default:
       return <Globe className="size-3" />;
   }
@@ -145,7 +146,7 @@ export default function ProjectCard({
               className="inline-flex items-center gap-1 border border-transparent px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground transition-colors hover:border-border hover:text-foreground"
               aria-label={`${project.name} GitHub`}
             >
-              <Github className="size-3" />
+              <GithubIcon className="size-3" />
               Repo
             </a>
           )}

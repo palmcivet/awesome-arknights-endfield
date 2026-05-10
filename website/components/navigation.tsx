@@ -1,4 +1,4 @@
-import { Github } from 'lucide-react';
+import { GithubIcon } from '@/components/icons';
 import { ThemeSwitcher } from '@/components/theme-switcher';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
 import Logo from '@/assets/logo.svg';
@@ -21,7 +21,7 @@ export default function Navigation() {
             rel="noopener noreferrer"
             className="label-tech flex items-center gap-1.5 px-3 py-2 text-muted-foreground transition-colors hover:text-foreground"
           >
-            <Github className="size-3.5" />
+            <GithubIcon className="size-3.5" />
             GitHub
           </a>
           <div className="mx-1 h-4 w-px bg-border" />

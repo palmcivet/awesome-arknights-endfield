@@ -1,4 +1,5 @@
-import { ArrowDown, Github } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
+import { GithubIcon } from '@/components/icons';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
 import { useProjects } from '@/context/project-context';
 
@@ -45,7 +46,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
           >
-            <Github className="size-3.5" />
+            <GithubIcon className="size-3.5" />
             GitHub
           </a>
         </div>

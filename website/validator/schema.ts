@@ -35,21 +35,26 @@ export const DateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 /**
  * @description Project schema
  */
-export const ProjectSchema = z.object({
-  name: z.string().min(1),
-  description: z.record(LanguageSchema, z.string().min(1)),
-  repository: z.url().optional(),
-  website: z.array(WebsiteSchema).optional(),
-  author: AuthorSchema.optional(),
-  category: z.enum(CATEGORIES),
-  tags: z.array(z.string().min(1)),
-  relatives: z.array(ProjectIdSchema).optional(),
-  license: z.string().optional(),
-  screenshots: z.array(z.string().min(1)).optional(),
-  id: ProjectIdSchema,
-  addedAt: DateSchema,
-  openSource: z.boolean(),
-});
+export const ProjectSchema = z
+  .object({
+    name: z.string().min(1),
+    description: z.record(LanguageSchema, z.string().min(1)),
+    repository: z.url().optional(),
+    website: z.array(WebsiteSchema).optional(),
+    author: AuthorSchema.optional(),
+    category: z.enum(CATEGORIES),
+    tags: z.array(z.string().min(1)),
+    relatives: z.array(ProjectIdSchema).optional(),
+    license: z.string().optional(),
+    screenshots: z.array(z.string().min(1)).optional(),
+    id: ProjectIdSchema,
+    addedAt: DateSchema,
+    openSource: z.boolean(),
+  })
+  .refine((p) => p.openSource === (p.repository !== undefined), {
+    error: 'openSource must be true if repository is provided',
+    path: ['openSource'],
+  });
 
 /**
  * @description Project list schema (array of projects)

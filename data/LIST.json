@@ -5,6 +5,7 @@
       "en-US": "This entry is reserved and should not be used.",
       "zh-CN": "这个条目是保留的，不应该被使用。"
     },
+    "repository": "https://github.com/palmcivet/awesome-arknights-endfield",
     "category": "Uncategorized",
     "tags": [],
     "id": 0,
@@ -273,7 +274,7 @@
     "tags": [],
     "id": 10,
     "addedAt": "2025-12-30",
-    "openSource": false
+    "openSource": true
   },
   {
     "name": "cloud-oc/endspace",
