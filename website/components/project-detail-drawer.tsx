@@ -1,0 +1,218 @@
+import { useEffect, useRef } from 'react';
+import { X, Github, Globe } from 'lucide-react';
+import type { WebsiteProvider } from '@/shared';
+import { WEBSITE_PROVIDER_LABEL } from '@/shared';
+import { useDrawer } from '@/context/drawer-context';
+import { useProjects } from '@/context/project-context';
+import ScreenshotCarousel from '@/components/screenshot-carousel';
+
+function parseRepoName(name: string): { owner: string; repo: string } | null {
+  const match = name.match(/^([^/]+)\/(.+)$/);
+  if (!match) return null;
+  return { owner: match[1], repo: match[2] };
+}
+
+function getProviderIcon(provider: WebsiteProvider) {
+  switch (provider) {
+    case 'GitHub Pages':
+      return <Github className="size-3.5" />;
+    default:
+      return <Globe className="size-3.5" />;
+  }
+}
+
+export default function ProjectDetailDrawer() {
+  const { isOpen, selectedProjectId, closeDrawer } = useDrawer();
+  const { projects } = useProjects();
+  const drawerRef = useRef<HTMLDivElement>(null);
+
+  const project = projects.find((p) => p.id === selectedProjectId) ?? null;
+
+  // ESC key to close
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') closeDrawer();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, closeDrawer]);
+
+  if (!isOpen || !project) return null;
+
+  const parsed = parseRepoName(project.name);
+  const websites = project.website ?? [];
+  const hasGithub = !!project.repository;
+  const screenshots = project.screenshots ?? [];
+  const descEn = project.description['en-US'];
+  const descZh = project.description['zh-CN'];
+
+  return (
+    <div className="fixed inset-0 z-50 flex justify-end">
+      {/* Backdrop */}
+      <div
+        className="absolute inset-0 bg-foreground/10 backdrop-blur-[2px] drawer-backdrop-enter"
+        onClick={closeDrawer}
+      />
+
+      {/* Drawer Panel */}
+      <div
+        ref={drawerRef}
+        className="relative z-10 flex w-full max-w-md flex-col border-l border-border bg-background shadow-none drawer-panel-enter sm:max-w-112.5"
+        role="dialog"
+        aria-modal="true"
+        aria-label={project.name}
+      >
+        {/* Close button */}
+        <button
+          onClick={closeDrawer}
+          className="absolute right-3 top-3 z-20 flex size-7 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
+          aria-label="Close"
+        >
+          <X className="size-4" />
+        </button>
+
+        {/* Scrollable content */}
+        <div className="flex-1 overflow-y-auto">
+          {/* Screenshot carousel */}
+          <ScreenshotCarousel screenshots={screenshots} projectName={project.name} />
+
+          {/* Project info */}
+          <div className="space-y-6 p-6">
+            {/* Header */}
+            <div>
+              <span className="label-tech text-muted-foreground">{project.category}</span>
+
+              {/* Title */}
+              <h2 className="mt-2">
+                {parsed ? (
+                  <span className="flex items-baseline gap-1 leading-tight">
+                    <span className="shrink-0 font-mono text-sm text-muted-foreground">
+                      {parsed.owner}/
+                    </span>
+                    <span className="text-xl font-bold tracking-tight-tech">
+                      {parsed.repo}
+                    </span>
+                  </span>
+                ) : (
+                  <span className="text-xl font-bold leading-tight tracking-tight-tech">
+                    {project.name}
+                  </span>
+                )}
+              </h2>
+            </div>
+
+            {/* Description — show both locales */}
+            <div className="space-y-3">
+              {descEn && (
+                <p className="text-sm leading-relaxed text-foreground/80">{descEn}</p>
+              )}
+              {descZh && descZh !== descEn && (
+                <p className="text-sm leading-relaxed text-muted-foreground">{descZh}</p>
+              )}
+            </div>
+
+            {/* Tags */}
+            {project.tags.length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {project.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="border border-border px-2 py-0.5 font-mono text-[11px] text-muted-foreground"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            {/* Metadata */}
+            <div className="space-y-2 border-t border-dashed border-border pt-4">
+              {project.author && (
+                <div className="flex items-baseline justify-between">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                    Author
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    {project.author.url ? (
+                      <a
+                        href={project.author.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
+                      >
+                        {project.author.name}
+                      </a>
+                    ) : (
+                      project.author.name
+                    )}
+                  </span>
+                </div>
+              )}
+
+              <div className="flex items-baseline justify-between">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                  Added
+                </span>
+                <span className="font-mono text-xs text-muted-foreground">{project.addedAt}</span>
+              </div>
+
+              {project.license && (
+                <div className="flex items-baseline justify-between">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                    License
+                  </span>
+                  <span className="font-mono text-xs text-muted-foreground">{project.license}</span>
+                </div>
+              )}
+
+              <div className="flex items-baseline justify-between">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                  Source
+                </span>
+                <span className="font-mono text-xs text-muted-foreground">
+                  {project.openSource ? 'Open Source' : 'Closed Source'}
+                </span>
+              </div>
+            </div>
+
+            {/* Links */}
+            <div className="space-y-2 border-t border-dashed border-border pt-4">
+              <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                Links
+              </span>
+              <div className="space-y-1.5">
+                {hasGithub && (
+                  <a
+                    href={project.repository}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+                  >
+                    <Github className="size-3.5" />
+                    <span className="truncate">{project.repository}</span>
+                  </a>
+                )}
+                {websites.map((site, i) => (
+                  <a
+                    key={i}
+                    href={site.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+                  >
+                    {getProviderIcon(site.provider)}
+                    <span className="shrink-0 text-foreground/40">
+                      {WEBSITE_PROVIDER_LABEL[site.provider]?.['en-US'] ?? site.provider}
+                    </span>
+                    <span className="truncate">{site.url}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
