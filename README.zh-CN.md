@@ -15,6 +15,14 @@
     <img src="https://img.shields.io/github/license/palmcivet/awesome-arknights-endfield?label=License" alt="License" />
   </a>
 
+  <a href="https://github.com/palmcivet/awesome-arknights-endfield/actions/workflows/deploy.yml">
+    <img src="https://img.shields.io/github/deployments/palmcivet/awesome-arknights-endfield/deployment?label=Deploy" alt="部署状态" />
+  </a>
+
+  <a href="https://palmcivet.github.io/awesome-arknights-endfield/">
+    <img src="https://img.shields.io/badge/Preview-online-20b2aa" alt="在线预览" />
+  </a>
+
   <!-- BADGE_COUNT_START -->
   <img src="https://img.shields.io/badge/Projects-40-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
