@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-40-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-41-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,12 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
-  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
-  - [Cloudflare](https://endfield-docmaker.phi.zone/)
-  - [Vercel](https://endfield.phi.zone/docmaker/)
-  - A browser-based tool for generating in-game-style documents from Arknights: Endfield, featuring real-time PDF preview, Typst markup support, and multiple templates.
-
 - [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
   - [Home Page](https://maaend.com)
   - An AI-powered automation tool for Arknights: Endfield, using computer vision to automate daily tasks, combat, puzzle solving, and resource management on PC and Android.
@@ -73,6 +67,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
   - A cross-platform open-source toolbox for the SKLAND/SKPORT Endfield Wiki, built with Tauri v2.
+
+- [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
+  - A custom font created in the style of Arknights: Endfield's belt text, available in Black and Bold variants.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

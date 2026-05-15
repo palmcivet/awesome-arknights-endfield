@@ -1008,5 +1008,25 @@
     "addedAt": "2026-05-06",
     "openSource": true,
     "license": "Apache License 2.0"
+  },
+  {
+    "name": "zhangtengjin-byte/Endfield-Belt-Font",
+    "description": {
+      "en-US": "A custom font created in the style of Arknights: Endfield's belt text, available in Black and Bold variants.",
+      "zh-CN": "基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。"
+    },
+    "repository": "https://github.com/zhangtengjin-byte/Endfield-Belt-Font",
+    "author": {
+      "name": "zhangtengjin-byte",
+      "url": "https://github.com/zhangtengjin-byte"
+    },
+    "category": "Themes & Design",
+    "tags": [
+      "Font"
+    ],
+    "id": 41,
+    "addedAt": "2026-05-15",
+    "openSource": true,
+    "license": "SIL Open Font License 1.1"
   }
 ]

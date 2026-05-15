@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-40-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-41-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,12 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
-  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
-  - [Cloudflare](https://endfield-docmaker.phi.zone/)
-  - [Vercel](https://endfield.phi.zone/docmaker/)
-  - 一个基于浏览器的《明日方舟：终末地》游戏内风格文件生成工具，支持实时 PDF 预览、Typst 排版和多种模板。
-
 - [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
   - [主页](https://maaend.com)
   - 基于 MaaFramework 的明日方舟：终末地自动化工具，利用计算机视觉实现日常任务、战斗、解谜和资源管理的自动化，支持 PC 和安卓平台。
@@ -74,6 +68,9 @@
 
 - [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
   - 一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。
+
+- [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
+  - 基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

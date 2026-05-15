@@ -121,6 +121,9 @@
 - [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
   - 基于 Touying 框架、受《明日方舟：终末地》视觉风格启发的 Typst 演示文稿主题。
 
+- [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
+  - 基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。
+
 ## 抽卡分析
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

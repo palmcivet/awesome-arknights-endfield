@@ -121,6 +121,9 @@
 - [leostudiooo/typst-touying-theme-endfield](https://github.com/leostudiooo/typst-touying-theme-endfield)
   - A Typst presentation theme inspired by the visual style of Arknights: Endfield, built on the Touying framework.
 
+- [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
+  - A custom font created in the style of Arknights: Endfield's belt text, available in Black and Bold variants.
+
 ## Gacha
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)
