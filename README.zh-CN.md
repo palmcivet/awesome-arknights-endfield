@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-41-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-42-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
-  - [主页](https://maaend.com)
-  - 基于 MaaFramework 的明日方舟：终末地自动化工具，利用计算机视觉实现日常任务、战斗、解谜和资源管理的自动化，支持 PC 和安卓平台。
-
 - [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
   - [主页](https://calc.endfield.tools)
   - 《明日方舟：终末地》交易利润计算器，帮助玩家优化买卖决策，支持多语言和深色模式。
@@ -71,6 +67,9 @@
 
 - [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
   - 基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。
+
+- [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
+  - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

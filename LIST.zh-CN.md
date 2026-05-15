@@ -104,6 +104,9 @@
   - [Vercel](https://endfield.phi.zone/docmaker/)
   - 一个基于浏览器的《明日方舟：终末地》游戏内风格文件生成工具，支持实时 PDF 预览、Typst 排版和多种模板。
 
+- [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
+  - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

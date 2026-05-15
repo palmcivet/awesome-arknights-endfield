@@ -1028,5 +1028,25 @@
     "addedAt": "2026-05-15",
     "openSource": true,
     "license": "SIL Open Font License 1.1"
+  },
+  {
+    "name": "MengPaul07/zhuang-fangyi-skill",
+    "description": {
+      "en-US": "An AI agent skill module for the character Zhuang Fangyi from Arknights: Endfield, combining character roleplay with task collaboration capabilities.",
+      "zh-CN": "《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。"
+    },
+    "repository": "https://github.com/MengPaul07/zhuang-fangyi-skill",
+    "author": {
+      "name": "MengPaul07",
+      "url": "https://github.com/MengPaul07"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "Agent Skill"
+    ],
+    "id": 42,
+    "addedAt": "2026-05-15",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

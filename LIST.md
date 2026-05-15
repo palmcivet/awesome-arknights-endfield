@@ -104,6 +104,9 @@
   - [Vercel](https://endfield.phi.zone/docmaker/)
   - A browser-based tool for generating in-game-style documents from Arknights: Endfield, featuring real-time PDF preview, Typst markup support, and multiple templates.
 
+- [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
+  - An AI agent skill module for the character Zhuang Fangyi from Arknights: Endfield, combining character roleplay with task collaboration capabilities.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

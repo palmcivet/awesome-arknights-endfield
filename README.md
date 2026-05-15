@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-41-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-42-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [MaaEnd/MaaEnd](https://github.com/MaaEnd/MaaEnd)
-  - [Home Page](https://maaend.com)
-  - An AI-powered automation tool for Arknights: Endfield, using computer vision to automate daily tasks, combat, puzzle solving, and resource management on PC and Android.
-
 - [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
   - [Home Page](https://calc.endfield.tools)
   - A profit calculator for Arknights: Endfield's trading system, helping players optimize buy/sell decisions with multilingual support and dark mode.
@@ -70,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
   - A custom font created in the style of Arknights: Endfield's belt text, available in Black and Bold variants.
+
+- [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
+  - An AI agent skill module for the character Zhuang Fangyi from Arknights: Endfield, combining character roleplay with task collaboration capabilities.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
