@@ -82,6 +82,11 @@
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - Endfield puzzle solving tool.
 
+- [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
+  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
+  - [Home Page](https://reend.vallov.com/)
+  - A community-maintained resource hub for Arknights: Endfield, featuring operator tier lists, pity and banner mechanics, team building guides, and beginner tips.
+
 ## Fan Creations
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)

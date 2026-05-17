@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-42-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-43-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [meloncafe/endfield-tools-goods-calc](https://github.com/meloncafe/endfield-tools-goods-calc)
-  - [主页](https://calc.endfield.tools)
-  - 《明日方舟：终末地》交易利润计算器，帮助玩家优化买卖决策，支持多语言和深色模式。
-
 - [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
   - 《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。
 
@@ -70,6 +66,11 @@
 
 - [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
   - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
+
+- [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
+  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
+  - [主页](https://reend.vallov.com/)
+  - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

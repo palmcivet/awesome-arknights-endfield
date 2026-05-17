@@ -82,6 +82,11 @@
   - [Vercel](https://ak-endfield-puzzle.vercel.app/)
   - 终末地拼图解谜工具
 
+- [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
+  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
+  - [主页](https://reend.vallov.com/)
+  - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
+
 ## 同人创作
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)

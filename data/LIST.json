@@ -1048,5 +1048,35 @@
     "addedAt": "2026-05-15",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "Kirukata27/arknights-endfield-resources",
+    "description": {
+      "en-US": "A community-maintained resource hub for Arknights: Endfield, featuring operator tier lists, pity and banner mechanics, team building guides, and beginner tips.",
+      "zh-CN": "社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。"
+    },
+    "repository": "https://github.com/Kirukata27/arknights-endfield-resources",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://kirukata27.github.io/arknights-endfield-resources/"
+      },
+      {
+        "provider": "Custom",
+        "url": "https://reend.vallov.com/"
+      }
+    ],
+    "author": {
+      "name": "Kirukata27",
+      "url": "https://github.com/Kirukata27"
+    },
+    "category": "Maps & Guides",
+    "tags": [
+      "Guide",
+      "Tier List"
+    ],
+    "id": 43,
+    "addedAt": "2026-05-17",
+    "openSource": true
   }
 ]
