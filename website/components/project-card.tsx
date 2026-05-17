@@ -1,13 +1,14 @@
 import { Globe, Image } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
-import type { Project, WebsiteProvider } from '@/shared';
-import { WEBSITE_PROVIDER_LABEL } from '@/shared';
+import type { Category, Project, WebsiteProvider } from '@/shared';
+import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/context/drawer-context';
+import { useLanguage } from '@/context/language-context';
+import { useI18nContext } from '@/i18n/i18n-react.js';
 
 interface ProjectCardProps {
   project: Project;
   index: number;
-  locale?: 'en-US' | 'zh-CN';
 }
 
 function parseRepoName(name: string): { owner: string; repo: string } | null {
@@ -28,9 +29,10 @@ function getProviderIcon(provider: WebsiteProvider) {
 export default function ProjectCard({
   project,
   index,
-  locale = 'en-US',
 }: ProjectCardProps) {
-  const description = project.description[locale] || project.description['en-US'];
+  const { language } = useLanguage();
+  const { LL } = useI18nContext();
+  const description = project.description[language] || project.description['en-US'];
   const hasGithub = !!project.repository;
   const websites = project.website ?? [];
   const screenshots = project.screenshots ?? [];
@@ -66,7 +68,7 @@ export default function ProjectCard({
               {screenshots.length}
             </span>
           )}
-          <span className="label-tech text-muted-foreground">{project.category}</span>
+          <span className="label-tech text-muted-foreground">{CATEGORY_LABEL[project.category as Category]?.[language] ?? project.category}</span>
         </div>
       </div>
 
@@ -147,7 +149,7 @@ export default function ProjectCard({
               aria-label={`${project.name} GitHub`}
             >
               <GithubIcon className="size-3" />
-              Repo
+              {LL.projectCard.repo()}
             </a>
           )}
           {websites.map((site, i) => (
@@ -160,7 +162,7 @@ export default function ProjectCard({
               aria-label={`${project.name} — ${site.provider}`}
             >
               {getProviderIcon(site.provider)}
-              {WEBSITE_PROVIDER_LABEL[site.provider]?.[locale] ?? site.provider}
+              {WEBSITE_PROVIDER_LABEL[site.provider]?.[language] ?? site.provider}
             </a>
           ))}
           {!hasGithub && websites.length === 0 && (

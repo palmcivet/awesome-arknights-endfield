@@ -1,7 +1,9 @@
 import { ARKNIGHTS_REPOSITORY_URL, ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
+import { useI18nContext } from '@/i18n/i18n-react.js';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+  const { LL } = useI18nContext();
 
   return (
     <footer className="border-t">
@@ -27,7 +29,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
           >
-            Awesome Arknights
+            {LL.footer.awesomeArknights()}
           </a>
           <a
             href={`${ENDFIELD_REPOSITORY_URL}/issues`}
@@ -35,7 +37,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
           >
-            Contribute
+            {LL.footer.contribute()}
           </a>
         </div>
       </div>

@@ -1,29 +1,45 @@
 import { Search, X } from 'lucide-react';
 import { useProjects } from '@/context/project-context';
+import { useLanguage } from '@/context/language-context';
+import { useI18nContext } from '@/i18n/i18n-react.js';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import type { Category } from '@/shared';
+import { CATEGORY_LABEL } from '@/shared';
 
 export default function SearchBox() {
   const {
     searchQuery,
     setSearchQuery,
-    selectedCategories,
-    toggleCategory,
+    selectedCategory,
+    selectCategory,
     clearFilters,
     categories,
     filteredProjects,
     projects,
   } = useProjects();
+  const { language } = useLanguage();
+  const { LL } = useI18nContext();
 
-  const hasFilters = searchQuery.trim() !== '' || selectedCategories.size > 0;
+  const hasFilters = searchQuery.trim() !== '' || selectedCategory !== null;
 
   return (
-    <section id="projects" className="mx-auto max-w-6xl border-b px-6 py-8">
-      <div className="space-y-6">
+    <section
+      id="projects"
+      className="sticky top-14 z-40 border-b bg-background"
+    >
+      <div className="mx-auto flex max-w-6xl items-center gap-4 px-6 py-3">
         {/* Search input */}
-        <div className="relative max-w-md">
+        <div className="relative max-w-md flex-1">
           <Search className="absolute left-0 top-1/2 size-3.5 -translate-y-1/2 text-muted-foreground" />
           <input
             type="search"
-            placeholder="Search projects..."
+            placeholder={LL.search.placeholder()}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="h-9 w-full border-b border-border bg-transparent pl-6 pr-8 text-sm text-foreground placeholder:text-muted-foreground focus:border-foreground focus:outline-none"
@@ -38,35 +54,31 @@ export default function SearchBox() {
           )}
         </div>
 
-        {/* Category filters + count */}
-        <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-          <span className="label-tech text-muted-foreground">
-            {filteredProjects.length}/{projects.length}
-          </span>
-
-          <div className="h-4 w-px bg-border" />
-
-          {categories
-            .filter((cat) => cat !== 'Uncategorized')
-            .map((category) => {
-              const isSelected = selectedCategories.has(category);
-
-              return (
-                <button
-                  key={category}
-                  onClick={() => toggleCategory(category)}
-                  className={`label-tech cursor-pointer select-none transition-colors ${
-                    isSelected
-                      ? 'text-foreground'
-                      : 'text-muted-foreground hover:text-foreground'
-                  }`}
-                >
-                  {isSelected && <span className="mr-1">&bull;</span>}
-                  {category}
-                </button>
-              );
-            })}
+        {/* Mobile category select */}
+        <div className="lg:hidden">
+          <Select
+            value={selectedCategory ?? ''}
+            onValueChange={(value) => selectCategory(value as Category)}
+          >
+            <SelectTrigger className="h-9 w-40 border-border text-xs">
+              <SelectValue placeholder={LL.search.category()} />
+            </SelectTrigger>
+            <SelectContent>
+              {categories
+                .filter((cat) => cat !== 'Uncategorized')
+                .map((category) => (
+                  <SelectItem key={category} value={category}>
+                    {CATEGORY_LABEL[category as Category]?.[language] ?? category}
+                  </SelectItem>
+                ))}
+            </SelectContent>
+          </Select>
         </div>
+
+        {/* Count */}
+        <span className="label-tech hidden text-muted-foreground lg:inline">
+          {filteredProjects.length}/{projects.length}
+        </span>
       </div>
     </section>
   );

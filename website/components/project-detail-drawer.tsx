@@ -1,10 +1,12 @@
 import { useEffect, useRef } from 'react';
 import { X, Globe } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
-import type { WebsiteProvider } from '@/shared';
-import { WEBSITE_PROVIDER_LABEL } from '@/shared';
+import type { Category, WebsiteProvider } from '@/shared';
+import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/context/drawer-context';
 import { useProjects } from '@/context/project-context';
+import { useLanguage } from '@/context/language-context';
+import { useI18nContext } from '@/i18n/i18n-react.js';
 import ScreenshotCarousel from '@/components/screenshot-carousel';
 
 function parseRepoName(name: string): { owner: string; repo: string } | null {
@@ -25,6 +27,8 @@ function getProviderIcon(provider: WebsiteProvider) {
 export default function ProjectDetailDrawer() {
   const { isOpen, selectedProjectId, closeDrawer } = useDrawer();
   const { projects } = useProjects();
+  const { language } = useLanguage();
+  const { LL } = useI18nContext();
   const drawerRef = useRef<HTMLDivElement>(null);
 
   const project = projects.find((p) => p.id === selectedProjectId) ?? null;
@@ -45,8 +49,7 @@ export default function ProjectDetailDrawer() {
   const websites = project.website ?? [];
   const hasGithub = !!project.repository;
   const screenshots = project.screenshots ?? [];
-  const descEn = project.description['en-US'];
-  const descZh = project.description['zh-CN'];
+  const description = project.description[language] || project.description['en-US'];
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end">
@@ -68,7 +71,7 @@ export default function ProjectDetailDrawer() {
         <button
           onClick={closeDrawer}
           className="absolute right-3 top-3 z-20 flex size-7 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
-          aria-label="Close"
+          aria-label={LL.drawer.close()}
         >
           <X className="size-4" />
         </button>
@@ -82,7 +85,7 @@ export default function ProjectDetailDrawer() {
           <div className="space-y-6 p-6">
             {/* Header */}
             <div>
-              <span className="label-tech text-muted-foreground">{project.category}</span>
+              <span className="label-tech text-muted-foreground">{CATEGORY_LABEL[project.category as Category]?.[language] ?? project.category}</span>
 
               {/* Title */}
               <h2 className="mt-2">
@@ -103,13 +106,10 @@ export default function ProjectDetailDrawer() {
               </h2>
             </div>
 
-            {/* Description — show both locales */}
+            {/* Description */}
             <div className="space-y-3">
-              {descEn && (
-                <p className="text-sm leading-relaxed text-foreground/80">{descEn}</p>
-              )}
-              {descZh && descZh !== descEn && (
-                <p className="text-sm leading-relaxed text-muted-foreground">{descZh}</p>
+              {description && (
+                <p className="text-sm leading-relaxed text-foreground/80">{description}</p>
               )}
             </div>
 
@@ -132,7 +132,7 @@ export default function ProjectDetailDrawer() {
               {project.author && (
                 <div className="flex items-baseline justify-between">
                   <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
-                    Author
+                    {LL.drawer.author()}
                   </span>
                   <span className="text-xs text-muted-foreground">
                     {project.author.url ? (
@@ -153,7 +153,7 @@ export default function ProjectDetailDrawer() {
 
               <div className="flex items-baseline justify-between">
                 <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
-                  Added
+                  {LL.drawer.added()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">{project.addedAt}</span>
               </div>
@@ -161,7 +161,7 @@ export default function ProjectDetailDrawer() {
               {project.license && (
                 <div className="flex items-baseline justify-between">
                   <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
-                    License
+                    {LL.drawer.license()}
                   </span>
                   <span className="font-mono text-xs text-muted-foreground">{project.license}</span>
                 </div>
@@ -169,10 +169,10 @@ export default function ProjectDetailDrawer() {
 
               <div className="flex items-baseline justify-between">
                 <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
-                  Source
+                  {LL.drawer.source()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">
-                  {project.openSource ? 'Open Source' : 'Closed Source'}
+                  {project.openSource ? LL.drawer.openSource() : LL.drawer.closedSource()}
                 </span>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function ProjectDetailDrawer() {
             {/* Links */}
             <div className="space-y-2 border-t border-dashed border-border pt-4">
               <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
-                Links
+                {LL.drawer.links()}
               </span>
               <div className="space-y-1.5">
                 {hasGithub && (
@@ -204,7 +204,7 @@ export default function ProjectDetailDrawer() {
                   >
                     {getProviderIcon(site.provider)}
                     <span className="shrink-0 text-foreground/40">
-                      {WEBSITE_PROVIDER_LABEL[site.provider]?.['en-US'] ?? site.provider}
+                      {WEBSITE_PROVIDER_LABEL[site.provider]?.[language] ?? site.provider}
                     </span>
                     <span className="truncate">{site.url}</span>
                   </a>

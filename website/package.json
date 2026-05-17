@@ -8,12 +8,14 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
+    "generate:i18n": "typesafe-i18n --no-watch",
     "check:list": "bun ./scripts/check.ts",
     "format:list": "bun ./scripts/format.ts",
     "generate:list": "bun ./scripts/generate.ts",
     "screenshot": "bun ./scripts/screenshot.ts"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.3.0",
     "class-variance-authority": "^0.7.1",
@@ -24,6 +26,7 @@
     "react-dom": "^19.2.6",
     "tailwind-merge": "^3.6.0",
     "tailwindcss": "^4.3.0",
+    "typesafe-i18n": "^5.27.1",
     "zod": "^4.4.3"
   },
   "devDependencies": {

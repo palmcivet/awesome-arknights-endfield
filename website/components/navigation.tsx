@@ -1,5 +1,6 @@
 import { GithubIcon } from '@/components/icons';
 import { ThemeSwitcher } from '@/components/theme-switcher';
+import { LanguageSwitcher } from '@/components/language-switcher';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
 import Logo from '@/assets/logo.svg';
 
@@ -24,6 +25,8 @@ export default function Navigation() {
             <GithubIcon className="size-3.5" />
             GitHub
           </a>
+          <div className="mx-1 h-4 w-px bg-border" />
+          <LanguageSwitcher />
           <div className="mx-1 h-4 w-px bg-border" />
           <ThemeSwitcher />
         </div>
