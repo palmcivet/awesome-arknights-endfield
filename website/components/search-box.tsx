@@ -29,10 +29,7 @@ export default function SearchBox() {
   const hasFilters = searchQuery.trim() !== '' || selectedCategory !== null;
 
   return (
-    <section
-      id="projects"
-      className="sticky top-14 z-40 border-b bg-background"
-    >
+    <section id="projects" className="sticky top-14 z-40 border-b bg-background">
       <div className="mx-auto flex max-w-6xl items-center gap-4 px-6 py-3">
         {/* Search input */}
         <div className="relative max-w-md flex-1">

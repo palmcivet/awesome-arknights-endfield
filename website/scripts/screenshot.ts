@@ -112,7 +112,7 @@ function generateSlug(name: string): string {
   const part = name.includes('/') ? name.split('/').pop()! : name;
   return part
     .toLowerCase()
-    .replace(/[^a-z0-9\-]/g, '-')
+    .replace(/[^a-z0-9-]/g, '-')
     .replace(/-+/g, '-')
     .replace(/^-|-$/g, '');
 }
@@ -276,9 +276,7 @@ async function main() {
     const rawSize = rawBuffer.byteLength;
 
     // Compress with sharp (lossless, max DEFLATE compression)
-    const compressed = await sharp(rawBuffer)
-      .png({ compressionLevel: 9 })
-      .toBuffer();
+    const compressed = await sharp(rawBuffer).png({ compressionLevel: 9 }).toBuffer();
 
     writeFileSync(outputPath, compressed);
 

@@ -10,8 +10,7 @@ const zh_CN = {
     projectCount: '{count} 个项目',
     titleLine1: 'Awesome',
     titleLine2: 'Arknights Endfield',
-    description:
-      '一个由社区维护的《明日方舟：终末地》工具、资源与社区项目的精选合集。',
+    description: '一个由社区维护的《明日方舟：终末地》工具、资源与社区项目的精选合集。',
     explore: '探索',
     github: 'GitHub',
   },

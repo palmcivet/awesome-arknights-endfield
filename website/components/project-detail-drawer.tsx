@@ -85,7 +85,10 @@ export default function ProjectDetailDrawer() {
           <div className="space-y-6 p-6">
             {/* Header */}
             <div>
-              <span className="label-tech text-muted-foreground">{CATEGORY_LABEL[project.category as Category]?.[language] ?? project.category}</span>
+              <span className="label-tech text-muted-foreground">
+                {CATEGORY_LABEL[project.category as Category]?.[language] ??
+                  project.category}
+              </span>
 
               {/* Title */}
               <h2 className="mt-2">
@@ -109,7 +112,9 @@ export default function ProjectDetailDrawer() {
             {/* Description */}
             <div className="space-y-3">
               {description && (
-                <p className="text-sm leading-relaxed text-foreground/80">{description}</p>
+                <p className="text-sm leading-relaxed text-foreground/80">
+                  {description}
+                </p>
               )}
             </div>
 
@@ -155,7 +160,9 @@ export default function ProjectDetailDrawer() {
                 <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
                   {LL.drawer.added()}
                 </span>
-                <span className="font-mono text-xs text-muted-foreground">{project.addedAt}</span>
+                <span className="font-mono text-xs text-muted-foreground">
+                  {project.addedAt}
+                </span>
               </div>
 
               {project.license && (
@@ -163,7 +170,9 @@ export default function ProjectDetailDrawer() {
                   <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
                     {LL.drawer.license()}
                   </span>
-                  <span className="font-mono text-xs text-muted-foreground">{project.license}</span>
+                  <span className="font-mono text-xs text-muted-foreground">
+                    {project.license}
+                  </span>
                 </div>
               )}
 

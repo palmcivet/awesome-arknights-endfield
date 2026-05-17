@@ -27,9 +27,7 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
 
     // Filter by category
     if (selectedCategory) {
-      filtered = filtered.filter(
-        (project) => project.category === selectedCategory
-      );
+      filtered = filtered.filter((project) => project.category === selectedCategory);
     }
 
     // Filter by search query

@@ -26,10 +26,7 @@ function getProviderIcon(provider: WebsiteProvider) {
   }
 }
 
-export default function ProjectCard({
-  project,
-  index,
-}: ProjectCardProps) {
+export default function ProjectCard({ project, index }: ProjectCardProps) {
   const { language } = useLanguage();
   const { LL } = useI18nContext();
   const description = project.description[language] || project.description['en-US'];
@@ -68,7 +65,9 @@ export default function ProjectCard({
               {screenshots.length}
             </span>
           )}
-          <span className="label-tech text-muted-foreground">{CATEGORY_LABEL[project.category as Category]?.[language] ?? project.category}</span>
+          <span className="label-tech text-muted-foreground">
+            {CATEGORY_LABEL[project.category as Category]?.[language] ?? project.category}
+          </span>
         </div>
       </div>
 

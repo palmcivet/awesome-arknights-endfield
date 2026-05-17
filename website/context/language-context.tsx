@@ -21,7 +21,8 @@ function detectInitialLanguage(): Language {
   if (stored && (LANGUAGES as readonly string[]).includes(stored)) return stored;
 
   const browserLang = navigator.language;
-  if ((LANGUAGES as readonly string[]).includes(browserLang)) return browserLang as Language;
+  if ((LANGUAGES as readonly string[]).includes(browserLang))
+    return browserLang as Language;
 
   const prefix = browserLang.split('-')[0];
   const match = LANGUAGES.find((l) => l.startsWith(prefix));
@@ -39,7 +40,13 @@ loadAllLocales();
  * subsequent prop changes. This component must be rendered *inside* TypesafeI18n
  * so it can call the context's `setLocale`.
  */
-function I18nLocaleSyncer({ language, children }: { language: Language; children: ReactNode }) {
+function I18nLocaleSyncer({
+  language,
+  children,
+}: {
+  language: Language;
+  children: ReactNode;
+}) {
   const { setLocale } = useI18nContext();
 
   useEffect(() => {
