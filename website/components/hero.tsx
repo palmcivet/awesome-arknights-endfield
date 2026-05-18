@@ -7,17 +7,16 @@ import { useI18nContext } from '@/i18n/i18n-react.js';
 export default function Hero() {
   const { projects } = useProjects();
   const { LL } = useI18nContext();
-  const projectCount = projects.filter((p) => p.id !== 0).length;
 
   return (
-    <section className="relative border-b">
+    <section className="relative">
       {/* Dot grid background */}
       <div className="bg-dot-grid absolute inset-0 -z-10" />
 
-      <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+      <div className="mx-auto max-w-6xl px-6 py-6 sm:pt-12 sm:pb-8">
         {/* Top label */}
         <p className="label-tech mb-6 text-muted-foreground">
-          {LL.hero.label()} &middot; {LL.hero.projectCount({ count: projectCount })}
+          {LL.hero.label()} &middot; {LL.hero.projectCount({ count: projects.length })}
         </p>
 
         {/* Title */}

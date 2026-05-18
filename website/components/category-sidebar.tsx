@@ -21,7 +21,7 @@ export default function CategorySidebar() {
 
   return (
     <aside className="hidden w-44 shrink-0 lg:block">
-      <nav className="sticky top-29 space-y-1 py-2">
+      <nav className="sticky top-20 space-y-1 py-2">
         <div className="mb-3 flex items-center justify-between">
           <span className="label-tech text-muted-foreground">
             {filteredProjects.length}/{projects.length}

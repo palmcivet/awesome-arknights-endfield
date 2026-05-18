@@ -2,6 +2,7 @@ import { createContext, useContext, useState, useMemo, type ReactNode } from 're
 import type { Project } from '@/shared';
 import { CATEGORIES, type Category } from '@/shared';
 import projectsData from '@data/LIST.json';
+import { filterValidProjects } from '@/helpers';
 
 interface ProjectContextValue {
   projects: Project[];
@@ -20,7 +21,7 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
 
-  const projects = useMemo(() => projectsData as Project[], []);
+  const projects = useMemo(() => filterValidProjects(projectsData), []);
 
   const filteredProjects = useMemo(() => {
     let filtered = projects;
