@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { readFileSync } from 'fs';
 import { fileURLToPath } from 'node:url';
 import chalk from 'chalk';

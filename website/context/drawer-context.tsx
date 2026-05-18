@@ -24,7 +24,9 @@ export function DrawerProvider({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <DrawerContext.Provider value={{ isOpen, selectedProjectId, openDrawer, closeDrawer }}>
+    <DrawerContext.Provider
+      value={{ isOpen, selectedProjectId, openDrawer, closeDrawer }}
+    >
       {children}
     </DrawerContext.Provider>
   );

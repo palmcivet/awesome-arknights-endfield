@@ -1,13 +1,18 @@
 import { useState, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useI18nContext } from '@/i18n/i18n-react.js';
 
 interface ScreenshotCarouselProps {
   screenshots: string[];
   projectName: string;
 }
 
-export default function ScreenshotCarousel({ screenshots, projectName }: ScreenshotCarouselProps) {
+export default function ScreenshotCarousel({
+  screenshots,
+  projectName,
+}: ScreenshotCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { LL } = useI18nContext();
   const count = screenshots.length;
 
   const prev = useCallback(() => {
@@ -21,12 +26,17 @@ export default function ScreenshotCarousel({ screenshots, projectName }: Screens
   if (count === 0) {
     return (
       <div className="bg-hatch flex aspect-video w-full items-center justify-center border-b border-border">
-        <span className="font-mono text-xs text-foreground/20">No screenshots</span>
+        <span className="font-mono text-xs text-foreground/20">
+          {LL.drawer.noScreenshots()}
+        </span>
       </div>
     );
   }
 
-  const src = new URL(`../../data/screenshots/${screenshots[currentIndex]}`, import.meta.url).href;
+  const src = new URL(
+    `../../data/screenshots/${screenshots[currentIndex]}`,
+    import.meta.url
+  ).href;
 
   return (
     <div className="relative border-b border-border">

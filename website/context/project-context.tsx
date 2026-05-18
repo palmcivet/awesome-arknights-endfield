@@ -2,14 +2,15 @@ import { createContext, useContext, useState, useMemo, type ReactNode } from 're
 import type { Project } from '@/shared';
 import { CATEGORIES, type Category } from '@/shared';
 import projectsData from '@data/LIST.json';
+import { filterValidProjects } from '@/helpers';
 
 interface ProjectContextValue {
   projects: Project[];
   filteredProjects: Project[];
   searchQuery: string;
   setSearchQuery: (query: string) => void;
-  selectedCategories: Set<Category>;
-  toggleCategory: (category: Category) => void;
+  selectedCategory: Category | null;
+  selectCategory: (category: Category | null) => void;
   clearFilters: () => void;
   categories: readonly Category[];
 }
@@ -18,18 +19,16 @@ const ProjectContext = createContext<ProjectContextValue | undefined>(undefined)
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategories, setSelectedCategories] = useState<Set<Category>>(new Set());
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(null);
 
-  const projects = useMemo(() => projectsData as Project[], []);
+  const projects = useMemo(() => filterValidProjects(projectsData), []);
 
   const filteredProjects = useMemo(() => {
     let filtered = projects;
 
-    // Filter by categories
-    if (selectedCategories.size > 0) {
-      filtered = filtered.filter((project) =>
-        selectedCategories.has(project.category as Category)
-      );
+    // Filter by category
+    if (selectedCategory) {
+      filtered = filtered.filter((project) => project.category === selectedCategory);
     }
 
     // Filter by search query
@@ -47,23 +46,15 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
     }
 
     return filtered;
-  }, [projects, searchQuery, selectedCategories]);
+  }, [projects, searchQuery, selectedCategory]);
 
-  const toggleCategory = (category: Category) => {
-    setSelectedCategories((prev) => {
-      const next = new Set(prev);
-      if (next.has(category)) {
-        next.delete(category);
-      } else {
-        next.add(category);
-      }
-      return next;
-    });
+  const selectCategory = (category: Category | null) => {
+    setSelectedCategory((prev) => (prev === category ? null : category));
   };
 
   const clearFilters = () => {
     setSearchQuery('');
-    setSelectedCategories(new Set());
+    setSelectedCategory(null);
   };
 
   return (
@@ -73,8 +64,8 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
         filteredProjects,
         searchQuery,
         setSearchQuery,
-        selectedCategories,
-        toggleCategory,
+        selectedCategory,
+        selectCategory,
         clearFilters,
         categories: CATEGORIES,
       }}
