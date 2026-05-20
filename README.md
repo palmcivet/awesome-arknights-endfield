@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-43-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-44-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
-  - A Discord bot for Arknights: Endfield featuring gacha simulation, pull history sync, daily check-in, player profiles, and news feed.
-
 - [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
   - A cross-platform open-source toolbox for the SKLAND/SKPORT Endfield Wiki, built with Tauri v2.
 
@@ -70,6 +67,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - [Home Page](https://reend.vallov.com/)
   - A community-maintained resource hub for Arknights: Endfield, featuring operator tier lists, pity and banner mechanics, team building guides, and beginner tips.
+
+- [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
+  - A neural network-driven gacha pull simulator for Arknights: Endfield, using deep learning (DBN, DQN, PPO) to model gacha mechanics with SIMD acceleration.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

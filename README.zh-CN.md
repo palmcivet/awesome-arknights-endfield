@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-43-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-44-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [yeci226/endfield-discord-bot](https://github.com/yeci226/endfield-discord-bot)
-  - 《明日方舟：终末地》Discord 机器人，支持抽卡模拟、抽卡记录同步、每日签到、玩家档案和新闻推送。
-
 - [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
   - 一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。
 
@@ -71,6 +68,9 @@
   - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - [主页](https://reend.vallov.com/)
   - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
+
+- [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
+  - 基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

@@ -1078,5 +1078,26 @@
     "id": 43,
     "addedAt": "2026-05-17",
     "openSource": true
+  },
+  {
+    "name": "zayokami/Talos-XII",
+    "description": {
+      "en-US": "A neural network-driven gacha pull simulator for Arknights: Endfield, using deep learning (DBN, DQN, PPO) to model gacha mechanics with SIMD acceleration.",
+      "zh-CN": "基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。"
+    },
+    "repository": "https://github.com/zayokami/Talos-XII",
+    "author": {
+      "name": "zayokami",
+      "url": "https://github.com/zayokami"
+    },
+    "category": "Gacha",
+    "tags": [
+      "Simulator",
+      "Gacha"
+    ],
+    "id": 44,
+    "addedAt": "2026-05-20",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

@@ -158,6 +158,9 @@
   - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
   - A local-first pull tracker for Arknights: Endfield, packaged as a single HTML file with WebRTC-based cross-device sync.
 
+- [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
+  - A neural network-driven gacha pull simulator for Arknights: Endfield, using deep learning (DBN, DQN, PPO) to model gacha mechanics with SIMD acceleration.
+
 ## Game Utilities
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

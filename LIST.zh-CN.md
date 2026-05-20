@@ -158,6 +158,9 @@
   - [GitHub Pages](https://mmgfrcs.github.io/ake-tracker/)
   - 一个本地优先的《明日方舟：终末地》抽卡记录追踪器，打包为单个 HTML 文件，支持基于 WebRTC 的跨设备同步。
 
+- [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
+  - 基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。
+
 ## 游戏工具
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)
