@@ -24,17 +24,17 @@ const zh_CN = {
     clear: '清除',
   },
 
-  projectCard: {
-    repo: 'Repo',
-  },
+  projectCard: {},
 
   drawer: {
     close: '关闭',
+    index: '序号',
     author: '作者',
-    added: '添加时间',
+    added: '收录时间',
     license: '许可证',
     source: '开源状态',
-    links: '链接',
+    repository: '仓库',
+    websites: '网站',
     openSource: '开源',
     closedSource: '闭源',
     noScreenshots: '暂无截图',

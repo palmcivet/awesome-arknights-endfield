@@ -46,11 +46,7 @@ export default function SearchBox({ onVisibilityChange }: SearchBoxProps) {
   }, [onVisibilityChange]);
 
   return (
-    <div
-      ref={ref}
-      id="projects"
-      className="mb-6 flex items-center gap-3 scroll-mt-20"
-    >
+    <div ref={ref} id="projects" className="mb-6 flex items-center gap-3 scroll-mt-20">
       {/* Search input */}
       <div className="relative max-w-md flex-1">
         <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />

@@ -68,16 +68,16 @@ type RootTranslation = {
 		clear: string
 	}
 	projectCard: {
-		/**
-		 * R​e​p​o
-		 */
-		repo: string
 	}
 	drawer: {
 		/**
 		 * C​l​o​s​e
 		 */
 		close: string
+		/**
+		 * N​o​.
+		 */
+		index: string
 		/**
 		 * A​u​t​h​o​r
 		 */
@@ -95,9 +95,13 @@ type RootTranslation = {
 		 */
 		source: string
 		/**
-		 * L​i​n​k​s
+		 * R​e​p​o​s​i​t​o​r​y
 		 */
-		links: string
+		repository: string
+		/**
+		 * W​e​b​s​i​t​e​s
+		 */
+		websites: string
 		/**
 		 * O​p​e​n​ ​S​o​u​r​c​e
 		 */
@@ -211,16 +215,16 @@ export type TranslationFunctions = {
 		clear: () => LocalizedString
 	}
 	projectCard: {
-		/**
-		 * Repo
-		 */
-		repo: () => LocalizedString
 	}
 	drawer: {
 		/**
 		 * Close
 		 */
 		close: () => LocalizedString
+		/**
+		 * No.
+		 */
+		index: () => LocalizedString
 		/**
 		 * Author
 		 */
@@ -238,9 +242,13 @@ export type TranslationFunctions = {
 		 */
 		source: () => LocalizedString
 		/**
-		 * Links
+		 * Repository
 		 */
-		links: () => LocalizedString
+		repository: () => LocalizedString
+		/**
+		 * Websites
+		 */
+		websites: () => LocalizedString
 		/**
 		 * Open Source
 		 */

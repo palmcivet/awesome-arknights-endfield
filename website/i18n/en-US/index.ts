@@ -30,18 +30,18 @@ const en_US = {
   },
 
   // Project card
-  projectCard: {
-    repo: 'Repo',
-  },
+  projectCard: {},
 
   // Project detail drawer
   drawer: {
     close: 'Close',
+    index: 'No.',
     author: 'Author',
     added: 'Added',
     license: 'License',
     source: 'Source',
-    links: 'Links',
+    repository: 'Repository',
+    websites: 'Websites',
     openSource: 'Open Source',
     closedSource: 'Closed Source',
     noScreenshots: 'No screenshots',
