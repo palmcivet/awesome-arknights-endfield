@@ -1,7 +1,7 @@
 import { ArrowDown } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
-import { useProjects } from '@/context/project-context';
+import { useProjects } from '@/hooks/use-projects';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 
 export default function Hero() {

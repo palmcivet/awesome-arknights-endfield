@@ -3,9 +3,9 @@ import { X, Globe } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
 import type { Category, WebsiteProvider } from '@/shared';
 import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
-import { useDrawer } from '@/context/drawer-context';
-import { useProjects } from '@/context/project-context';
-import { useLanguage } from '@/context/language-context';
+import { useDrawer } from '@/hooks/use-drawer';
+import { useProjects } from '@/hooks/use-projects';
+import { useLanguage } from '@/hooks/use-language';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 import ScreenshotCarousel from '@/components/screenshot-carousel';
 
@@ -217,7 +217,7 @@ export default function ProjectDetailDrawer() {
             {websites.length > 0 && (
               <div className="drawer-section-divider space-y-2 border-t border-dashed border-border pt-4">
                 <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
-                  {LL.drawer.websites()}
+                  {LL.drawer.links()}
                 </span>
                 <div className="space-y-1.5">
                   {websites.map((site, i) => {

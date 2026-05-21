@@ -1,13 +1,5 @@
-import { createContext, useContext, useState, useCallback, type ReactNode } from 'react';
-
-interface DrawerContextValue {
-  isOpen: boolean;
-  selectedProjectId: number | null;
-  openDrawer: (projectId: number) => void;
-  closeDrawer: () => void;
-}
-
-const DrawerContext = createContext<DrawerContextValue | undefined>(undefined);
+import { useState, useCallback, type ReactNode } from 'react';
+import { DrawerContext } from '@/hooks/use-drawer';
 
 export function DrawerProvider({ children }: { children: ReactNode }) {
   const [selectedProjectId, setSelectedProjectId] = useState<number | null>(null);
@@ -30,12 +22,4 @@ export function DrawerProvider({ children }: { children: ReactNode }) {
       {children}
     </DrawerContext.Provider>
   );
-}
-
-export function useDrawer() {
-  const context = useContext(DrawerContext);
-  if (!context) {
-    throw new Error('useDrawer must be used within a DrawerProvider');
-  }
-  return context;
 }

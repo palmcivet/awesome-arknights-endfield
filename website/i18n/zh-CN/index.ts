@@ -34,7 +34,7 @@ const zh_CN = {
     license: '许可证',
     source: '开源状态',
     repository: '仓库',
-    websites: '网站',
+    links: '链接',
     openSource: '开源',
     closedSource: '闭源',
     noScreenshots: '暂无截图',

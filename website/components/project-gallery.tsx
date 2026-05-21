@@ -1,4 +1,4 @@
-import { useProjects } from '@/context/project-context';
+import { useProjects } from '@/hooks/use-projects';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 import ProjectCard from '@/components/project-card';
 

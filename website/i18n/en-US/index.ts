@@ -41,7 +41,7 @@ const en_US = {
     license: 'License',
     source: 'Source',
     repository: 'Repository',
-    websites: 'Websites',
+    links: 'Links',
     openSource: 'Open Source',
     closedSource: 'Closed Source',
     noScreenshots: 'No screenshots',

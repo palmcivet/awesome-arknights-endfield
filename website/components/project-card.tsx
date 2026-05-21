@@ -2,8 +2,8 @@ import { Globe } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
 import type { Category, Project, WebsiteProvider } from '@/shared';
 import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
-import { useDrawer } from '@/context/drawer-context';
-import { useLanguage } from '@/context/language-context';
+import { useDrawer } from '@/hooks/use-drawer';
+import { useLanguage } from '@/hooks/use-language';
 
 interface ProjectCardProps {
   project: Project;

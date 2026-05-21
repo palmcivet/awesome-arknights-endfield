@@ -99,9 +99,9 @@ type RootTranslation = {
 		 */
 		repository: string
 		/**
-		 * W​e​b​s​i​t​e​s
+		 * L​i​n​k​s
 		 */
-		websites: string
+		links: string
 		/**
 		 * O​p​e​n​ ​S​o​u​r​c​e
 		 */
@@ -246,9 +246,9 @@ export type TranslationFunctions = {
 		 */
 		repository: () => LocalizedString
 		/**
-		 * Websites
+		 * Links
 		 */
-		websites: () => LocalizedString
+		links: () => LocalizedString
 		/**
 		 * Open Source
 		 */

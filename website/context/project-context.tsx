@@ -1,21 +1,8 @@
-import { createContext, useContext, useState, useMemo, type ReactNode } from 'react';
-import type { Project } from '@/shared';
+import { useState, useMemo, type ReactNode } from 'react';
 import { CATEGORIES, type Category } from '@/shared';
 import projectsData from '@data/LIST.json';
 import { filterValidProjects } from '@/helpers';
-
-interface ProjectContextValue {
-  projects: Project[];
-  filteredProjects: Project[];
-  searchQuery: string;
-  setSearchQuery: (query: string) => void;
-  selectedCategory: Category | null;
-  selectCategory: (category: Category | null) => void;
-  clearFilters: () => void;
-  categories: readonly Category[];
-}
-
-const ProjectContext = createContext<ProjectContextValue | undefined>(undefined);
+import { ProjectContext } from '@/hooks/use-projects';
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -73,12 +60,4 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
       {children}
     </ProjectContext.Provider>
   );
-}
-
-export function useProjects() {
-  const context = useContext(ProjectContext);
-  if (!context) {
-    throw new Error('useProjects must be used within a ProjectProvider');
-  }
-  return context;
 }

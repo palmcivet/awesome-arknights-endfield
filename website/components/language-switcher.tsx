@@ -1,5 +1,5 @@
 import { Languages } from 'lucide-react';
-import { useLanguage } from '@/context/language-context';
+import { useLanguage } from '@/hooks/use-language';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 import { LANGUAGES } from '@/shared/locales';
 import type { Language } from '@/shared/locales';

@@ -11,8 +11,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select';
-import { useProjects } from '@/context/project-context';
-import { useLanguage } from '@/context/language-context';
+import { useProjects } from '@/hooks/use-projects';
+import { useLanguage } from '@/hooks/use-language';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
 import type { Category } from '@/shared';

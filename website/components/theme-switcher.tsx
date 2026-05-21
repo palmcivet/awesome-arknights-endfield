@@ -1,5 +1,5 @@
 import { Moon, Sun } from 'lucide-react';
-import { useTheme } from '@/context/theme-context';
+import { useTheme } from '@/hooks/use-theme';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 
 export function ThemeSwitcher() {
