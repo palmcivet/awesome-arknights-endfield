@@ -51,8 +51,8 @@
   - 一个运行在浏览器里的《集成工业》产线布置与仿真工具。
 
 - [sssxks/end-cli](https://github.com/sssxks/end-cli)
-  - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - [Cloudflare](https://end-8jk.pages.dev/)
+  - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - 源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。
 
 ## 地图与攻略
@@ -83,8 +83,8 @@
   - 终末地拼图解谜工具
 
 - [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
-  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - [主页](https://reend.vallov.com/)
+  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
 
 ## 同人创作
@@ -99,13 +99,13 @@
   - 终末地同人项目，提供 AI 生成插图的网页展示。
 
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
-  - [Vercel](https://baker-dx.vercel.app/)
   - [主页](https://baker.wanye7300.xyz)
+  - [Vercel](https://baker-dx.vercel.app/)
   - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
 
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
-  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
   - [Cloudflare](https://endfield-docmaker.phi.zone/)
+  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
   - [Vercel](https://endfield.phi.zone/docmaker/)
   - 一个基于浏览器的《明日方舟：终末地》游戏内风格文件生成工具，支持实时 PDF 预览、Typst 排版和多种模板。
 

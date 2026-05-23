@@ -65,8 +65,8 @@
   - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
 
 - [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
-  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - [主页](https://reend.vallov.com/)
+  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
 
 - [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)

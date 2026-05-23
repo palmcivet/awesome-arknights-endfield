@@ -51,8 +51,8 @@
   - A browser-based production line layout and simulation tool for Arknights: Endfield's Integrated Industry system.
 
 - [sssxks/end-cli](https://github.com/sssxks/end-cli)
-  - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - [Cloudflare](https://end-8jk.pages.dev/)
+  - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.
 
 ## Maps & Guides
@@ -83,8 +83,8 @@
   - Endfield puzzle solving tool.
 
 - [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
-  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - [Home Page](https://reend.vallov.com/)
+  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - A community-maintained resource hub for Arknights: Endfield, featuring operator tier lists, pity and banner mechanics, team building guides, and beginner tips.
 
 ## Fan Creations
@@ -99,13 +99,13 @@
   - Fan-made Endfield-themed website featuring AI-generated illustration.
 
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
-  - [Vercel](https://baker-dx.vercel.app/)
   - [Home Page](https://baker.wanye7300.xyz)
+  - [Vercel](https://baker-dx.vercel.app/)
   - A Baker clone project based on Dioxus with session editing and playback functions.
 
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
-  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
   - [Cloudflare](https://endfield-docmaker.phi.zone/)
+  - [GitHub Pages](https://naptie.github.io/endfield-docmaker/)
   - [Vercel](https://endfield.phi.zone/docmaker/)
   - A browser-based tool for generating in-game-style documents from Arknights: Endfield, featuring real-time PDF preview, Typst markup support, and multiple templates.
 

@@ -734,12 +734,12 @@
     },
     "website": [
       {
-        "provider": "Vercel",
-        "url": "https://baker-dx.vercel.app/"
-      },
-      {
         "provider": "Custom",
         "url": "https://baker.wanye7300.xyz"
+      },
+      {
+        "provider": "Vercel",
+        "url": "https://baker-dx.vercel.app/"
       }
     ],
     "repository": "https://github.com/Wanye-7300/baker-dx",
@@ -793,12 +793,12 @@
     "repository": "https://github.com/sssxks/end-cli",
     "website": [
       {
-        "provider": "GitHub Pages",
-        "url": "https://sssxks.github.io/end-cli/"
-      },
-      {
         "provider": "Cloudflare",
         "url": "https://end-8jk.pages.dev/"
+      },
+      {
+        "provider": "GitHub Pages",
+        "url": "https://sssxks.github.io/end-cli/"
       }
     ],
     "author": {
@@ -891,12 +891,12 @@
     "repository": "https://github.com/Naptie/endfield-docmaker",
     "website": [
       {
-        "provider": "GitHub Pages",
-        "url": "https://naptie.github.io/endfield-docmaker/"
-      },
-      {
         "provider": "Cloudflare",
         "url": "https://endfield-docmaker.phi.zone/"
+      },
+      {
+        "provider": "GitHub Pages",
+        "url": "https://naptie.github.io/endfield-docmaker/"
       },
       {
         "provider": "Vercel",
@@ -1058,12 +1058,12 @@
     "repository": "https://github.com/Kirukata27/arknights-endfield-resources",
     "website": [
       {
-        "provider": "GitHub Pages",
-        "url": "https://kirukata27.github.io/arknights-endfield-resources/"
-      },
-      {
         "provider": "Custom",
         "url": "https://reend.vallov.com/"
+      },
+      {
+        "provider": "GitHub Pages",
+        "url": "https://kirukata27.github.io/arknights-endfield-resources/"
       }
     ],
     "author": {
