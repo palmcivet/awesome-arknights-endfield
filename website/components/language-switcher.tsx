@@ -1,13 +1,7 @@
 import { Languages } from 'lucide-react';
 import { useLanguage } from '@/hooks/use-language';
 import { useI18nContext } from '@/i18n/i18n-react.js';
-import { LANGUAGES } from '@/shared/locales';
-import type { Language } from '@/shared/locales';
-
-const LANGUAGE_DISPLAY: Record<Language, string> = {
-  'en-US': 'EN',
-  'zh-CN': '中',
-};
+import { LANGUAGE_LABEL, LANGUAGES } from '@/shared/locales';
 
 export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();
@@ -26,7 +20,7 @@ export function LanguageSwitcher() {
       aria-label={LL.language.label()}
     >
       <Languages className="size-3.5" />
-      {LANGUAGE_DISPLAY[language]}
+      {LANGUAGE_LABEL[language]}
     </button>
   );
 }

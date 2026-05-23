@@ -39,123 +39,100 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background">
-      <div className="mx-auto flex h-14 max-w-6xl items-center px-6">
-        {showSearch ? (
-          <div
-            key="search"
-            className="flex w-full items-center animate-in fade-in duration-200"
+      <div className="mx-auto flex h-nav max-w-6xl items-center px-container-px md:px-container-px-md">
+        {/* Left: Logo — always visible, never moves */}
+        <div className="hidden w-sidebar shrink-0 items-center gap-2.5 lg:flex">
+          <a
+            className="flex shrink-0 items-center gap-2.5"
+            href="/"
+            aria-label="Home"
           >
-            {/* Mirror content area layout: sidebar width (w-44) + gap (gap-8) */}
-            <div className="hidden w-44 shrink-0 items-center gap-2.5 lg:flex">
-              <a
-                className="flex shrink-0 items-center gap-2.5"
-                href="/"
-                aria-label="Home"
+            <img src={Logo} alt="" className="h-5 opacity-80" />
+            <span className="label-tech text-foreground/80">Arknights Endfield</span>
+          </a>
+        </div>
+        {/* Mobile logo */}
+        <a
+          className="flex shrink-0 items-center gap-2.5 lg:hidden"
+          href="/"
+          aria-label="Home"
+        >
+          <img src={Logo} alt="" className="h-5 opacity-80" />
+          <span className="label-tech text-foreground/80 hidden sm:inline">
+            Arknights Endfield
+          </span>
+        </a>
+
+        {/* Center: Search input — slides up into place */}
+        <div
+          className={`flex flex-1 items-center gap-3 transition-[opacity,transform] duration-250 lg:pl-layout-gap ${
+            showSearch
+              ? 'translate-y-0 opacity-100'
+              : 'pointer-events-none translate-y-2 opacity-0'
+          }`}
+          style={{ transitionTimingFunction: 'cubic-bezier(0.16, 1, 0.3, 1)' }}
+        >
+          <div className="relative max-w-md flex-1">
+            <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+            <Input
+              type="text"
+              placeholder={LL.search.placeholder()}
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-9 pr-9"
+              tabIndex={showSearch ? 0 : -1}
+            />
+            {hasFilters && (
+              <Button
+                variant="ghost"
+                size="icon-sm"
+                onClick={clearFilters}
+                className="absolute right-1 top-1/2 -translate-y-1/2"
+                tabIndex={showSearch ? 0 : -1}
               >
-                <img src={Logo} alt="" className="h-5 opacity-80" />
-                <span className="label-tech text-foreground/80">Arknights Endfield</span>
-              </a>
-            </div>
-            {/* Mobile: show logo inline */}
-            <a
-              className="flex shrink-0 items-center lg:hidden"
-              href="/"
-              aria-label="Home"
+                <X className="size-3.5" />
+              </Button>
+            )}
+          </div>
+
+          {/* Mobile category select */}
+          <div className="lg:hidden">
+            <Select
+              value={selectedCategory ?? ''}
+              onValueChange={(value) => selectCategory(value as Category)}
             >
-              <img src={Logo} alt="" className="h-5 opacity-80" />
-            </a>
-
-            {/* Search input — mirrors content column position */}
-            <div className="flex flex-1 items-center gap-3 lg:pl-8">
-              <div className="relative max-w-md flex-1">
-                <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
-                <Input
-                  type="text"
-                  placeholder={LL.search.placeholder()}
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="pl-9 pr-9"
-                />
-                {hasFilters && (
-                  <Button
-                    variant="ghost"
-                    size="icon-sm"
-                    onClick={clearFilters}
-                    className="absolute right-1 top-1/2 -translate-y-1/2"
-                  >
-                    <X className="size-3.5" />
-                  </Button>
-                )}
-              </div>
-
-              {/* Mobile category select */}
-              <div className="lg:hidden">
-                <Select
-                  value={selectedCategory ?? ''}
-                  onValueChange={(value) => selectCategory(value as Category)}
-                >
-                  <SelectTrigger className="h-9 w-28 shrink-0 border-border text-xs">
-                    <SelectValue placeholder={LL.search.category()} />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {categories
-                      .filter((cat) => cat !== 'Uncategorized')
-                      .map((category) => (
-                        <SelectItem key={category} value={category}>
-                          {CATEGORY_LABEL[category as Category]?.[language] ?? category}
-                        </SelectItem>
-                      ))}
-                  </SelectContent>
-                </Select>
-              </div>
-            </div>
-
-            {/* Right: Links */}
-            <div className="flex shrink-0 items-center">
-              <a
-                href={ENDFIELD_REPOSITORY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="label-tech flex items-center gap-1.5 px-3 py-2 text-muted-foreground transition-colors hover:text-foreground"
-              >
-                <GithubIcon className="size-3.5" />
-                GitHub
-              </a>
-              <div className="mx-1 h-4 w-px bg-border" />
-              <LanguageSwitcher />
-              <div className="mx-1 h-4 w-px bg-border" />
-              <ThemeSwitcher />
-            </div>
+              <SelectTrigger className="h-9 w-28 shrink-0 border-border text-xs">
+                <SelectValue placeholder={LL.search.category()} />
+              </SelectTrigger>
+              <SelectContent>
+                {categories
+                  .filter((cat) => cat !== 'Uncategorized')
+                  .map((category) => (
+                    <SelectItem key={category} value={category}>
+                      {CATEGORY_LABEL[category as Category]?.[language] ?? category}
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
           </div>
-        ) : (
-          <div
-            key="default"
-            className="flex w-full items-center justify-between animate-in fade-in duration-200"
+        </div>
+
+        {/* Right: Links — always visible, never moves */}
+        <div className="flex shrink-0 items-center">
+          <a
+            href={ENDFIELD_REPOSITORY_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="label-tech flex items-center gap-1.5 px-3 py-2 text-muted-foreground transition-colors hover:text-foreground"
           >
-            {/* Left: Logo */}
-            <a className="flex items-center gap-2.5" href="/" aria-label="Home">
-              <img src={Logo} alt="" className="h-5 opacity-80" />
-              <span className="label-tech text-foreground/80">Arknights Endfield</span>
-            </a>
-
-            {/* Right: Links */}
-            <div className="flex items-center">
-              <a
-                href={ENDFIELD_REPOSITORY_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="label-tech flex items-center gap-1.5 px-3 py-2 text-muted-foreground transition-colors hover:text-foreground"
-              >
-                <GithubIcon className="size-3.5" />
-                GitHub
-              </a>
-              <div className="mx-1 h-4 w-px bg-border" />
-              <LanguageSwitcher />
-              <div className="mx-1 h-4 w-px bg-border" />
-              <ThemeSwitcher />
-            </div>
-          </div>
-        )}
+            <GithubIcon className="size-3.5" />
+            GitHub
+          </a>
+          <div className="mx-1 h-4 w-px bg-border" />
+          <LanguageSwitcher />
+          <div className="mx-1 h-4 w-px bg-border" />
+          <ThemeSwitcher />
+        </div>
       </div>
     </nav>
   );

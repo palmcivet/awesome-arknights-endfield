@@ -37,16 +37,22 @@ export default function SearchBox({ onVisibilityChange }: SearchBoxProps) {
   useEffect(() => {
     const el = ref.current;
     if (!el || !onVisibilityChange) return;
+
+    // Derive rootMargin from the actual sticky nav height so it stays
+    // in sync automatically if the nav's padding/height changes.
+    const nav = document.querySelector('nav');
+    const navHeight = nav ? nav.getBoundingClientRect().height : 0;
+
     const observer = new IntersectionObserver(
       ([entry]) => onVisibilityChange(entry.isIntersecting),
-      { threshold: 0 }
+      { threshold: 0, rootMargin: `-${navHeight}px 0px 0px 0px` }
     );
     observer.observe(el);
     return () => observer.disconnect();
   }, [onVisibilityChange]);
 
   return (
-    <div ref={ref} id="projects" className="mb-6 flex items-center gap-3 scroll-mt-20">
+    <div ref={ref} id="projects" className="mb-6 flex items-center gap-3 scroll-mt-sticky-offset">
       {/* Search input */}
       <div className="relative max-w-md flex-1">
         <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />

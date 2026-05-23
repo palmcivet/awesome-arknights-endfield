@@ -17,8 +17,8 @@ export default function App() {
     <>
       <Navigation showSearch={!searchBoxVisible} />
       <Hero />
-      <section className="mx-auto max-w-6xl px-6 py-8">
-        <div className="flex gap-8">
+      <section className="mx-auto max-w-6xl px-container-px py-8 md:px-container-px-md">
+        <div className="flex gap-layout-gap">
           <CategorySidebar />
           <div className="min-w-0 flex-1">
             <SearchBox onVisibilityChange={handleVisibilityChange} />
