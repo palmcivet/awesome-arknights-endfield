@@ -22,14 +22,18 @@ type RootTranslation = {
 	}
 	hero: {
 		/**
-		 * C​o​m​m​u​n​i​t​y​ ​R​e​s​o​u​r​c​e​s
+		 * P​r​o​j​e​c​t​s
 		 */
-		label: string
+		projects: string
 		/**
-		 * {​c​o​u​n​t​}​ ​P​r​o​j​e​c​t​s
-		 * @param {unknown} count
+		 * C​a​t​e​g​o​r​i​e​s
 		 */
-		projectCount: RequiredParams<'count'>
+		categories: string
+		/**
+		 * U​p​d​a​t​e​d​ ​{​d​a​t​e​}
+		 * @param {unknown} date
+		 */
+		updated: RequiredParams<'date'>
 		/**
 		 * A​w​e​s​o​m​e
 		 */
@@ -61,6 +65,16 @@ type RootTranslation = {
 		 */
 		category: string
 	}
+	sort: {
+		/**
+		 * N​e​w​e​s​t
+		 */
+		newest: string
+		/**
+		 * N​a​m​e
+		 */
+		name: string
+	}
 	sidebar: {
 		/**
 		 * C​l​e​a​r
@@ -68,6 +82,10 @@ type RootTranslation = {
 		clear: string
 	}
 	projectCard: {
+		/**
+		 * N​E​W
+		 */
+		'new': string
 	}
 	drawer: {
 		/**
@@ -170,13 +188,17 @@ export type TranslationFunctions = {
 	}
 	hero: {
 		/**
-		 * Community Resources
+		 * Projects
 		 */
-		label: () => LocalizedString
+		projects: () => LocalizedString
 		/**
-		 * {count} Projects
+		 * Categories
 		 */
-		projectCount: (arg: { count: unknown }) => LocalizedString
+		categories: () => LocalizedString
+		/**
+		 * Updated {date}
+		 */
+		updated: (arg: { date: unknown }) => LocalizedString
 		/**
 		 * Awesome
 		 */
@@ -208,6 +230,16 @@ export type TranslationFunctions = {
 		 */
 		category: () => LocalizedString
 	}
+	sort: {
+		/**
+		 * Newest
+		 */
+		newest: () => LocalizedString
+		/**
+		 * Name
+		 */
+		name: () => LocalizedString
+	}
 	sidebar: {
 		/**
 		 * Clear
@@ -215,6 +247,10 @@ export type TranslationFunctions = {
 		clear: () => LocalizedString
 	}
 	projectCard: {
+		/**
+		 * NEW
+		 */
+		'new': () => LocalizedString
 	}
 	drawer: {
 		/**

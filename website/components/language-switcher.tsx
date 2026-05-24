@@ -15,7 +15,7 @@ export function LanguageSwitcher() {
       onValueChange={(value) => setLanguage(value as Language)}
     >
       <SelectPrimitive.Trigger
-        className="label-tech flex cursor-pointer items-center gap-1.5 border-0 bg-transparent px-2 py-2 text-muted-foreground outline-none transition-colors hover:text-foreground lg:px-3"
+        className="label-tech flex cursor-pointer items-center gap-1.5 border-0 bg-transparent px-2 py-2 text-muted-foreground outline-none transition-colors hover:text-foreground focus-visible:text-foreground lg:px-3"
         aria-label={LL.language.label()}
       >
         <Languages className="size-4 lg:size-3.5" />

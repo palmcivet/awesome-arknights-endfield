@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import { SearchInput } from '@/components/search-input';
 import { useProjects } from '@/hooks/use-projects';
 import { useI18nContext } from '@/i18n/i18n-react.js';
+import { SORT_OPTIONS, getSortLabel } from '@/shared/sort';
 
 interface SearchBoxLgProps {
   onVisibilityChange?: (visible: boolean) => void;
@@ -9,7 +10,7 @@ interface SearchBoxLgProps {
 
 export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const { searchQuery, setSearchQuery } = useProjects();
+  const { searchQuery, setSearchQuery, sortBy, setSortBy } = useProjects();
 
   const { LL } = useI18nContext();
 
@@ -44,7 +45,24 @@ export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
         className="max-w-md"
       />
 
-      {/* Category select — only visible on lg when sidebar is hidden (not used currently since sidebar shows on lg) */}
+      <div className="ml-auto flex items-center gap-1">
+        {SORT_OPTIONS.map((option, i) => (
+          <span key={option} className="flex items-center">
+            {i > 0 && <span className="px-1 text-[10px] text-foreground/15">·</span>}
+            <button
+              type="button"
+              onClick={() => setSortBy(option)}
+              className={`label-tech transition-colors ${
+                sortBy === option
+                  ? 'text-foreground'
+                  : 'text-muted-foreground hover:text-foreground/70'
+              }`}
+            >
+              {getSortLabel(option, LL.sort)}
+            </button>
+          </span>
+        ))}
+      </div>
     </div>
   );
 }

@@ -8,8 +8,9 @@ const en_US = {
 
   // Hero section
   hero: {
-    label: 'Community Resources',
-    projectCount: '{count} Projects',
+    projects: 'Projects',
+    categories: 'Categories',
+    updated: 'Updated {date}',
     titleLine1: 'Awesome',
     titleLine2: 'Arknights Endfield',
     description:
@@ -24,13 +25,21 @@ const en_US = {
     category: 'Category',
   },
 
+  // Sort
+  sort: {
+    newest: 'Newest',
+    name: 'Name',
+  },
+
   // Category sidebar
   sidebar: {
     clear: 'Clear',
   },
 
   // Project card
-  projectCard: {},
+  projectCard: {
+    new: 'NEW',
+  },
 
   // Project detail drawer
   drawer: {

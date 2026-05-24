@@ -1,12 +1,22 @@
+import { useMemo } from 'react';
 import { ArrowDown } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
+import { CATEGORIES } from '@/shared/fields';
 import { useProjects } from '@/hooks/use-projects';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 
 export default function Hero() {
   const { projects } = useProjects();
   const { LL } = useI18nContext();
+
+  const stats = useMemo(() => {
+    const latestDate = projects.reduce(
+      (latest, p) => (p.addedAt > latest ? p.addedAt : latest),
+      ''
+    );
+    return { categories: CATEGORIES.length, updated: latestDate };
+  }, [projects]);
 
   return (
     <section className="relative">
@@ -16,7 +26,9 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl px-6 py-6 md:px-10 sm:pt-12 sm:pb-8">
         {/* Top label */}
         <p className="label-tech mb-6 text-muted-foreground">
-          {LL.hero.label()} &middot; {LL.hero.projectCount({ count: projects.length })}
+          <span className="text-foreground">{projects.length}</span> {LL.hero.projects()}{' '}
+          &middot; <span className="text-foreground">{stats.categories}</span>{' '}
+          {LL.hero.categories()} &middot; {LL.hero.updated({ date: stats.updated })}
         </p>
 
         {/* Title */}

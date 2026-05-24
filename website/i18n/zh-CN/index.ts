@@ -6,8 +6,9 @@ const zh_CN = {
   },
 
   hero: {
-    label: '社区资源',
-    projectCount: '{count} 个项目',
+    projects: '个项目',
+    categories: '个分类',
+    updated: '更新于 {date}',
     titleLine1: 'Awesome',
     titleLine2: 'Arknights Endfield',
     description: '一个由社区维护的《明日方舟：终末地》工具、资源与社区项目的精选合集。',
@@ -20,11 +21,18 @@ const zh_CN = {
     category: '分类',
   },
 
+  sort: {
+    newest: '最新',
+    name: '名称',
+  },
+
   sidebar: {
     clear: '清除',
   },
 
-  projectCard: {},
+  projectCard: {
+    new: 'NEW',
+  },
 
   drawer: {
     close: '关闭',

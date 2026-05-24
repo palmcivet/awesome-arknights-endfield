@@ -54,7 +54,7 @@ export function SearchInput({
         <button
           type="button"
           onClick={onClear}
-          className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors outline-none focus-visible:ring-ring/50 focus-visible:ring-[3px]"
+          className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors outline-none focus-visible:text-foreground"
           tabIndex={tabIndex}
           aria-label="Clear search"
         >

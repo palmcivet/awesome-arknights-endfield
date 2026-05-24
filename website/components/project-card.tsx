@@ -1,9 +1,11 @@
+import { useMemo } from 'react';
 import { Globe } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
 import type { Category, Project, WebsiteProvider } from '@/shared';
 import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/hooks/use-drawer';
 import { useLanguage } from '@/hooks/use-language';
+import { useI18nContext } from '@/i18n/i18n-react.js';
 
 interface ProjectCardProps {
   project: Project;
@@ -27,12 +29,19 @@ function getProviderIcon(provider: WebsiteProvider) {
 
 export default function ProjectCard({ project, index }: ProjectCardProps) {
   const { language } = useLanguage();
+  const { LL } = useI18nContext();
   const description = project.description[language] || project.description['en-US'];
   const hasGithub = !!project.repository;
   const websites = project.website ?? [];
   const number = String(index + 1).padStart(2, '0');
   const parsed = parseRepoName(project.name);
   const { openDrawer } = useDrawer();
+
+  const isNew = useMemo(() => {
+    const added = new Date(project.addedAt);
+    const now = new Date();
+    return now.getTime() - added.getTime() < 14 * 24 * 60 * 60 * 1000;
+  }, [project.addedAt]);
 
   const handleCardClick = (e: React.MouseEvent) => {
     // Don't open drawer if user clicked an external link
@@ -54,9 +63,16 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
 
       {/* Row 0: catalog metadata + category */}
       <div className="flex items-baseline justify-between gap-2">
-        <span className="shrink-0 font-mono text-[10px] text-foreground/15">
-          <span>{number}</span>
-          <span className="hidden sm:inline"> · {project.addedAt}</span>
+        <span className="flex items-baseline gap-2">
+          <span className="shrink-0 font-mono text-[10px] text-foreground/15">
+            <span>{number}</span>
+            <span className="hidden sm:inline"> · {project.addedAt}</span>
+          </span>
+          {isNew && (
+            <span className="label-tech border border-foreground/10 px-1 text-[9px] text-foreground/40">
+              {LL.projectCard.new()}
+            </span>
+          )}
         </span>
         <span className="label-tech min-w-0 truncate text-muted-foreground">
           {CATEGORY_LABEL[project.category as Category]?.[language] ?? project.category}
