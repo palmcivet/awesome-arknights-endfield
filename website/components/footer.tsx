@@ -7,14 +7,9 @@ export default function Footer() {
 
   return (
     <footer className="border-t">
-      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-8 pb-sticky-offset md:px-10 lg:pb-8 sm:flex-row sm:items-center sm:justify-between">
-        {/* Left */}
-        <div className="font-mono text-xs text-foreground/20">
-          &copy; {currentYear} Awesome Arknights Endfield
-        </div>
-
-        {/* Right: links */}
-        <div className="flex items-center gap-6">
+      <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 py-5 pb-sticky-offset sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:py-8 md:px-10 lg:pb-8">
+        {/* Links */}
+        <div className="flex items-center gap-6 sm:order-2">
           <a
             href={ENDFIELD_REPOSITORY_URL}
             target="_blank"
@@ -39,6 +34,11 @@ export default function Footer() {
           >
             {LL.footer.contribute()}
           </a>
+        </div>
+
+        {/* Copyright */}
+        <div className="font-mono text-xs text-foreground/20 sm:order-1">
+          &copy; {currentYear} Awesome Arknights Endfield
         </div>
       </div>
     </footer>
