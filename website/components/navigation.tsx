@@ -12,7 +12,7 @@ interface NavigationProps {
 }
 
 export default function Navigation({ showSearch = false }: NavigationProps) {
-  const { searchQuery, setSearchQuery, clearFilters } = useProjects();
+  const { searchQuery, setSearchQuery } = useProjects();
   const { LL } = useI18nContext();
 
   const hasFilters = searchQuery.trim() !== '';
@@ -46,7 +46,7 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
             onChange={setSearchQuery}
             placeholder={LL.search.placeholder()}
             hasFilters={hasFilters}
-            onClear={clearFilters}
+            onClear={() => setSearchQuery('')}
             tabIndex={showSearch ? 0 : -1}
             className="max-w-md"
           />

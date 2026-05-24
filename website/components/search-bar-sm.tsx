@@ -18,7 +18,6 @@ export default function SearchBarSm() {
     setSearchQuery,
     selectedCategory,
     selectCategory,
-    clearFilters,
     categories,
     filteredProjects,
     projects,
@@ -27,6 +26,7 @@ export default function SearchBarSm() {
   const { LL } = useI18nContext();
 
   const hasFilters = searchQuery.trim() !== '' || selectedCategory !== null;
+  const hasSearchQuery = searchQuery.trim() !== '';
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-background/95 backdrop-blur-sm pb-[env(safe-area-inset-bottom)] px-container-px lg:hidden">
@@ -35,8 +35,8 @@ export default function SearchBarSm() {
           value={searchQuery}
           onChange={setSearchQuery}
           placeholder={LL.search.placeholder()}
-          hasFilters={hasFilters}
-          onClear={clearFilters}
+          hasFilters={hasSearchQuery}
+          onClear={() => setSearchQuery('')}
         />
 
         {/* Results count — shows when filtering */}

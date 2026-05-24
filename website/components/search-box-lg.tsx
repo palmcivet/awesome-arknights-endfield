@@ -9,11 +9,11 @@ interface SearchBoxLgProps {
 
 export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
   const ref = useRef<HTMLDivElement>(null);
-  const { searchQuery, setSearchQuery, selectedCategory, clearFilters } = useProjects();
+  const { searchQuery, setSearchQuery } = useProjects();
 
   const { LL } = useI18nContext();
 
-  const hasFilters = searchQuery.trim() !== '' || selectedCategory !== null;
+  const hasFilters = searchQuery.trim() !== '';
 
   useEffect(() => {
     const el = ref.current;
@@ -41,7 +41,7 @@ export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
         onChange={setSearchQuery}
         placeholder={LL.search.placeholder()}
         hasFilters={hasFilters}
-        onClear={clearFilters}
+        onClear={() => setSearchQuery('')}
         className="max-w-md"
       />
 
