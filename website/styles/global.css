@@ -125,6 +125,19 @@
       -apple-system,
       sans-serif;
   }
+
+  /* View Transition: unified theme crossfade */
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 150ms;
+    animation-timing-function: ease-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      animation-duration: 0ms;
+    }
+  }
 }
 
 @layer utilities {
