@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <footer className="border-t">
-      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-8 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-8 pb-sticky-offset md:px-10 lg:pb-8 sm:flex-row sm:items-center sm:justify-between">
         {/* Left */}
         <div className="font-mono text-xs text-foreground/20">
           &copy; {currentYear} Awesome Arknights Endfield

@@ -13,7 +13,7 @@ export default function Hero() {
       {/* Dot grid background */}
       <div className="bg-dot-grid absolute inset-0 -z-10" />
 
-      <div className="mx-auto max-w-6xl px-6 py-6 sm:pt-12 sm:pb-8">
+      <div className="mx-auto max-w-6xl px-6 py-6 md:px-10 sm:pt-12 sm:pb-8">
         {/* Top label */}
         <p className="label-tech mb-6 text-muted-foreground">
           {LL.hero.label()} &middot; {LL.hero.projectCount({ count: projects.length })}

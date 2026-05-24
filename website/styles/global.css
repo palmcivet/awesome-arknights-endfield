@@ -5,6 +5,15 @@
 
 :root {
   --radius: 0px;
+
+  /* Layout tokens — single source of truth for cross-component dimensions */
+  --nav-height: 3.5rem; /* 56px — navigation bar height */
+  --sidebar-width: 11rem; /* 176px — sidebar & nav logo column width */
+  --layout-gap: 2rem; /* 32px — gap between sidebar and content */
+  --container-px: 1.5rem; /* 24px — container horizontal padding (mobile) */
+  --container-px-md: 2.5rem; /* 40px — container horizontal padding (md+) */
+  --sticky-offset: calc(var(--nav-height) + 1.5rem); /* nav + breathing room */
+
   /* Light theme — minimal grayscale */
   --background: 0 0% 100%;
   --foreground: 0 0% 5%;
@@ -63,6 +72,14 @@
 }
 
 @theme inline {
+  /* Layout spacing */
+  --spacing-nav: var(--nav-height);
+  --spacing-sidebar: var(--sidebar-width);
+  --spacing-layout-gap: var(--layout-gap);
+  --spacing-container-px: var(--container-px);
+  --spacing-container-px-md: var(--container-px-md);
+  --spacing-sticky-offset: var(--sticky-offset);
+
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
   --color-card: hsl(var(--card));
