@@ -25,7 +25,9 @@ function updateCategoryInURL(category: Category | null) {
 
 export function ProjectProvider({ children }: { children: ReactNode }) {
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<Category | null>(getCategoryFromURL);
+  const [selectedCategory, setSelectedCategory] = useState<Category | null>(
+    getCategoryFromURL
+  );
 
   const projects = useMemo(() => filterValidProjects(projectsData), []);
 
