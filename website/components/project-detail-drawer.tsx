@@ -18,9 +18,9 @@ function parseRepoName(name: string): { owner: string; repo: string } | null {
 function getProviderIcon(provider: WebsiteProvider) {
   switch (provider) {
     case 'GitHub Pages':
-      return <GithubIcon className="size-3.5" />;
+      return <GithubIcon className="size-3.5 shrink-0" />;
     default:
-      return <Globe className="size-3.5" />;
+      return <Globe className="size-3.5 shrink-0" />;
   }
 }
 
@@ -50,7 +50,7 @@ export default function ProjectDetailDrawer() {
   const hasGithub = !!project.repository;
   const screenshots = project.screenshots ?? [];
   const description = project.description[language] || project.description['en-US'];
-  const number = String(project.id).padStart(2, '0');
+  const number = String(project.id);
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end">
@@ -234,7 +234,7 @@ export default function ProjectDetailDrawer() {
                         href={site.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+                        className="flex min-w-0 items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border hover:text-foreground"
                       >
                         {getProviderIcon(site.provider)}
                         <span className="shrink-0">

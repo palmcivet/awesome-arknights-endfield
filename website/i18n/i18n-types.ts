@@ -81,12 +81,6 @@ type RootTranslation = {
 		 */
 		clear: string
 	}
-	projectCard: {
-		/**
-		 * N​E​W
-		 */
-		'new': string
-	}
 	drawer: {
 		/**
 		 * C​l​o​s​e
@@ -245,12 +239,6 @@ export type TranslationFunctions = {
 		 * Clear
 		 */
 		clear: () => LocalizedString
-	}
-	projectCard: {
-		/**
-		 * NEW
-		 */
-		'new': () => LocalizedString
 	}
 	drawer: {
 		/**

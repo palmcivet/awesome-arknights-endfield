@@ -36,11 +36,6 @@ const en_US = {
     clear: 'Clear',
   },
 
-  // Project card
-  projectCard: {
-    new: 'NEW',
-  },
-
   // Project detail drawer
   drawer: {
     close: 'Close',

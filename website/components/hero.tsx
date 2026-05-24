@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useCallback, useMemo } from 'react';
 import { ArrowDown } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
@@ -17,6 +17,11 @@ export default function Hero() {
     );
     return { categories: CATEGORIES.length, updated: latestDate };
   }, [projects]);
+
+  const onGotoGallery = useCallback((e: React.MouseEvent) => {
+    e.preventDefault();
+    document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
+  }, []);
 
   return (
     <section className="relative">
@@ -45,7 +50,11 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="mt-10 flex items-center gap-4">
-          <a className="inline-flex items-center gap-2 bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80">
+          <a
+            href="#gallery"
+            onClick={onGotoGallery}
+            className="inline-flex items-center gap-2 bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80"
+          >
             <ArrowDown className="size-3.5" />
             {LL.hero.explore()}
           </a>

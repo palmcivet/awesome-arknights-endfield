@@ -30,10 +30,6 @@ const zh_CN = {
     clear: '清除',
   },
 
-  projectCard: {
-    new: 'NEW',
-  },
-
   drawer: {
     close: '关闭',
     index: '序号',

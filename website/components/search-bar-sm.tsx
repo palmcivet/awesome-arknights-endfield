@@ -42,14 +42,16 @@ export default function SearchBarSm() {
           onBlur={() => setFocused(false)}
         />
 
-        {/* Results count — fades in when expanded */}
-        <span
-          className={`ml-2 block w-10 shrink-0 truncate text-right font-mono text-[10px] text-muted-foreground transition-opacity duration-200 ${expanded ? 'opacity-100' : 'pointer-events-none opacity-0'}`}
+        {/* Results count — visible when expanded, hidden otherwise (mutually exclusive with category/sort) */}
+        <div
+          className={`flex shrink-0 items-center overflow-hidden transition-all duration-250 ease-out ${expanded ? 'max-w-20 opacity-100' : 'max-w-0 opacity-0'}`}
         >
-          {filteredProjects.length}/{projects.length}
-        </span>
+          <span className="ml-2 whitespace-nowrap font-mono text-[10px] text-muted-foreground">
+            {filteredProjects.length}/{projects.length}
+          </span>
+        </div>
 
-        {/* Category & Sort — slide out when expanded */}
+        {/* Category & Sort — visible when not expanded, hidden otherwise */}
         <div
           className={`flex shrink-0 items-center overflow-hidden transition-all duration-250 ease-out ${expanded ? 'max-w-0 opacity-0' : 'max-w-40 opacity-100'}`}
         >
