@@ -10,7 +10,7 @@ export default function ProjectGallery() {
 
   if (visibleProjects.length === 0) {
     return (
-      <div className="py-20">
+      <div className="my-8 md:py-20">
         <div className="flex flex-col items-center justify-center gap-2 text-center">
           <p className="text-sm text-muted-foreground">{LL.gallery.noResults()}</p>
           <p className="font-mono text-xs text-foreground/20">

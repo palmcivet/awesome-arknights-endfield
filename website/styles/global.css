@@ -72,6 +72,9 @@
 }
 
 @theme inline {
+  /* Breakpoints */
+  --breakpoint-xs: 20rem; /* 320px */
+
   /* Layout spacing */
   --spacing-nav: var(--nav-height);
   --spacing-sidebar: var(--sidebar-width);
@@ -115,7 +118,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased overflow-x-auto;
     font-family:
       'Geist',
       system-ui,

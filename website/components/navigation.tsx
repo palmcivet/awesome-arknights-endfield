@@ -18,7 +18,7 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
   const hasFilters = searchQuery.trim() !== '';
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-border bg-background">
+    <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-nav max-w-6xl items-center px-container-px md:px-container-px-md">
         {/* Left: Logo — desktop shows text, mobile shows icon only */}
         <div className="hidden w-sidebar shrink-0 items-center gap-2.5 lg:flex">

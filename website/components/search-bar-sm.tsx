@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { SearchInput } from '@/components/search-input';
 import {
   Select,
@@ -24,45 +25,52 @@ export default function SearchBarSm() {
   } = useProjects();
   const { language } = useLanguage();
   const { LL } = useI18nContext();
+  const [focused, setFocused] = useState(false);
 
-  const hasFilters = searchQuery.trim() !== '' || selectedCategory !== null;
   const hasSearchQuery = searchQuery.trim() !== '';
+  const expanded = focused || hasSearchQuery;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t bg-background/95 backdrop-blur-sm pb-[env(safe-area-inset-bottom)] px-container-px lg:hidden">
-      <div className="flex h-nav items-center gap-3">
+    <div className="fixed inset-x-0 bottom-0 z-40 min-w-xs border-t border-border bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60 pb-[env(safe-area-inset-bottom)] px-container-px lg:hidden">
+      <div className="flex h-nav items-center">
         <SearchInput
           value={searchQuery}
           onChange={setSearchQuery}
           placeholder={LL.search.placeholder()}
           hasFilters={hasSearchQuery}
           onClear={() => setSearchQuery('')}
+          onFocus={() => setFocused(true)}
+          onBlur={() => setFocused(false)}
         />
 
-        {/* Results count — shows when filtering */}
-        {hasFilters && (
-          <span className="shrink-0 font-mono text-xs text-muted-foreground">
-            {filteredProjects.length}/{projects.length}
-          </span>
-        )}
-
-        <Select
-          value={selectedCategory ?? ''}
-          onValueChange={(value) => selectCategory(value as Category)}
+        {/* Trailing slot — results count or category select, never both */}
+        <div
+          className={`shrink-0 overflow-hidden transition-all duration-200 ${expanded ? 'ml-2 w-10' : 'ml-2 w-28'}`}
         >
-          <SelectTrigger className="h-9 w-28 shrink-0 border-border text-xs">
-            <SelectValue placeholder={LL.search.category()} />
-          </SelectTrigger>
-          <SelectContent>
-            {categories
-              .filter((cat) => cat !== 'Uncategorized')
-              .map((category) => (
-                <SelectItem key={category} value={category}>
-                  {CATEGORY_LABEL[category as Category]?.[language] ?? category}
-                </SelectItem>
-              ))}
-          </SelectContent>
-        </Select>
+          {expanded ? (
+            <span className="block w-10 truncate text-right font-mono text-[10px] text-muted-foreground">
+              {filteredProjects.length}/{projects.length}
+            </span>
+          ) : (
+            <Select
+              value={selectedCategory ?? ''}
+              onValueChange={(value) => selectCategory(value as Category)}
+            >
+              <SelectTrigger className="h-9 w-28 border-border text-xs">
+                <SelectValue placeholder={LL.search.category()} />
+              </SelectTrigger>
+              <SelectContent>
+                {categories
+                  .filter((cat) => cat !== 'Uncategorized')
+                  .map((category) => (
+                    <SelectItem key={category} value={category}>
+                      {CATEGORY_LABEL[category as Category]?.[language] ?? category}
+                    </SelectItem>
+                  ))}
+              </SelectContent>
+            </Select>
+          )}
+        </div>
       </div>
     </div>
   );

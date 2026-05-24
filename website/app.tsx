@@ -15,7 +15,7 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <div className="min-w-xs">
       <Navigation showSearch={!searchBoxVisible} />
       <Hero />
       <section className="mx-auto max-w-6xl px-container-px py-8 md:px-container-px-md">
@@ -30,6 +30,6 @@ export default function App() {
       <Footer />
       <SearchBarSm />
       <ProjectDetailDrawer />
-    </>
+    </div>
   );
 }
