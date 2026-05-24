@@ -33,7 +33,6 @@ export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
   return (
     <div
       ref={ref}
-      id="projects"
       className="mb-6 hidden items-center gap-3 scroll-mt-sticky-offset lg:flex"
     >
       <SearchInput

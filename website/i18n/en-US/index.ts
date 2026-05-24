@@ -20,7 +20,7 @@ const en_US = {
 
   // Search
   search: {
-    placeholder: 'Search projects...',
+    placeholder: 'Search projects',
     category: 'Category',
   },
 

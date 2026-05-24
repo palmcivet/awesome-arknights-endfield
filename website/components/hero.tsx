@@ -33,10 +33,7 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="mt-10 flex items-center gap-4">
-          <a
-            href="#projects"
-            className="inline-flex items-center gap-2 bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80"
-          >
+          <a className="inline-flex items-center gap-2 bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80">
             <ArrowDown className="size-3.5" />
             {LL.hero.explore()}
           </a>

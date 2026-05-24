@@ -16,7 +16,7 @@ const zh_CN = {
   },
 
   search: {
-    placeholder: '搜索项目...',
+    placeholder: '搜索项目',
     category: '分类',
   },
 

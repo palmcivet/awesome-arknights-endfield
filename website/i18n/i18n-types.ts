@@ -53,7 +53,7 @@ type RootTranslation = {
 	}
 	search: {
 		/**
-		 * S​e​a​r​c​h​ ​p​r​o​j​e​c​t​s​.​.​.
+		 * S​e​a​r​c​h​ ​p​r​o​j​e​c​t​s
 		 */
 		placeholder: string
 		/**
@@ -200,7 +200,7 @@ export type TranslationFunctions = {
 	}
 	search: {
 		/**
-		 * Search projects...
+		 * Search projects
 		 */
 		placeholder: () => LocalizedString
 		/**
