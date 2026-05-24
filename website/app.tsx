@@ -1,10 +1,11 @@
 import { useCallback, useState } from 'react';
 import Hero from '@/components/hero';
 import Navigation from '@/components/navigation';
-import SearchBox from '@/components/search-box';
+import SearchBoxLg from '@/components/search-box-lg';
 import CategorySidebar from '@/components/category-sidebar';
 import ProjectGallery from '@/components/project-gallery';
 import ProjectDetailDrawer from '@/components/project-detail-drawer';
+import SearchBarSm from '@/components/search-bar-sm';
 import Footer from '@/components/footer';
 
 export default function App() {
@@ -21,12 +22,13 @@ export default function App() {
         <div className="flex gap-layout-gap">
           <CategorySidebar />
           <div className="min-w-0 flex-1">
-            <SearchBox onVisibilityChange={handleVisibilityChange} />
+            <SearchBoxLg onVisibilityChange={handleVisibilityChange} />
             <ProjectGallery />
           </div>
         </div>
       </section>
       <Footer />
+      <SearchBarSm />
       <ProjectDetailDrawer />
     </>
   );

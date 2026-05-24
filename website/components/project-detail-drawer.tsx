@@ -76,7 +76,7 @@ export default function ProjectDetailDrawer() {
         {/* Close button */}
         <button
           onClick={closeDrawer}
-          className="absolute right-3 top-3 z-20 flex size-7 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
+          className="absolute left-3 top-3 z-20 flex size-7 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
           aria-label={LL.drawer.close()}
         >
           <X className="size-4" />

@@ -16,11 +16,11 @@ export function LanguageSwitcher() {
   return (
     <button
       onClick={toggleLanguage}
-      className="label-tech flex cursor-pointer items-center gap-1.5 px-3 py-2 text-muted-foreground transition-colors hover:text-foreground"
+      className="label-tech flex cursor-pointer items-center gap-1.5 px-2 py-2 text-muted-foreground transition-colors hover:text-foreground lg:px-3"
       aria-label={LL.language.label()}
     >
-      <Languages className="size-3.5" />
-      {LANGUAGE_LABEL[language]}
+      <Languages className="size-4 lg:size-3.5" />
+      <span className="hidden lg:inline">{LANGUAGE_LABEL[language]}</span>
     </button>
   );
 }
