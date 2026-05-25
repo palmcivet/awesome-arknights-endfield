@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { ArrowDownUp, Check, ChevronDown, LayoutGrid } from 'lucide-react';
-import * as SelectPrimitive from '@radix-ui/react-select';
+import { ArrowDownUp, LayoutGrid } from 'lucide-react';
+import { Select, SelectContent, SelectItem, SelectTrigger } from '@/components/ui/select';
 import { SearchInput } from '@/components/search-input';
 import { useProjects } from '@/hooks/use-projects';
 import { useLanguage } from '@/hooks/use-language';
@@ -42,100 +42,62 @@ export default function SearchBarSm() {
           onBlur={() => setFocused(false)}
         />
 
-        {/* Results count — visible when expanded, hidden otherwise (mutually exclusive with category/sort) */}
+        {/* Results count — visible when expanded */}
         <div
-          className={`flex shrink-0 items-center overflow-hidden transition-all duration-250 ease-out ${expanded ? 'max-w-20 opacity-100' : 'max-w-0 opacity-0'}`}
+          className={`flex shrink-0 items-center overflow-hidden transition-[max-width,opacity] duration-250 ease-out ${expanded ? 'max-w-20 opacity-100' : 'max-w-0 opacity-0'}`}
         >
           <span className="ml-2 whitespace-nowrap font-mono text-[10px] text-muted-foreground">
             {filteredProjects.length}/{projects.length}
           </span>
         </div>
 
-        {/* Category & Sort — visible when not expanded, hidden otherwise */}
+        {/* Category & Sort — visible when not expanded */}
         <div
-          className={`flex shrink-0 items-center overflow-hidden transition-all duration-250 ease-out ${expanded ? 'max-w-0 opacity-0' : 'max-w-40 opacity-100'}`}
+          className={`flex shrink-0 items-center overflow-hidden transition-[max-width,opacity] duration-250 ease-out ${expanded ? 'max-w-0 opacity-0' : 'max-w-40 opacity-100'}`}
         >
           {/* Category select */}
-          <SelectPrimitive.Root
+          <Select
             value={selectedCategory ?? ''}
             onValueChange={(value) => selectCategory(value as Category)}
           >
-            <SelectPrimitive.Trigger
-              className="label-tech ml-2 flex cursor-pointer items-center gap-1 border-0 bg-transparent px-2 py-2 text-muted-foreground outline-none transition-colors hover:text-foreground focus-visible:text-foreground"
+            <SelectTrigger
+              variant="ghost"
+              className="label-tech ml-2 gap-1 px-2 py-2"
               aria-label={LL.search.category()}
             >
               <LayoutGrid className="size-4" />
-              <ChevronDown className="size-3 opacity-50" />
-            </SelectPrimitive.Trigger>
-            <SelectPrimitive.Portal>
-              <SelectPrimitive.Content
-                className="z-60 min-w-36 overflow-hidden border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=top]:slide-in-from-bottom-2"
-                position="popper"
-                sideOffset={8}
-              >
-                <SelectPrimitive.Viewport className="p-1">
-                  {categories
-                    .filter((cat) => cat !== 'Uncategorized')
-                    .map((category) => (
-                      <SelectPrimitive.Item
-                        key={category}
-                        value={category}
-                        className="relative flex cursor-default select-none items-center py-1.5 pl-7 pr-3 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-disabled:pointer-events-none data-disabled:opacity-50"
-                      >
-                        <span className="absolute left-2 flex size-3.5 items-center justify-center">
-                          <SelectPrimitive.ItemIndicator>
-                            <Check className="size-3" />
-                          </SelectPrimitive.ItemIndicator>
-                        </span>
-                        <SelectPrimitive.ItemText>
-                          {CATEGORY_LABEL[category as Category]?.[language] ?? category}
-                        </SelectPrimitive.ItemText>
-                      </SelectPrimitive.Item>
-                    ))}
-                </SelectPrimitive.Viewport>
-              </SelectPrimitive.Content>
-            </SelectPrimitive.Portal>
-          </SelectPrimitive.Root>
+            </SelectTrigger>
+            <SelectContent sideOffset={8} className="min-w-36">
+              {categories
+                .filter((cat) => cat !== 'Uncategorized')
+                .map((category) => (
+                  <SelectItem key={category} value={category}>
+                    {CATEGORY_LABEL[category as Category]?.[language] ?? category}
+                  </SelectItem>
+                ))}
+            </SelectContent>
+          </Select>
 
           {/* Sort select */}
-          <SelectPrimitive.Root
+          <Select
             value={sortBy}
             onValueChange={(value) => setSortBy(value as SortOption)}
           >
-            <SelectPrimitive.Trigger
-              className="label-tech flex cursor-pointer items-center gap-1 border-0 bg-transparent px-2 py-2 text-muted-foreground outline-none transition-colors hover:text-foreground focus-visible:text-foreground"
+            <SelectTrigger
+              variant="ghost"
+              className="label-tech gap-1 px-2 py-2"
               aria-label={getSortLabel(sortBy, LL.sort)}
             >
               <ArrowDownUp className="size-4" />
-              <ChevronDown className="size-3 opacity-50" />
-            </SelectPrimitive.Trigger>
-            <SelectPrimitive.Portal>
-              <SelectPrimitive.Content
-                className="z-60 min-w-28 overflow-hidden border bg-popover text-popover-foreground shadow-md data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[side=bottom]:slide-in-from-top-2 data-[side=top]:slide-in-from-bottom-2"
-                position="popper"
-                sideOffset={8}
-              >
-                <SelectPrimitive.Viewport className="p-1">
-                  {SORT_OPTIONS.map((option) => (
-                    <SelectPrimitive.Item
-                      key={option}
-                      value={option}
-                      className="relative flex cursor-default select-none items-center py-1.5 pl-7 pr-3 text-sm outline-none focus:bg-accent focus:text-accent-foreground data-disabled:pointer-events-none data-disabled:opacity-50"
-                    >
-                      <span className="absolute left-2 flex size-3.5 items-center justify-center">
-                        <SelectPrimitive.ItemIndicator>
-                          <Check className="size-3" />
-                        </SelectPrimitive.ItemIndicator>
-                      </span>
-                      <SelectPrimitive.ItemText>
-                        {getSortLabel(option, LL.sort)}
-                      </SelectPrimitive.ItemText>
-                    </SelectPrimitive.Item>
-                  ))}
-                </SelectPrimitive.Viewport>
-              </SelectPrimitive.Content>
-            </SelectPrimitive.Portal>
-          </SelectPrimitive.Root>
+            </SelectTrigger>
+            <SelectContent sideOffset={8} className="min-w-28">
+              {SORT_OPTIONS.map((option) => (
+                <SelectItem key={option} value={option}>
+                  {getSortLabel(option, LL.sort)}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
       </div>
     </div>

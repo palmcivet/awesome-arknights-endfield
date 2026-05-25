@@ -12,7 +12,7 @@ export function ThemeSwitcher() {
   return (
     <div className="flex items-center gap-2 px-2 py-2 lg:px-3">
       <Sun
-        className={`size-3.5 transition-colors ${isDark ? 'text-muted-foreground/50' : 'text-foreground'}`}
+        className={`size-3.5 transition-[color] ${isDark ? 'text-muted-foreground/50' : 'text-foreground'}`}
         strokeWidth={1.5}
       />
       <Switch
@@ -21,7 +21,7 @@ export function ThemeSwitcher() {
         aria-label={isDark ? LL.theme.switchToLight() : LL.theme.switchToDark()}
       />
       <Moon
-        className={`size-3.5 transition-colors ${isDark ? 'text-foreground' : 'text-muted-foreground/50'}`}
+        className={`size-3.5 transition-[color] ${isDark ? 'text-foreground' : 'text-muted-foreground/50'}`}
         strokeWidth={1.5}
       />
     </div>

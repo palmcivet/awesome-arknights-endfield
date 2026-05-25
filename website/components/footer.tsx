@@ -7,14 +7,14 @@ export default function Footer() {
 
   return (
     <footer className="border-t">
-      <div className="mx-auto flex flex-col items-center gap-3 px-6 py-5 pb-sticky-offset sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:pt-8 md:px-10 lg:pb-8">
+      <div className="mx-auto max-w-6xl px-container-px md:px-container-px-md flex flex-col items-center gap-3 py-5 pb-sticky-offset sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:pt-8 lg:pb-8">
         {/* Links */}
         <div className="flex items-center gap-6 sm:order-2">
           <a
             href={ENDFIELD_REPOSITORY_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
+            className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
           >
             GitHub
           </a>
@@ -22,7 +22,7 @@ export default function Footer() {
             href={ARKNIGHTS_REPOSITORY_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
+            className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
           >
             {LL.footer.awesomeArknights()}
           </a>
@@ -30,7 +30,7 @@ export default function Footer() {
             href={`${ENDFIELD_REPOSITORY_URL}/issues`}
             target="_blank"
             rel="noopener noreferrer"
-            className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
+            className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
           >
             {LL.footer.contribute()}
           </a>

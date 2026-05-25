@@ -1,6 +1,7 @@
 import { useCallback, useMemo } from 'react';
 import { ArrowDown } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
+import { Button } from '@/components/ui/button';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
 import { CATEGORIES } from '@/shared/fields';
 import { useProjects } from '@/hooks/use-projects';
@@ -50,23 +51,18 @@ export default function Hero() {
 
         {/* CTA */}
         <div className="mt-10 flex items-center gap-4">
-          <a
-            href="#gallery"
-            onClick={onGotoGallery}
-            className="inline-flex items-center gap-2 bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-80"
-          >
-            <ArrowDown className="size-3.5" />
-            {LL.hero.explore()}
-          </a>
-          <a
-            href={ENDFIELD_REPOSITORY_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
-          >
-            <GithubIcon className="size-3.5" />
-            {LL.hero.github()}
-          </a>
+          <Button asChild className="px-5 py-2.5">
+            <a href="#gallery" onClick={onGotoGallery}>
+              <ArrowDown className="size-3.5" />
+              {LL.hero.explore()}
+            </a>
+          </Button>
+          <Button asChild variant="outline" className="px-5 py-2.5">
+            <a href={ENDFIELD_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">
+              <GithubIcon className="size-3.5" />
+              {LL.hero.github()}
+            </a>
+          </Button>
         </div>
       </div>
     </section>

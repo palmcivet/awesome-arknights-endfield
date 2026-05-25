@@ -29,7 +29,7 @@ export default function CategorySidebar() {
           {hasFilters && (
             <button
               onClick={clearFilters}
-              className="label-tech text-muted-foreground transition-colors hover:text-foreground"
+              className="label-tech text-muted-foreground transition-[color] hover:text-foreground cursor-pointer"
             >
               {LL.sidebar.clear()}
             </button>
@@ -45,14 +45,14 @@ export default function CategorySidebar() {
               <button
                 key={category}
                 onClick={() => selectCategory(category as Category)}
-                className={`label-tech flex w-full cursor-pointer select-none items-center gap-2 py-1.5 text-left transition-colors ${
+                className={`label-tech flex w-full cursor-pointer select-none items-center gap-2 py-1.5 text-left transition-[color] ${
                   isSelected
                     ? 'text-foreground'
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 <span
-                  className={`inline-block size-1.5 rounded-full ${
+                  className={`inline-block size-1.5 ${
                     isSelected ? 'bg-foreground' : 'bg-transparent'
                   }`}
                 />

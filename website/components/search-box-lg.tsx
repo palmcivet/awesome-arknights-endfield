@@ -52,7 +52,7 @@ export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
             <button
               type="button"
               onClick={() => setSortBy(option)}
-              className={`label-tech transition-colors ${
+              className={`label-tech transition-[color] cursor-pointer ${
                 sortBy === option
                   ? 'text-foreground'
                   : 'text-muted-foreground hover:text-foreground/70'

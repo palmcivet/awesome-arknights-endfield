@@ -1,4 +1,4 @@
-import { useState, useCallback, type ReactNode } from 'react';
+import { useState, useCallback, useMemo, type ReactNode } from 'react';
 import { DrawerContext } from '@/hooks/use-drawer';
 
 export function DrawerProvider({ children }: { children: ReactNode }) {
@@ -7,19 +7,16 @@ export function DrawerProvider({ children }: { children: ReactNode }) {
 
   const openDrawer = useCallback((projectId: number) => {
     setSelectedProjectId(projectId);
-    document.body.style.overflow = 'hidden';
   }, []);
 
   const closeDrawer = useCallback(() => {
     setSelectedProjectId(null);
-    document.body.style.overflow = '';
   }, []);
 
-  return (
-    <DrawerContext.Provider
-      value={{ isOpen, selectedProjectId, openDrawer, closeDrawer }}
-    >
-      {children}
-    </DrawerContext.Provider>
+  const value = useMemo(
+    () => ({ isOpen, selectedProjectId, openDrawer, closeDrawer }),
+    [isOpen, selectedProjectId, openDrawer, closeDrawer]
   );
+
+  return <DrawerContext.Provider value={value}>{children}</DrawerContext.Provider>;
 }

@@ -65,7 +65,7 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
             href={ENDFIELD_REPOSITORY_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="label-tech flex items-center gap-1.5 px-2 py-2 text-muted-foreground transition-colors hover:text-foreground lg:px-3"
+            className="label-tech flex items-center gap-1.5 px-2 py-2 text-muted-foreground transition-[color] hover:text-foreground lg:px-3"
           >
             <GithubIcon className="size-4 lg:size-3.5" />
           </a>
