@@ -15,13 +15,13 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <div className="min-w-xs">
       <Navigation showSearch={!searchBoxVisible} />
       <Hero />
       <section className="mx-auto max-w-6xl px-container-px py-8 md:px-container-px-md">
         <div className="flex gap-layout-gap">
           <CategorySidebar />
-          <div className="min-w-0 flex-1">
+          <div id="gallery" className="min-w-0 flex-1">
             <SearchBoxLg onVisibilityChange={handleVisibilityChange} />
             <ProjectGallery />
           </div>
@@ -30,6 +30,6 @@ export default function App() {
       <Footer />
       <SearchBarSm />
       <ProjectDetailDrawer />
-    </>
+    </div>
   );
 }

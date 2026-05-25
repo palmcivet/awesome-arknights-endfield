@@ -14,12 +14,22 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
+  const applyTheme = (updater: (prev: 'light' | 'dark') => 'light' | 'dark') => {
+    if (document.startViewTransition) {
+      document.startViewTransition(() => {
+        setThemeState(updater);
+      });
+    } else {
+      setThemeState(updater);
+    }
+  };
+
   const setTheme = (newTheme: 'light' | 'dark') => {
-    setThemeState(newTheme);
+    applyTheme(() => newTheme);
   };
 
   const toggleTheme = () => {
-    setThemeState((prev) => (prev === 'light' ? 'dark' : 'light'));
+    applyTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
   };
 
   return (

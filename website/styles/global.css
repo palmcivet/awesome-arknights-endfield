@@ -72,6 +72,9 @@
 }
 
 @theme inline {
+  /* Breakpoints */
+  --breakpoint-xs: 20rem; /* 320px */
+
   /* Layout spacing */
   --spacing-nav: var(--nav-height);
   --spacing-sidebar: var(--sidebar-width);
@@ -112,15 +115,28 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50;
+    @apply border-border;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased overflow-x-auto;
     font-family:
       'Geist',
       system-ui,
       -apple-system,
       sans-serif;
+  }
+
+  /* View Transition: unified theme crossfade */
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 150ms;
+    animation-timing-function: ease-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+      animation-duration: 0ms;
+    }
   }
 }
 

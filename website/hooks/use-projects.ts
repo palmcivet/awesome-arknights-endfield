@@ -1,6 +1,7 @@
 import { createContext, useContext } from 'react';
 import type { Project } from '@/shared';
 import type { Category } from '@/shared';
+import type { SortOption } from '@/shared/sort';
 
 export interface ProjectContextValue {
   projects: Project[];
@@ -9,6 +10,8 @@ export interface ProjectContextValue {
   setSearchQuery: (query: string) => void;
   selectedCategory: Category | null;
   selectCategory: (category: Category | null) => void;
+  sortBy: SortOption;
+  setSortBy: (sort: SortOption) => void;
   clearFilters: () => void;
   categories: readonly Category[];
 }

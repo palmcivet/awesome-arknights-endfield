@@ -10,7 +10,7 @@ export default function ProjectGallery() {
 
   if (visibleProjects.length === 0) {
     return (
-      <div className="py-20">
+      <div className="my-8 md:py-20">
         <div className="flex flex-col items-center justify-center gap-2 text-center">
           <p className="text-sm text-muted-foreground">{LL.gallery.noResults()}</p>
           <p className="font-mono text-xs text-foreground/20">
@@ -27,10 +27,10 @@ export default function ProjectGallery() {
   const emptyCount = remainder === 0 ? 0 : cols - remainder;
 
   return (
-    <div className="grid grid-cols-1 gap-px border border-border bg-border md:grid-cols-2 lg:grid-cols-3">
-      {visibleProjects.map((project, i) => (
+    <div className="grid grid-cols-1 gap-px border border-border bg-border md:grid-cols-2 lg:grid-cols-3 mt-6">
+      {visibleProjects.map((project) => (
         <div key={project.id} className="bg-background">
-          <ProjectCard project={project} index={i} />
+          <ProjectCard project={project} />
         </div>
       ))}
       {Array.from({ length: emptyCount }).map((_, i) => (

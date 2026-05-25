@@ -12,13 +12,13 @@ interface NavigationProps {
 }
 
 export default function Navigation({ showSearch = false }: NavigationProps) {
-  const { searchQuery, setSearchQuery, clearFilters } = useProjects();
+  const { searchQuery, setSearchQuery } = useProjects();
   const { LL } = useI18nContext();
 
   const hasFilters = searchQuery.trim() !== '';
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b bg-background">
+    <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-nav max-w-6xl items-center px-container-px md:px-container-px-md">
         {/* Left: Logo — desktop shows text, mobile shows icon only */}
         <div className="hidden w-sidebar shrink-0 items-center gap-2.5 lg:flex">
@@ -46,7 +46,7 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
             onChange={setSearchQuery}
             placeholder={LL.search.placeholder()}
             hasFilters={hasFilters}
-            onClear={clearFilters}
+            onClear={() => setSearchQuery('')}
             tabIndex={showSearch ? 0 : -1}
             className="max-w-md"
           />
@@ -57,6 +57,10 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
 
         {/* Right: Links — icon-only on mobile, with text on desktop */}
         <div className="flex shrink-0 items-center">
+          <LanguageSwitcher />
+          <div className="mx-1 hidden h-4 w-px bg-border lg:block" />
+          <ThemeSwitcher />
+          <div className="mx-1 hidden h-4 w-px bg-border lg:block" />
           <a
             href={ENDFIELD_REPOSITORY_URL}
             target="_blank"
@@ -64,12 +68,7 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
             className="label-tech flex items-center gap-1.5 px-2 py-2 text-muted-foreground transition-colors hover:text-foreground lg:px-3"
           >
             <GithubIcon className="size-4 lg:size-3.5" />
-            <span className="hidden lg:inline">GitHub</span>
           </a>
-          <div className="mx-1 hidden h-4 w-px bg-border lg:block" />
-          <LanguageSwitcher />
-          <div className="mx-1 hidden h-4 w-px bg-border lg:block" />
-          <ThemeSwitcher />
         </div>
       </div>
     </nav>
