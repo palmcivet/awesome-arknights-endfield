@@ -45,6 +45,7 @@ function I18nLocaleSyncer({
 
   useEffect(() => {
     setLocale(language as Locales);
+    document.documentElement.lang = language;
   }, [language, setLocale]);
 
   return <>{children}</>;

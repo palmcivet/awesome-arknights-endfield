@@ -8,10 +8,10 @@ export default function ProjectGallery() {
 
   if (filteredProjects.length === 0) {
     return (
-      <div className="my-8 md:py-20">
+      <div className="my-8 md:py-20" role="status" aria-live="polite">
         <div className="flex flex-col items-center justify-center gap-2 text-center">
           <p className="text-sm text-muted-foreground">{LL.gallery.noResults()}</p>
-          <p className="font-mono text-xs text-foreground/20">
+          <p className="font-mono text-xs text-foreground/60">
             {LL.gallery.noResultsHint()}
           </p>
         </div>
@@ -25,17 +25,27 @@ export default function ProjectGallery() {
   const emptyCount = remainder === 0 ? 0 : cols - remainder;
 
   return (
-    <div className="grid grid-cols-1 gap-px border border-border bg-border md:grid-cols-2 lg:grid-cols-3 mt-6">
-      {filteredProjects.map((project) => (
-        <div key={project.id} className="bg-background">
-          <ProjectCard project={project} />
-        </div>
-      ))}
-      {Array.from({ length: emptyCount }).map((_, i) => (
-        <div key={`empty-${i}`} className="hidden bg-background lg:block">
-          <div className="bg-hatch relative h-full min-h-50 opacity-[0.03]" />
-        </div>
-      ))}
+    <div aria-live="polite" aria-atomic="true">
+      <h2 className="sr-only">{LL.a11y.projectList()}</h2>
+      <div
+        role="list"
+        className="grid grid-cols-1 gap-px border border-border bg-border md:grid-cols-2 lg:grid-cols-3 mt-6"
+      >
+        {filteredProjects.map((project) => (
+          <div key={project.id} className="bg-background" role="listitem">
+            <ProjectCard project={project} />
+          </div>
+        ))}
+        {Array.from({ length: emptyCount }).map((_, i) => (
+          <div
+            key={`empty-${i}`}
+            className="hidden bg-background lg:block"
+            aria-hidden="true"
+          >
+            <div className="bg-hatch relative h-full min-h-50 opacity-[0.03]" />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

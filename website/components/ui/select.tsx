@@ -9,12 +9,12 @@ const Select = SelectPrimitive.Root;
 const SelectValue = SelectPrimitive.Value;
 
 const selectTriggerVariants = cva(
-  'flex items-center gap-2 text-sm outline-none transition-[color,border-color] disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1',
+  'flex items-center gap-2 text-sm transition-[color,border-color] disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1',
   {
     variants: {
       variant: {
         default:
-          'h-9 w-full justify-between border border-input bg-transparent px-3 py-2 placeholder:text-muted-foreground focus:border-foreground/40 focus:ring-0',
+          'h-9 w-full justify-between border border-input bg-transparent px-3 py-2 placeholder:text-muted-foreground focus-visible:border-foreground/40',
         ghost:
           'cursor-pointer border-0 bg-transparent text-muted-foreground hover:text-foreground focus-visible:text-foreground',
       },

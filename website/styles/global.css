@@ -116,6 +116,28 @@
       sans-serif;
   }
 
+  /*
+   * Unified focus-visible outline — cross-browser compatible
+   * Uses outline (not box-shadow/ring) for maximum compatibility across
+   * Edge, Chrome, Firefox, Safari. outline-offset provides spacing without
+   * affecting layout. :focus-visible ensures it only shows for keyboard nav.
+   */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring) / 0.5);
+    outline-offset: 2px;
+  }
+
+  /* Inset focus for bordered elements (inputs, buttons with borders) */
+  input:focus-visible,
+  [data-slot="select-trigger"]:focus-visible {
+    outline-offset: -1px;
+  }
+
+  /* Dropdown/menu items use background highlight instead of outline */
+  [data-slot="select-item"]:focus-visible {
+    outline: none;
+  }
+
   /* View Transition: unified theme crossfade */
   ::view-transition-old(root),
   ::view-transition-new(root) {

@@ -27,7 +27,7 @@ export default function ScreenshotCarousel({
   if (count === 0) {
     return (
       <div className="bg-hatch flex aspect-video w-full items-center justify-center border-b border-border">
-        <span className="font-mono text-xs text-foreground/20">
+        <span className="font-mono text-xs text-foreground/60">
           {LL.drawer.noScreenshots()}
         </span>
       </div>

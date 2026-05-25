@@ -25,9 +25,9 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative">
+    <section className="relative" aria-labelledby="hero-title">
       {/* Dot grid background */}
-      <div className="bg-dot-grid absolute inset-0 -z-10" />
+      <div className="bg-dot-grid absolute inset-0 -z-10" aria-hidden="true" />
 
       <div className="mx-auto max-w-6xl px-6 py-6 md:px-10 sm:pt-12 sm:pb-8">
         {/* Top label */}
@@ -38,7 +38,10 @@ export default function Hero() {
         </p>
 
         {/* Title */}
-        <h1 className="tracking-tight-tech max-w-3xl text-4xl font-bold sm:text-5xl lg:text-6xl">
+        <h1
+          id="hero-title"
+          className="tracking-tight-tech max-w-3xl text-4xl font-bold sm:text-5xl lg:text-6xl"
+        >
           {LL.hero.titleLine1()}
           <br />
           {LL.hero.titleLine2()}
@@ -58,7 +61,12 @@ export default function Hero() {
             </a>
           </Button>
           <Button asChild variant="outline" className="px-5 py-2.5">
-            <a href={ENDFIELD_REPOSITORY_URL} target="_blank" rel="noopener noreferrer">
+            <a
+              href={ENDFIELD_REPOSITORY_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${LL.hero.github()} ${LL.a11y.openInNewTab()}`}
+            >
               <GithubIcon className="size-3.5" />
               {LL.hero.github()}
             </a>

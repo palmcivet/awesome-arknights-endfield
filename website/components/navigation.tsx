@@ -66,6 +66,7 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
             target="_blank"
             rel="noopener noreferrer"
             className="label-tech flex items-center gap-1.5 px-2 py-2 text-muted-foreground transition-[color] hover:text-foreground lg:px-3"
+            aria-label="GitHub"
           >
             <GithubIcon className="size-4 lg:size-3.5" />
           </a>

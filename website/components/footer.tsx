@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="border-t">
       <div className="mx-auto max-w-6xl px-container-px md:px-container-px-md flex flex-col items-center gap-3 py-5 pb-sticky-offset sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:pt-8 lg:pb-8">
         {/* Links */}
-        <div className="flex items-center gap-6 sm:order-2">
+        <nav className="flex items-center gap-6 sm:order-2" aria-label="Footer">
           <a
             href={ENDFIELD_REPOSITORY_URL}
             target="_blank"
@@ -17,6 +17,7 @@ export default function Footer() {
             className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
           >
             GitHub
+            <span className="sr-only"> {LL.a11y.openInNewTab()}</span>
           </a>
           <a
             href={ARKNIGHTS_REPOSITORY_URL}
@@ -25,6 +26,7 @@ export default function Footer() {
             className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
           >
             {LL.footer.awesomeArknights()}
+            <span className="sr-only"> {LL.a11y.openInNewTab()}</span>
           </a>
           <a
             href={`${ENDFIELD_REPOSITORY_URL}/issues`}
@@ -33,11 +35,12 @@ export default function Footer() {
             className="label-tech text-muted-foreground underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
           >
             {LL.footer.contribute()}
+            <span className="sr-only"> {LL.a11y.openInNewTab()}</span>
           </a>
-        </div>
+        </nav>
 
         {/* Copyright */}
-        <div className="font-mono text-xs text-foreground/20 sm:order-1">
+        <div className="font-mono text-xs text-foreground/60 sm:order-1">
           &copy; {currentYear} Awesome Arknights Endfield
         </div>
       </div>

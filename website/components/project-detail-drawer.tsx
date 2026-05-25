@@ -100,6 +100,9 @@ export default function ProjectDetailDrawer() {
       <div
         className="absolute inset-0 bg-foreground/10 backdrop-blur-[2px] drawer-backdrop-enter"
         onClick={closeDrawer}
+        aria-label={LL.drawer.close()}
+        role="button"
+        tabIndex={-1}
       />
 
       {/* Drawer Panel */}
@@ -177,7 +180,7 @@ export default function ProjectDetailDrawer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group/gh mb-0.5 inline-flex shrink-0 items-center gap-1.5 text-xs text-muted-foreground transition-[color] hover:text-foreground"
-                    aria-label="GitHub repository"
+                    aria-label={`GitHub repository ${LL.a11y.openInNewTab()}`}
                   >
                     <GithubIcon className="size-4" />
                     <span className="font-mono">GitHub</span>
@@ -208,14 +211,14 @@ export default function ProjectDetailDrawer() {
             {/* Metadata */}
             <div className="drawer-section-divider space-y-2 border-t border-dashed border-border pt-6">
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.index()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">#{number}</span>
               </div>
 
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.added()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">
@@ -225,7 +228,7 @@ export default function ProjectDetailDrawer() {
 
               {project.author && (
                 <div className="flex items-baseline justify-between">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                     {LL.drawer.author()}
                   </span>
                   <span className="text-xs text-muted-foreground">
@@ -247,7 +250,7 @@ export default function ProjectDetailDrawer() {
 
               {project.license && (
                 <div className="flex items-baseline justify-between">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                     {LL.drawer.license()}
                   </span>
                   <span className="font-mono text-xs text-muted-foreground">
@@ -257,7 +260,7 @@ export default function ProjectDetailDrawer() {
               )}
 
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.source()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">
@@ -269,7 +272,7 @@ export default function ProjectDetailDrawer() {
             {/* Websites */}
             {websites.length > 0 && (
               <div className="drawer-section-divider space-y-2 border-t border-dashed border-border pt-4">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.links()}
                 </span>
                 <div className="space-y-1.5">
@@ -294,7 +297,7 @@ export default function ProjectDetailDrawer() {
                           {WEBSITE_PROVIDER_LABEL[site.provider]?.[language] ??
                             site.provider}
                         </span>
-                        <span className="truncate text-foreground/30">{hostname}</span>
+                        <span className="truncate text-foreground/60">{hostname}</span>
                       </a>
                     );
                   })}

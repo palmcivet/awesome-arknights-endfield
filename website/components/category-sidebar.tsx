@@ -50,6 +50,7 @@ export default function CategorySidebar() {
                     ? 'text-foreground'
                     : 'text-muted-foreground hover:text-foreground'
                 }`}
+                aria-current={isSelected ? 'true' : undefined}
               >
                 <span
                   className={`inline-block size-1.5 ${
