@@ -1,28 +1,17 @@
-import { useEffect, useRef } from 'react';
-import { X, Globe } from 'lucide-react';
+import { useEffect, useMemo, useRef } from 'react';
+import { X } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
-import type { Category, WebsiteProvider } from '@/shared';
+import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';
+import type { Category } from '@/shared';
 import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/hooks/use-drawer';
 import { useProjects } from '@/hooks/use-projects';
 import { useLanguage } from '@/hooks/use-language';
 import { useI18nContext } from '@/i18n/i18n-react.js';
+import { parseRepoName } from '@/helpers';
+import { getProviderIcon } from '@/components/provider-icon';
 import ScreenshotCarousel from '@/components/screenshot-carousel';
-
-function parseRepoName(name: string): { owner: string; repo: string } | null {
-  const match = name.match(/^([^/]+)\/(.+)$/);
-  if (!match) return null;
-  return { owner: match[1], repo: match[2] };
-}
-
-function getProviderIcon(provider: WebsiteProvider) {
-  switch (provider) {
-    case 'GitHub Pages':
-      return <GithubIcon className="size-3.5 shrink-0" />;
-    default:
-      return <Globe className="size-3.5 shrink-0" />;
-  }
-}
 
 export default function ProjectDetailDrawer() {
   const { isOpen, selectedProjectId, closeDrawer } = useDrawer();
@@ -31,7 +20,18 @@ export default function ProjectDetailDrawer() {
   const { LL } = useI18nContext();
   const drawerRef = useRef<HTMLDivElement>(null);
 
-  const project = projects.find((p) => p.id === selectedProjectId) ?? null;
+  const projectsById = useMemo(() => new Map(projects.map((p) => [p.id, p])), [projects]);
+  const project =
+    selectedProjectId !== null ? (projectsById.get(selectedProjectId) ?? null) : null;
+
+  // Lock body scroll when drawer is open
+  useEffect(() => {
+    if (!isOpen) return;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
 
   // ESC key to close
   useEffect(() => {
@@ -42,6 +42,48 @@ export default function ProjectDetailDrawer() {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, closeDrawer]);
+
+  // Focus trap: trap Tab within drawer, restore focus on close
+  useEffect(() => {
+    if (!isOpen) return;
+    const panel = drawerRef.current;
+    if (!panel) return;
+
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+
+    // Focus the first focusable element (close button)
+    const focusFirst = () => {
+      const focusable = panel.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      );
+      focusable[0]?.focus();
+    };
+    focusFirst();
+
+    const handleTab = (e: KeyboardEvent) => {
+      if (e.key !== 'Tab') return;
+      const focusable = panel.querySelectorAll<HTMLElement>(
+        'a[href], button:not([disabled]), input:not([disabled]), [tabindex]:not([tabindex="-1"])'
+      );
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    };
+
+    panel.addEventListener('keydown', handleTab);
+    return () => {
+      panel.removeEventListener('keydown', handleTab);
+      previouslyFocused?.focus();
+    };
+  }, [isOpen]);
 
   if (!isOpen || !project) return null;
 
@@ -58,6 +100,9 @@ export default function ProjectDetailDrawer() {
       <div
         className="absolute inset-0 bg-foreground/10 backdrop-blur-[2px] drawer-backdrop-enter"
         onClick={closeDrawer}
+        aria-label={LL.drawer.close()}
+        role="button"
+        tabIndex={-1}
       />
 
       {/* Drawer Panel */}
@@ -69,18 +114,32 @@ export default function ProjectDetailDrawer() {
         aria-label={project.name}
       >
         {/* Corner accents — left side only */}
-        <div className="pointer-events-none absolute left-0 top-0 h-4 w-px bg-foreground/15" />
-        <div className="pointer-events-none absolute left-0 top-0 h-px w-4 bg-foreground/15" />
-        <div className="pointer-events-none absolute bottom-0 left-0 h-4 w-px bg-foreground/15" />
-        <div className="pointer-events-none absolute bottom-0 left-0 h-px w-4 bg-foreground/15" />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute left-0 top-0 h-4 w-px bg-foreground/15"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute left-0 top-0 h-px w-4 bg-foreground/15"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute bottom-0 left-0 h-4 w-px bg-foreground/15"
+        />
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute bottom-0 left-0 h-px w-4 bg-foreground/15"
+        />
         {/* Close button */}
-        <button
+        <Button
+          variant="outline"
+          size="icon-sm"
           onClick={closeDrawer}
-          className="absolute left-3 top-3 z-20 flex size-7 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
+          className="absolute left-3 top-3 z-20 bg-background/80 text-foreground/60 backdrop-blur-sm hover:bg-background hover:text-foreground"
           aria-label={LL.drawer.close()}
         >
           <X className="size-4" />
-        </button>
+        </Button>
 
         {/* Scrollable content */}
         <div className="flex-1 overflow-y-auto">
@@ -120,8 +179,8 @@ export default function ProjectDetailDrawer() {
                     href={project.repository}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group/gh mb-0.5 inline-flex shrink-0 items-center gap-1.5 text-xs text-muted-foreground transition-colors hover:text-foreground"
-                    aria-label="GitHub repository"
+                    className="group/gh mb-0.5 inline-flex shrink-0 items-center gap-1.5 text-xs text-muted-foreground transition-[color] hover:text-foreground"
+                    aria-label={`GitHub repository ${LL.a11y.openInNewTab()}`}
                   >
                     <GithubIcon className="size-4" />
                     <span className="font-mono">GitHub</span>
@@ -142,12 +201,9 @@ export default function ProjectDetailDrawer() {
             {project.tags.length > 0 && (
               <div className="flex flex-wrap gap-1.5">
                 {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="border border-border px-2 py-0.5 font-mono text-[11px] text-muted-foreground"
-                  >
+                  <Badge key={tag} variant="outline">
                     {tag}
-                  </span>
+                  </Badge>
                 ))}
               </div>
             )}
@@ -155,14 +211,14 @@ export default function ProjectDetailDrawer() {
             {/* Metadata */}
             <div className="drawer-section-divider space-y-2 border-t border-dashed border-border pt-6">
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.index()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">#{number}</span>
               </div>
 
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.added()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">
@@ -172,7 +228,7 @@ export default function ProjectDetailDrawer() {
 
               {project.author && (
                 <div className="flex items-baseline justify-between">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                     {LL.drawer.author()}
                   </span>
                   <span className="text-xs text-muted-foreground">
@@ -181,7 +237,7 @@ export default function ProjectDetailDrawer() {
                         href={project.author.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="underline decoration-border underline-offset-2 transition-colors hover:text-foreground hover:decoration-foreground"
+                        className="underline decoration-border underline-offset-2 transition-[color,text-decoration-color] hover:text-foreground hover:decoration-foreground"
                       >
                         {project.author.name}
                       </a>
@@ -194,7 +250,7 @@ export default function ProjectDetailDrawer() {
 
               {project.license && (
                 <div className="flex items-baseline justify-between">
-                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                  <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                     {LL.drawer.license()}
                   </span>
                   <span className="font-mono text-xs text-muted-foreground">
@@ -204,7 +260,7 @@ export default function ProjectDetailDrawer() {
               )}
 
               <div className="flex items-baseline justify-between">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.source()}
                 </span>
                 <span className="font-mono text-xs text-muted-foreground">
@@ -216,7 +272,7 @@ export default function ProjectDetailDrawer() {
             {/* Websites */}
             {websites.length > 0 && (
               <div className="drawer-section-divider space-y-2 border-t border-dashed border-border pt-4">
-                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/30">
+                <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/60">
                   {LL.drawer.links()}
                 </span>
                 <div className="space-y-1.5">
@@ -234,14 +290,14 @@ export default function ProjectDetailDrawer() {
                         href={site.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex min-w-0 items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-colors hover:border-border hover:text-foreground"
+                        className="flex min-w-0 items-center gap-2 border border-transparent px-2 py-1.5 font-mono text-xs text-muted-foreground transition-[color,border-color] hover:border-border hover:text-foreground"
                       >
-                        {getProviderIcon(site.provider)}
+                        {getProviderIcon(site.provider, 'md')}
                         <span className="shrink-0">
                           {WEBSITE_PROVIDER_LABEL[site.provider]?.[language] ??
                             site.provider}
                         </span>
-                        <span className="truncate text-foreground/30">{hostname}</span>
+                        <span className="truncate text-foreground/60">{hostname}</span>
                       </a>
                     );
                   })}

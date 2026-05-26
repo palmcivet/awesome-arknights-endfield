@@ -58,10 +58,13 @@ All colors use HSL format with **0 saturation**. No hue, no accent color.
 | `--ring` | `0 0% 5%` | `0 0% 80%` | Focus rings |
 
 **Opacity patterns** (use Tailwind opacity modifiers):
-- Ghost/decorative elements: `foreground/15` or `foreground/20`
+- De-emphasized text (metadata, dates, secondary info): `foreground/60` (meets WCAG AA 4.5:1)
+- Non-text decorative elements (corner accents, grid lines): `foreground/10` – `foreground/30`
 - Hover backgrounds: `muted/40`
 - Disabled states: `opacity-50`
 - Corner accents: `foreground/10` (idle), `foreground/30` (hover)
+
+> **Accessibility constraint:** Any visible *text* must use at least `foreground/60` on `background` to meet WCAG AA 4.5:1 contrast. Lower opacities (`/15`, `/20`, `/30`) are only permitted on non-text decorative elements (borders, backgrounds, icons adjacent to text).
 
 ### 3. Border-radius
 
@@ -122,13 +125,13 @@ Usage: Dot grid appears only in the Hero section. Hatch is reserved for empty/pl
 
 ### 6. Numbering System
 
-Project cards display a zero-padded index in monospace at very low contrast:
+Project cards display a zero-padded index in monospace at de-emphasized contrast:
 
 ```
-font-mono text-[10px] text-foreground/15
+font-mono text-[10px] text-foreground/60
 ```
 
-Format: `01`, `02`, `03`... with an optional ` · YYYY-MM-DD` date suffix on larger screens (`hidden sm:inline`).
+Format: `001`, `002`, `003`... with a ` · YYYY-MM-DD` date suffix.
 
 ### 7. Shadows
 
@@ -271,10 +274,10 @@ Container provides the line color, `gap-px` creates 1px visible rules:
 
 ### Ghost Metadata
 
-Low-contrast data display for secondary information (indices, dates, licenses):
+De-emphasized data display for secondary information (indices, dates, licenses):
 
 ```
-font-mono text-[10px] text-foreground/15
+font-mono text-[10px] text-foreground/60
 ```
 
 ## Animation & Transitions

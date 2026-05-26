@@ -48,15 +48,16 @@ export default function SearchBoxLg({ onVisibilityChange }: SearchBoxLgProps) {
       <div className="ml-auto flex items-center gap-1">
         {SORT_OPTIONS.map((option, i) => (
           <span key={option} className="flex items-center">
-            {i > 0 && <span className="px-1 text-[10px] text-foreground/15">·</span>}
+            {i > 0 && <span className="px-1 text-[10px] text-foreground/60">·</span>}
             <button
               type="button"
               onClick={() => setSortBy(option)}
-              className={`label-tech transition-colors ${
+              className={`label-tech transition-[color] cursor-pointer ${
                 sortBy === option
                   ? 'text-foreground'
                   : 'text-muted-foreground hover:text-foreground/70'
               }`}
+              aria-pressed={sortBy === option}
             >
               {getSortLabel(option, LL.sort)}
             </button>

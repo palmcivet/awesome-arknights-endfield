@@ -31,7 +31,10 @@ export function SearchInput({
     showClear && suffix ? 'pr-20' : showClear ? 'pr-9' : suffix ? 'pr-14' : 'pr-3';
   return (
     <div className={`relative min-w-0 flex-1 ${className ?? ''}`}>
-      <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+      <Search
+        className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground"
+        aria-hidden="true"
+      />
       <Input
         type="text"
         placeholder={placeholder}
@@ -42,6 +45,7 @@ export function SearchInput({
         className={`pl-9 ${prClass}`}
         tabIndex={tabIndex}
         autoCorrect="off"
+        aria-label={placeholder}
       />
       {suffix && (
         <span
@@ -54,7 +58,7 @@ export function SearchInput({
         <button
           type="button"
           onClick={onClear}
-          className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-colors outline-none focus-visible:text-foreground"
+          className="absolute right-2.5 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground transition-[color] focus-visible:text-foreground"
           tabIndex={tabIndex}
           aria-label="Clear search"
         >

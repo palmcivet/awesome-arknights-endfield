@@ -1,4 +1,4 @@
-import { useState, useMemo, type ReactNode } from 'react';
+import { useState, useMemo, useCallback, type ReactNode } from 'react';
 import { CATEGORIES, type Category } from '@/shared';
 import projectsData from '@data/LIST.json';
 import { filterValidProjects } from '@/helpers';
@@ -90,43 +90,51 @@ export function ProjectProvider({ children }: { children: ReactNode }) {
     return sorted;
   }, [projects, searchQuery, selectedCategory, sortBy]);
 
-  const selectCategory = (category: Category | null) => {
+  const selectCategory = useCallback((category: Category | null) => {
     setSelectedCategory((prev) => {
       const next = prev === category ? null : category;
       updateCategoryInURL(next);
       return next;
     });
-  };
+  }, []);
 
-  const setSortBy = (sort: SortOption) => {
+  const setSortBy = useCallback((sort: SortOption) => {
     setSortByState(sort);
     updateSortInURL(sort);
-  };
+  }, []);
 
-  const clearFilters = () => {
+  const clearFilters = useCallback(() => {
     setSearchQuery('');
     setSelectedCategory(null);
     setSortByState('newest');
     updateCategoryInURL(null);
     updateSortInURL('newest');
-  };
+  }, []);
 
-  return (
-    <ProjectContext.Provider
-      value={{
-        projects,
-        filteredProjects,
-        searchQuery,
-        setSearchQuery,
-        selectedCategory,
-        selectCategory,
-        sortBy,
-        setSortBy,
-        clearFilters,
-        categories: CATEGORIES,
-      }}
-    >
-      {children}
-    </ProjectContext.Provider>
+  const value = useMemo(
+    () => ({
+      projects,
+      filteredProjects,
+      searchQuery,
+      setSearchQuery,
+      selectedCategory,
+      selectCategory,
+      sortBy,
+      setSortBy,
+      clearFilters,
+      categories: CATEGORIES,
+    }),
+    [
+      projects,
+      filteredProjects,
+      searchQuery,
+      selectedCategory,
+      sortBy,
+      selectCategory,
+      setSortBy,
+      clearFilters,
+    ]
   );
+
+  return <ProjectContext.Provider value={value}>{children}</ProjectContext.Provider>;
 }

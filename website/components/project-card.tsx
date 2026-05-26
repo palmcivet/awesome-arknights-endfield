@@ -1,32 +1,21 @@
 import { useMemo } from 'react';
-import { Globe } from 'lucide-react';
 import { GithubIcon } from '@/components/icons';
-import type { Category, Project, WebsiteProvider } from '@/shared';
+import { Badge } from '@/components/ui/badge';
+import type { Category, Project } from '@/shared';
 import { CATEGORY_LABEL, WEBSITE_PROVIDER_LABEL } from '@/shared';
 import { useDrawer } from '@/hooks/use-drawer';
 import { useLanguage } from '@/hooks/use-language';
+import { useI18nContext } from '@/i18n/i18n-react.js';
+import { parseRepoName } from '@/helpers';
+import { getProviderIcon } from '@/components/provider-icon';
 
 interface ProjectCardProps {
   project: Project;
 }
 
-function parseRepoName(name: string): { owner: string; repo: string } | null {
-  const match = name.match(/^([^/]+)\/(.+)$/);
-  if (!match) return null;
-  return { owner: match[1], repo: match[2] };
-}
-
-function getProviderIcon(provider: WebsiteProvider) {
-  switch (provider) {
-    case 'GitHub Pages':
-      return <GithubIcon className="size-3" />;
-    default:
-      return <Globe className="size-3" />;
-  }
-}
-
 export default function ProjectCard({ project }: ProjectCardProps) {
   const { language } = useLanguage();
+  const { LL } = useI18nContext();
   const description = project.description[language] || project.description['en-US'];
   const hasGithub = !!project.repository;
   const websites = project.website ?? [];
@@ -47,27 +36,48 @@ export default function ProjectCard({ project }: ProjectCardProps) {
     openDrawer(project.id);
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      openDrawer(project.id);
+    }
+  };
+
   return (
     <article
-      className="group relative flex h-full cursor-pointer flex-col p-5 transition-colors hover:bg-muted/40"
+      className="group relative flex h-full cursor-pointer flex-col p-5 transition-[background-color] hover:bg-muted/40"
       onClick={handleCardClick}
+      onKeyDown={handleKeyDown}
+      tabIndex={0}
     >
       {/* Corner accents */}
-      <div className="pointer-events-none absolute left-0 top-0 h-3 w-px bg-foreground/10 transition-colors group-hover:bg-foreground/30" />
-      <div className="pointer-events-none absolute left-0 top-0 h-px w-3 bg-foreground/10 transition-colors group-hover:bg-foreground/30" />
-      <div className="pointer-events-none absolute right-0 top-0 h-3 w-px bg-foreground/10 transition-colors group-hover:bg-foreground/30" />
-      <div className="pointer-events-none absolute right-0 top-0 h-px w-3 bg-foreground/10 transition-colors group-hover:bg-foreground/30" />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute left-0 top-0 h-3 w-px bg-foreground/10 transition-[background-color] group-hover:bg-foreground/30"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute left-0 top-0 h-px w-3 bg-foreground/10 transition-[background-color] group-hover:bg-foreground/30"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute right-0 top-0 h-3 w-px bg-foreground/10 transition-[background-color] group-hover:bg-foreground/30"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute right-0 top-0 h-px w-3 bg-foreground/10 transition-[background-color] group-hover:bg-foreground/30"
+      />
 
       {/* New badge — rotated ribbon style at top-left corner */}
       {isNew && (
-        <span className="absolute left-3 top-2.5 -rotate-45 font-mono text-[8px] leading-none text-foreground/50">
+        <span className="absolute left-3 top-2.5 -rotate-45 font-mono text-[8px] leading-none text-foreground/65">
           NEW
         </span>
       )}
 
       {/* Row 0: catalog metadata + category */}
       <div className="flex items-baseline justify-between gap-2">
-        <span className="shrink-0 font-mono text-[10px] text-foreground/15">
+        <span className="shrink-0 font-mono text-[10px] text-foreground/60">
           <span>{number}</span>
           <span> · {project.addedAt}</span>
         </span>
@@ -93,7 +103,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               target="_blank"
               rel="noopener noreferrer"
               className="hidden max-w-full items-center gap-1.5 transition-[color] hover:text-foreground/70 lg:inline-flex"
-              aria-label={`${project.name} GitHub`}
+              aria-label={`${project.name} GitHub ${LL.a11y.openInNewTab()}`}
             >
               <GithubIcon className="size-4 shrink-0 text-foreground/50" />
               <span className="truncate text-base font-semibold leading-snug tracking-tight-tech underline decoration-foreground/15 underline-offset-2 transition-[text-decoration-color] hover:decoration-foreground/40">
@@ -117,15 +127,12 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       {project.tags.length > 0 && (
         <div className="mt-3 flex items-center gap-1.5 overflow-hidden">
           {project.tags.slice(0, 4).map((tag) => (
-            <span
-              key={tag}
-              className="shrink-0 border border-border px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground"
-            >
+            <Badge key={tag} variant="tag" className="shrink-0">
               {tag}
-            </span>
+            </Badge>
           ))}
           {project.tags.length > 4 && (
-            <span className="shrink-0 font-mono text-[10px] text-foreground/15">
+            <span className="shrink-0 font-mono text-[10px] text-foreground/60">
               +{project.tags.length - 4}
             </span>
           )}
@@ -139,7 +146,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {(project.author || project.license) && (
             <div className="flex items-center justify-end gap-3">
               {project.license && (
-                <span className="min-w-0 truncate font-mono text-[10px] text-muted-foreground/70">
+                <span className="min-w-0 truncate font-mono text-[10px] text-muted-foreground">
                   {project.license}
                 </span>
               )}
@@ -183,7 +190,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hidden items-center gap-1 border border-transparent px-1.5 py-0.5 font-mono text-[10px] text-muted-foreground transition-[color,border-color] hover:border-border hover:text-foreground lg:inline-flex"
-                    aria-label={`${project.name} — ${site.provider}`}
+                    aria-label={`${project.name} — ${site.provider} ${LL.a11y.openInNewTab()}`}
                   >
                     {getProviderIcon(site.provider)}
                     {WEBSITE_PROVIDER_LABEL[site.provider]?.[language] ?? site.provider}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback, useMemo } from 'react';
 import { ThemeContext } from '@/hooks/use-theme';
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
@@ -14,27 +14,28 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     localStorage.setItem('theme', theme);
   }, [theme]);
 
-  const applyTheme = (updater: (prev: 'light' | 'dark') => 'light' | 'dark') => {
+  const setTheme = useCallback((newTheme: 'light' | 'dark') => {
+    const updater = () => newTheme;
     if (document.startViewTransition) {
-      document.startViewTransition(() => {
-        setThemeState(updater);
-      });
+      document.startViewTransition(() => setThemeState(updater));
     } else {
       setThemeState(updater);
     }
-  };
+  }, []);
 
-  const setTheme = (newTheme: 'light' | 'dark') => {
-    applyTheme(() => newTheme);
-  };
+  const toggleTheme = useCallback(() => {
+    const updater = (prev: 'light' | 'dark') => (prev === 'light' ? 'dark' : 'light');
+    if (document.startViewTransition) {
+      document.startViewTransition(() => setThemeState(updater));
+    } else {
+      setThemeState(updater);
+    }
+  }, []);
 
-  const toggleTheme = () => {
-    applyTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
-  };
-
-  return (
-    <ThemeContext.Provider value={{ theme, setTheme, toggleTheme }}>
-      {children}
-    </ThemeContext.Provider>
+  const value = useMemo(
+    () => ({ theme, setTheme, toggleTheme }),
+    [theme, setTheme, toggleTheme]
   );
+
+  return <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>;
 }

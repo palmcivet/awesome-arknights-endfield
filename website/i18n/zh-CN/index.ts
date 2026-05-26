@@ -64,6 +64,12 @@ const zh_CN = {
     dark: '深色',
     light: '浅色',
   },
+
+  a11y: {
+    skipToContent: '跳转到内容',
+    projectList: '项目列表',
+    openInNewTab: '（在新标签页中打开）',
+  },
 } satisfies Translation;
 
 export default zh_CN;

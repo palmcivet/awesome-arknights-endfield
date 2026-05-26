@@ -75,6 +75,13 @@ const en_US = {
     dark: 'Dark',
     light: 'Light',
   },
+
+  // Accessibility
+  a11y: {
+    skipToContent: 'Skip to content',
+    projectList: 'Project list',
+    openInNewTab: '(opens in new tab)',
+  },
 } satisfies BaseTranslation;
 
 export default en_US;

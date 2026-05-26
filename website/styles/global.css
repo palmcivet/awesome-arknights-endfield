@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --radius: 0px;
@@ -34,11 +34,6 @@
   --border: 0 0% 90%;
   --input: 0 0% 90%;
   --ring: 0 0% 5%;
-  --chart-1: 12 76% 61%;
-  --chart-2: 173 58% 39%;
-  --chart-3: 197 37% 24%;
-  --chart-4: 43 74% 66%;
-  --chart-5: 27 87% 67%;
 
   /* Dot grid */
   --dot-color: rgba(0, 0, 0, 0.08);
@@ -102,11 +97,6 @@
   --color-border: hsl(var(--border));
   --color-input: hsl(var(--input));
   --color-ring: hsl(var(--ring));
-  --color-chart-1: hsl(var(--chart-1));
-  --color-chart-2: hsl(var(--chart-2));
-  --color-chart-3: hsl(var(--chart-3));
-  --color-chart-4: hsl(var(--chart-4));
-  --color-chart-5: hsl(var(--chart-5));
   --radius-sm: 0px;
   --radius-md: 0px;
   --radius-lg: 0px;
@@ -124,6 +114,28 @@
       system-ui,
       -apple-system,
       sans-serif;
+  }
+
+  /*
+   * Unified focus-visible outline — cross-browser compatible
+   * Uses outline (not box-shadow/ring) for maximum compatibility across
+   * Edge, Chrome, Firefox, Safari. outline-offset provides spacing without
+   * affecting layout. :focus-visible ensures it only shows for keyboard nav.
+   */
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring) / 0.5);
+    outline-offset: 2px;
+  }
+
+  /* Inset focus for bordered elements (inputs, buttons with borders) */
+  input:focus-visible,
+  [data-slot="select-trigger"]:focus-visible {
+    outline-offset: -1px;
+  }
+
+  /* Dropdown/menu items use background highlight instead of outline */
+  [data-slot="select-item"]:focus-visible {
+    outline: none;
   }
 
   /* View Transition: unified theme crossfade */
@@ -171,12 +183,6 @@
   /* Tight tracking for headings */
   .tracking-tight-tech {
     letter-spacing: -0.03em;
-  }
-
-  /* Dashed border */
-  .border-dashed-tech {
-    border-style: dashed;
-    border-color: hsl(var(--border));
   }
 
   /* Drawer animations */

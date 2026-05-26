@@ -171,6 +171,20 @@ type RootTranslation = {
 		 */
 		light: string
 	}
+	a11y: {
+		/**
+		 * S​k​i​p​ ​t​o​ ​c​o​n​t​e​n​t
+		 */
+		skipToContent: string
+		/**
+		 * P​r​o​j​e​c​t​ ​l​i​s​t
+		 */
+		projectList: string
+		/**
+		 * (​o​p​e​n​s​ ​i​n​ ​n​e​w​ ​t​a​b​)
+		 */
+		openInNewTab: string
+	}
 }
 
 export type TranslationFunctions = {
@@ -329,6 +343,20 @@ export type TranslationFunctions = {
 		 * Light
 		 */
 		light: () => LocalizedString
+	}
+	a11y: {
+		/**
+		 * Skip to content
+		 */
+		skipToContent: () => LocalizedString
+		/**
+		 * Project list
+		 */
+		projectList: () => LocalizedString
+		/**
+		 * (opens in new tab)
+		 */
+		openInNewTab: () => LocalizedString
 	}
 }
 

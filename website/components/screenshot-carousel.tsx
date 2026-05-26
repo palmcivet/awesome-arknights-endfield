@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 
 interface ScreenshotCarouselProps {
@@ -26,7 +27,7 @@ export default function ScreenshotCarousel({
   if (count === 0) {
     return (
       <div className="bg-hatch flex aspect-video w-full items-center justify-center border-b border-border">
-        <span className="font-mono text-xs text-foreground/20">
+        <span className="font-mono text-xs text-foreground/60">
           {LL.drawer.noScreenshots()}
         </span>
       </div>
@@ -53,20 +54,24 @@ export default function ScreenshotCarousel({
       {/* Navigation arrows */}
       {count > 1 && (
         <>
-          <button
+          <Button
+            variant="outline"
+            size="icon-sm"
             onClick={prev}
-            className="absolute left-2 top-1/2 flex size-7 -translate-y-1/2 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
+            className="absolute left-2 top-1/2 -translate-y-1/2 bg-background/80 text-foreground/60 backdrop-blur-sm hover:bg-background hover:text-foreground"
             aria-label="Previous screenshot"
           >
             <ChevronLeft className="size-4" />
-          </button>
-          <button
+          </Button>
+          <Button
+            variant="outline"
+            size="icon-sm"
             onClick={next}
-            className="absolute right-2 top-1/2 flex size-7 -translate-y-1/2 items-center justify-center border border-border bg-background/80 text-foreground/60 backdrop-blur-sm transition-colors hover:bg-background hover:text-foreground"
+            className="absolute right-2 top-1/2 -translate-y-1/2 bg-background/80 text-foreground/60 backdrop-blur-sm hover:bg-background hover:text-foreground"
             aria-label="Next screenshot"
           >
             <ChevronRight className="size-4" />
-          </button>
+          </Button>
         </>
       )}
 
@@ -77,7 +82,7 @@ export default function ScreenshotCarousel({
             <button
               key={i}
               onClick={() => setCurrentIndex(i)}
-              className={`size-1.5 transition-colors ${
+              className={`size-1.5 transition-[background-color] ${
                 i === currentIndex ? 'bg-foreground/80' : 'bg-foreground/20'
               }`}
               aria-label={`Screenshot ${i + 1}`}
