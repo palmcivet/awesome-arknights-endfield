@@ -55,6 +55,10 @@
   - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - 源石计划 - 终末地产线规划工具。使用 Rust/WebAssembly 实现的终末地生产线规划工具，支持 CLI 和 Web 版本，基于 HiGHS 求解器实现 MILP 模型求解。
 
+- [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
+  - [主页](https://jeiweb.sirrus.cc)
+  - 受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。
+
 ## 地图与攻略
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

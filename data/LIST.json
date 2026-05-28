@@ -1099,5 +1099,32 @@
     "addedAt": "2026-05-20",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "AndreaFrederica/jei-web",
+    "description": {
+      "en-US": "A web-based item viewer and crafting planner inspired by Minecraft's JEI mod, featuring recipe queries, material calculators, and multi-target production planning for Arknights: Endfield.",
+      "zh-CN": "受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。"
+    },
+    "repository": "https://github.com/AndreaFrederica/jei-web",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://jeiweb.sirrus.cc"
+      }
+    ],
+    "author": {
+      "name": "AndreaFrederica",
+      "url": "https://github.com/AndreaFrederica"
+    },
+    "category": "Production & Factory",
+    "tags": [
+      "Planner",
+      "Calculator"
+    ],
+    "id": 45,
+    "addedAt": "2026-05-28",
+    "openSource": true,
+    "license": "Mozilla Public License 2.0"
   }
 ]

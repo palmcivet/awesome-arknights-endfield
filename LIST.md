@@ -55,6 +55,10 @@
   - [GitHub Pages](https://sssxks.github.io/end-cli/)
   - A production line optimization planning tool for Arknights: Endfield, implemented with Rust/WebAssembly and based on HiGHS solver for MILP model.
 
+- [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
+  - [Home Page](https://jeiweb.sirrus.cc)
+  - A web-based item viewer and crafting planner inspired by Minecraft's JEI mod, featuring recipe queries, material calculators, and multi-target production planning for Arknights: Endfield.
+
 ## Maps & Guides
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-44-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-45-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
-  - 一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。
-
 - [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
   - 基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。
 
@@ -71,6 +68,10 @@
 
 - [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
   - 基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。
+
+- [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
+  - [主页](https://jeiweb.sirrus.cc)
+  - 受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
