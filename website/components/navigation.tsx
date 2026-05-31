@@ -5,7 +5,8 @@ import { SearchInput } from '@/components/search-input';
 import { useProjects } from '@/hooks/use-projects';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 import { ENDFIELD_REPOSITORY_URL } from '@/shared/constants';
-import Logo from '@/assets/logo.svg';
+
+const logoUrl = `${import.meta.env.BASE_URL}logo.webp`;
 
 interface NavigationProps {
   showSearch?: boolean;
@@ -21,15 +22,15 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
     <nav className="sticky top-0 z-50 w-full border-b border-border bg-background/80 backdrop-blur-md supports-backdrop-filter:bg-background/60">
       <div className="mx-auto flex h-nav max-w-6xl items-center px-container-px md:px-container-px-md">
         {/* Left: Logo — desktop shows text, mobile shows icon only */}
-        <div className="hidden w-sidebar shrink-0 items-center gap-2.5 lg:flex">
+        <div className="hidden w-sidebar shrink-0 items-center gap-2.5 md:flex">
           <a className="flex shrink-0 items-center gap-2.5" href="/" aria-label="Home">
-            <img src={Logo} alt="" className="h-5 opacity-80" />
+            <img src={logoUrl} alt="" className="h-5 w-5 rounded-full" />
             <span className="label-tech text-foreground/80">Arknights Endfield</span>
           </a>
         </div>
         {/* Mobile logo — icon only */}
-        <a className="flex shrink-0 items-center lg:hidden" href="/" aria-label="Home">
-          <img src={Logo} alt="" className="h-5 opacity-80" />
+        <a className="flex shrink-0 items-center md:hidden" href="/" aria-label="Home">
+          <img src={logoUrl} alt="" className="h-5 w-5 rounded-full" />
         </a>
 
         {/* Center: Search — desktop only, slides up into place */}
