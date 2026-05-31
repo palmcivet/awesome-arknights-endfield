@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect } from 'react';
 import type { ReactNode } from 'react';
 import type { Locales } from '@/i18n/i18n-types.js';
 import TypesafeI18n, { useI18nContext } from '@/i18n/i18n-react.js';
-import { loadAllLocales } from '@/i18n/i18n-util.sync.js';
+import { loadLocaleAsync } from '@/i18n/i18n-util.async.js';
 import { LANGUAGES } from '@/shared/locales';
 import type { Language } from '@/shared/locales';
 import { LanguageContext } from '@/hooks/use-language';
@@ -24,9 +24,6 @@ function detectInitialLanguage(): Language {
 
   return DEFAULT_LOCALE;
 }
-
-// Load all locales synchronously at module level (only 2 small locale files)
-loadAllLocales();
 
 /**
  * Bridge component that syncs our language state to typesafe-i18n's internal
@@ -53,11 +50,20 @@ function I18nLocaleSyncer({
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>(detectInitialLanguage);
+  const [localeLoaded, setLocaleLoaded] = useState(false);
 
-  const setLanguage = useCallback((lang: Language) => {
+  // Load the initial locale asynchronously
+  useEffect(() => {
+    loadLocaleAsync(language as Locales).then(() => setLocaleLoaded(true));
+  }, [language]);
+
+  const setLanguage = useCallback(async (lang: Language) => {
+    await loadLocaleAsync(lang as Locales);
     setLanguageState(lang);
     localStorage.setItem(STORAGE_KEY, lang);
   }, []);
+
+  if (!localeLoaded) return null;
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
