@@ -24,13 +24,13 @@ export default function Navigation({ showSearch = false }: NavigationProps) {
         {/* Left: Logo — desktop shows text, mobile shows icon only */}
         <div className="hidden w-sidebar shrink-0 items-center gap-2.5 md:flex">
           <a className="flex shrink-0 items-center gap-2.5" href="/" aria-label="Home">
-            <img src={logoUrl} alt="" className="h-5 w-5 rounded-full" />
+            <img src={logoUrl} alt="" width={20} height={20} fetchPriority="high" className="h-5 w-5 rounded-full" />
             <span className="label-tech text-foreground/80">Arknights Endfield</span>
           </a>
         </div>
         {/* Mobile logo — icon only */}
         <a className="flex shrink-0 items-center md:hidden" href="/" aria-label="Home">
-          <img src={logoUrl} alt="" className="h-5 w-5 rounded-full" />
+          <img src={logoUrl} alt="" width={20} height={20} fetchPriority="high" className="h-5 w-5 rounded-full" />
         </a>
 
         {/* Center: Search — desktop only, slides up into place */}
