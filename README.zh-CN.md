@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-45-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-46-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
-  - 基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。
-
 - [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
   - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
 
@@ -72,6 +69,11 @@
 - [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
   - [主页](https://jeiweb.sirrus.cc)
   - 受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。
+
+- [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
+  - [主页](https://gugugagapenguin.com/)
+  - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
+  - 记录《明日方舟：终末地》咕咕嘎嘎企鹅梗的起源、时间线及 AI 创作工具的参考页面。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

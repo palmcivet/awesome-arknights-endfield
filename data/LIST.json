@@ -1126,5 +1126,36 @@
     "addedAt": "2026-05-28",
     "openSource": true,
     "license": "Mozilla Public License 2.0"
+  },
+  {
+    "name": "ChipenYip/gugu-gaga-penguin",
+    "description": {
+      "en-US": "A reference page documenting the origin, timeline, and AI creation tools behind the viral Gugugaga Penguin meme from Arknights: Endfield.",
+      "zh-CN": "记录《明日方舟：终末地》咕咕嘎嘎企鹅梗的起源、时间线及 AI 创作工具的参考页面。"
+    },
+    "repository": "https://github.com/ChipenYip/gugu-gaga-penguin",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://gugugagapenguin.com/"
+      },
+      {
+        "provider": "GitHub Pages",
+        "url": "https://ChipenYip.github.io/gugu-gaga-penguin/"
+      }
+    ],
+    "author": {
+      "name": "ChipenYip",
+      "url": "https://github.com/ChipenYip"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "Meme",
+      "AI Art"
+    ],
+    "id": 46,
+    "addedAt": "2026-05-31",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

@@ -116,6 +116,11 @@
 - [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
   - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
 
+- [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
+  - [主页](https://gugugagapenguin.com/)
+  - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
+  - 记录《明日方舟：终末地》咕咕嘎嘎企鹅梗的起源、时间线及 AI 创作工具的参考页面。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

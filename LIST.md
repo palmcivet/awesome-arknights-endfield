@@ -116,6 +116,11 @@
 - [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
   - An AI agent skill module for the character Zhuang Fangyi from Arknights: Endfield, combining character roleplay with task collaboration capabilities.
 
+- [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
+  - [Home Page](https://gugugagapenguin.com/)
+  - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
+  - A reference page documenting the origin, timeline, and AI creation tools behind the viral Gugugaga Penguin meme from Arknights: Endfield.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)
