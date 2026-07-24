@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-48-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-49-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
-  - 基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。
-
 - [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
   - [主页](https://jeiweb.sirrus.cc)
   - 受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。
@@ -73,6 +70,9 @@
 
 - [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
   - 《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。
+
+- [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
+  - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

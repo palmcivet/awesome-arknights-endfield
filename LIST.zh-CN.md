@@ -208,3 +208,6 @@
 
 - [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
   - 《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。
+
+- [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
+  - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。

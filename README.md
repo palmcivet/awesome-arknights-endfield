@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-48-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-49-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
-  - A neural network-driven gacha pull simulator for Arknights: Endfield, using deep learning (DBN, DQN, PPO) to model gacha mechanics with SIMD acceleration.
-
 - [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
   - [Home Page](https://jeiweb.sirrus.cc)
   - A web-based item viewer and crafting planner inspired by Minecraft's JEI mod, featuring recipe queries, material calculators, and multi-target production planning for Arknights: Endfield.
@@ -72,6 +69,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
   - A native Linux launcher for Arknights: Endfield, handling installation, updates, and Proton-based launching without Steam or Lutris.
+
+- [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
+  - An automatic essence recognition tool for Arknights: Endfield, featuring lightweight OCR, resolution adaptation, and background window capture on Windows.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

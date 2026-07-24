@@ -1205,5 +1205,25 @@
     "addedAt": "2026-07-24",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "Evoltsuki/Endfield_essence",
+    "description": {
+      "en-US": "An automatic essence recognition tool for Arknights: Endfield, featuring lightweight OCR, resolution adaptation, and background window capture on Windows.",
+      "zh-CN": "《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。"
+    },
+    "repository": "https://github.com/Evoltsuki/Endfield_essence",
+    "author": {
+      "name": "Evoltsuki",
+      "url": "https://github.com/Evoltsuki"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Automation",
+      "Essence"
+    ],
+    "id": 49,
+    "addedAt": "2026-07-24",
+    "openSource": true
   }
 ]

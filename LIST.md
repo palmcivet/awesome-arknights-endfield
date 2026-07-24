@@ -208,3 +208,6 @@
 
 - [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
   - A native Linux launcher for Arknights: Endfield, handling installation, updates, and Proton-based launching without Steam or Lutris.
+
+- [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
+  - An automatic essence recognition tool for Arknights: Endfield, featuring lightweight OCR, resolution adaptation, and background window capture on Windows.
