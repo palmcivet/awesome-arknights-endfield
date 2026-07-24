@@ -1184,5 +1184,26 @@
     "addedAt": "2026-07-24",
     "openSource": true,
     "license": "Apache License 2.0"
+  },
+  {
+    "name": "AugustLigh/LLauncher",
+    "description": {
+      "en-US": "A native Linux launcher for Arknights: Endfield, handling installation, updates, and Proton-based launching without Steam or Lutris.",
+      "zh-CN": "《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。"
+    },
+    "repository": "https://github.com/AugustLigh/LLauncher",
+    "author": {
+      "name": "AugustLigh",
+      "url": "https://github.com/AugustLigh"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Launcher",
+      "Linux"
+    ],
+    "id": 48,
+    "addedAt": "2026-07-24",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

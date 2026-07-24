@@ -205,3 +205,6 @@
 
 - [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
   - A cross-platform open-source toolbox for the SKLAND/SKPORT Endfield Wiki, built with Tauri v2.
+
+- [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
+  - A native Linux launcher for Arknights: Endfield, handling installation, updates, and Proton-based launching without Steam or Lutris.

@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-47-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-48-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,11 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
-  - [Home Page](https://reend.vallov.com/)
-  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
-  - A community-maintained resource hub for Arknights: Endfield, featuring operator tier lists, pity and banner mechanics, team building guides, and beginner tips.
-
 - [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
   - A neural network-driven gacha pull simulator for Arknights: Endfield, using deep learning (DBN, DQN, PPO) to model gacha mechanics with SIMD acceleration.
 
@@ -74,6 +69,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
   - [Home Page](https://goyfield.moe)
   - A pull tracker and global statistics database for Arknights: Endfield, with cloud sync and local deployment support.
+
+- [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
+  - A native Linux launcher for Arknights: Endfield, handling installation, updates, and Proton-based launching without Steam or Lutris.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

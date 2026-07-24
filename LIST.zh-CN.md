@@ -205,3 +205,6 @@
 
 - [EIHRTeam/End-WikiPlus](https://github.com/EIHRTeam/End-WikiPlus)
   - 一个基于 Tauri v2 的跨平台开源终末地 Wiki 工具箱，适用于森空岛终末地 Wiki。
+
+- [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
+  - 《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。

@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-47-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-48-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,11 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
-  - [主页](https://reend.vallov.com/)
-  - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
-  - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
-
 - [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
   - 基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。
 
@@ -75,6 +70,9 @@
 - [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
   - [主页](https://goyfield.moe)
   - 《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。
+
+- [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
+  - 《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
