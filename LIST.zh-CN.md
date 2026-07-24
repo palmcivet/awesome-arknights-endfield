@@ -170,6 +170,10 @@
 - [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
   - 基于神经网络的《明日方舟：终末地》抽卡模拟器，使用深度学习（DBN、DQN、PPO）建模抽卡机制，支持 SIMD 加速。
 
+- [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
+  - [主页](https://goyfield.moe)
+  - 《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。
+
 ## 游戏工具
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

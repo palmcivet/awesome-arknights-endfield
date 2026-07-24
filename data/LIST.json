@@ -1157,5 +1157,32 @@
     "addedAt": "2026-05-31",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "ivaqis/arknights-tracker",
+    "description": {
+      "en-US": "A pull tracker and global statistics database for Arknights: Endfield, with cloud sync and local deployment support.",
+      "zh-CN": "《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。"
+    },
+    "repository": "https://github.com/ivaqis/arknights-tracker",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://goyfield.moe"
+      }
+    ],
+    "author": {
+      "name": "ivaqis",
+      "url": "https://github.com/ivaqis"
+    },
+    "category": "Gacha",
+    "tags": [
+      "Tracker",
+      "Gacha"
+    ],
+    "id": 47,
+    "addedAt": "2026-07-24",
+    "openSource": true,
+    "license": "Apache License 2.0"
   }
 ]

@@ -170,6 +170,10 @@
 - [zayokami/Talos-XII](https://github.com/zayokami/Talos-XII)
   - A neural network-driven gacha pull simulator for Arknights: Endfield, using deep learning (DBN, DQN, PPO) to model gacha mechanics with SIMD acceleration.
 
+- [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
+  - [Home Page](https://goyfield.moe)
+  - A pull tracker and global statistics database for Arknights: Endfield, with cloud sync and local deployment support.
+
 ## Game Utilities
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

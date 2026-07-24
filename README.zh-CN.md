@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-46-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-47-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [MengPaul07/zhuang-fangyi-skill](https://github.com/MengPaul07/zhuang-fangyi-skill)
-  - 《明日方舟：终末地》角色庄方宜的 AI Agent 技能模块，融合角色扮演与任务协作能力。
-
 - [Kirukata27/arknights-endfield-resources](https://github.com/Kirukata27/arknights-endfield-resources)
   - [主页](https://reend.vallov.com/)
   - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
@@ -74,6 +71,10 @@
   - [主页](https://gugugagapenguin.com/)
   - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
   - 记录《明日方舟：终末地》咕咕嘎嘎企鹅梗的起源、时间线及 AI 创作工具的参考页面。
+
+- [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
+  - [主页](https://goyfield.moe)
+  - 《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
