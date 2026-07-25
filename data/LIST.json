@@ -1225,5 +1225,30 @@
     "id": 49,
     "addedAt": "2026-07-24",
     "openSource": true
+  },
+  {
+    "name": "SodaXu/endfield-crafting-manual-checklist",
+    "description": {
+      "en-US": "A checklist for querying Operational Manual material sources in Arknights: Endfield, covering enemy drops, Heavy Energy Alluvium, and overworld refresh/gathering locations.",
+      "zh-CN": "《明日方舟：终末地》简制手册素材来源查询工具，覆盖掉落怪、重度能量淤积点以及大地图刷新与采集来源。"
+    },
+    "repository": "https://github.com/SodaXu/endfield-crafting-manual-checklist",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://sodaxu.github.io/endfield-crafting-manual-checklist/"
+      }
+    ],
+    "author": {
+      "name": "SodaXu",
+      "url": "https://github.com/SodaXu"
+    },
+    "category": "Maps & Guides",
+    "tags": [
+      "Guide"
+    ],
+    "id": 50,
+    "addedAt": "2026-07-25",
+    "openSource": true
   }
 ]

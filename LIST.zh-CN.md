@@ -91,6 +91,10 @@
   - [GitHub Pages](https://kirukata27.github.io/arknights-endfield-resources/)
   - 社区维护的《明日方舟：终末地》资源合集，包含干员强度榜、保底与卡池机制、编队指南和新手攻略。
 
+- [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
+  - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
+  - 《明日方舟：终末地》简制手册素材来源查询工具，覆盖掉落怪、重度能量淤积点以及大地图刷新与采集来源。
+
 ## 同人创作
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)

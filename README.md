@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-49-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-50-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
-  - [Home Page](https://jeiweb.sirrus.cc)
-  - A web-based item viewer and crafting planner inspired by Minecraft's JEI mod, featuring recipe queries, material calculators, and multi-target production planning for Arknights: Endfield.
-
 - [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
   - [Home Page](https://gugugagapenguin.com/)
   - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
@@ -72,6 +68,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - An automatic essence recognition tool for Arknights: Endfield, featuring lightweight OCR, resolution adaptation, and background window capture on Windows.
+
+- [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
+  - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
+  - A checklist for querying Operational Manual material sources in Arknights: Endfield, covering enemy drops, Heavy Energy Alluvium, and overworld refresh/gathering locations.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-49-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-50-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [AndreaFrederica/jei-web](https://github.com/AndreaFrederica/jei-web)
-  - [主页](https://jeiweb.sirrus.cc)
-  - 受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。
-
 - [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
   - [主页](https://gugugagapenguin.com/)
   - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
@@ -73,6 +69,10 @@
 
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。
+
+- [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
+  - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
+  - 《明日方舟：终末地》简制手册素材来源查询工具，覆盖掉落怪、重度能量淤积点以及大地图刷新与采集来源。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
