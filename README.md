@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-50-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-51-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,11 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
-  - [Home Page](https://gugugagapenguin.com/)
-  - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
-  - A reference page documenting the origin, timeline, and AI creation tools behind the viral Gugugaga Penguin meme from Arknights: Endfield.
-
 - [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
   - [Home Page](https://goyfield.moe)
   - A pull tracker and global statistics database for Arknights: Endfield, with cloud sync and local deployment support.
@@ -72,6 +67,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
   - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
   - A checklist for querying Operational Manual material sources in Arknights: Endfield, covering enemy drops, Heavy Energy Alluvium, and overworld refresh/gathering locations.
+
+- [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
+  - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
+  - A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

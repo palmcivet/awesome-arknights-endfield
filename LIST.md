@@ -59,6 +59,10 @@
   - [Home Page](https://jeiweb.sirrus.cc)
   - A web-based item viewer and crafting planner inspired by Minecraft's JEI mod, featuring recipe queries, material calculators, and multi-target production planning for Arknights: Endfield.
 
+- [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
+  - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
+  - A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.
+
 ## Maps & Guides
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

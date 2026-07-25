@@ -59,6 +59,10 @@
   - [主页](https://jeiweb.sirrus.cc)
   - 受 Minecraft JEI 模组启发的网页版物品查看与合成规划工具，支持配方查询、材料计算和多目标生产规划，适用于《明日方舟：终末地》。
 
+- [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
+  - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
+  - 《明日方舟：终末地》本地优先的狄江规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
+
 ## 地图与攻略
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

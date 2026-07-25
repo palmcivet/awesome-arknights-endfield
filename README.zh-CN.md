@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-50-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-51-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,11 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [ChipenYip/gugu-gaga-penguin](https://github.com/ChipenYip/gugu-gaga-penguin)
-  - [主页](https://gugugagapenguin.com/)
-  - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
-  - 记录《明日方舟：终末地》咕咕嘎嘎企鹅梗的起源、时间线及 AI 创作工具的参考页面。
-
 - [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
   - [主页](https://goyfield.moe)
   - 《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。
@@ -73,6 +68,10 @@
 - [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
   - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
   - 《明日方舟：终末地》简制手册素材来源查询工具，覆盖掉落怪、重度能量淤积点以及大地图刷新与采集来源。
+
+- [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
+  - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
+  - 《明日方舟：终末地》本地优先的狄江规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

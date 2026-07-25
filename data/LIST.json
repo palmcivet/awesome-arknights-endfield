@@ -1250,5 +1250,32 @@
     "id": 50,
     "addedAt": "2026-07-25",
     "openSource": true
+  },
+  {
+    "name": "FlamingFox911/endfield-dijiang-optimizer",
+    "description": {
+      "en-US": "A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.",
+      "zh-CN": "《明日方舟：终末地》本地优先的帝江号规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。"
+    },
+    "repository": "https://github.com/FlamingFox911/endfield-dijiang-optimizer",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://flamingfox911.github.io/endfield-dijiang-optimizer/"
+      }
+    ],
+    "author": {
+      "name": "FlamingFox911",
+      "url": "https://github.com/FlamingFox911"
+    },
+    "category": "Production & Factory",
+    "tags": [
+      "Planner",
+      "Calculator"
+    ],
+    "id": 51,
+    "addedAt": "2026-07-25",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
