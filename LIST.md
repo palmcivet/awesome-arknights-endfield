@@ -186,6 +186,9 @@
   - [Home Page](https://goyfield.moe)
   - A pull tracker and global statistics database for Arknights: Endfield, with cloud sync and local deployment support.
 
+- [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
+  - A local desktop gacha history analyzer for Arknights: Endfield, built with Wails, supporting official and Bilibili servers with privacy-first local data storage.
+
 ## Game Utilities
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

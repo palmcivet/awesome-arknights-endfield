@@ -1303,5 +1303,27 @@
     "addedAt": "2026-07-28",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "RoLingG/endfield-gacha-app",
+    "description": {
+      "en-US": "A local desktop gacha history analyzer for Arknights: Endfield, built with Wails, supporting official and Bilibili servers with privacy-first local data storage.",
+      "zh-CN": "基于 Wails 的《明日方舟：终末地》本地桌面端寻访记录分析工具，支持官服/B服，数据完全本地存储。"
+    },
+    "repository": "https://github.com/RoLingG/endfield-gacha-app",
+    "author": {
+      "name": "RoLingG",
+      "url": "https://github.com/RoLingG"
+    },
+    "category": "Gacha",
+    "tags": [
+      "Tracker",
+      "Gacha",
+      "Desktop App"
+    ],
+    "id": 53,
+    "addedAt": "2026-07-28",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

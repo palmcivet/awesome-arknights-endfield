@@ -186,6 +186,9 @@
   - [主页](https://goyfield.moe)
   - 《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。
 
+- [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
+  - 基于 Wails 的《明日方舟：终末地》本地桌面端寻访记录分析工具，支持官服/B服，数据完全本地存储。
+
 ## 游戏工具
 
 - [Mapleawaa/Hypergryph-Endfield-UID-Checker](https://github.com/Mapleawaa/Hypergryph-Endfield-UID-Checker)

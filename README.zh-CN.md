@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-52-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-53-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
-  - 《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。
-
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。
 
@@ -72,6 +69,9 @@
 - [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
   - [主页](https://web-status.xiao-feishu.top/)
   - 终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。
+
+- [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
+  - 基于 Wails 的《明日方舟：终末地》本地桌面端寻访记录分析工具，支持官服/B服，数据完全本地存储。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
