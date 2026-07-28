@@ -61,7 +61,7 @@
 
 - [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
   - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
-  - 《明日方舟：终末地》本地优先的狄江规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
+  - 《明日方舟：终末地》本地优先的帝江号规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
 
 ## 地图与攻略
 
@@ -148,6 +148,10 @@
 
 - [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
   - 基于《明日方舟：终末地》传送带字体风格制作的自定义字体，提供 Black 和 Bold 两种字重。
+
+- [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
+  - [主页](https://web-status.xiao-feishu.top/)
+  - 终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。
 
 ## 抽卡分析
 

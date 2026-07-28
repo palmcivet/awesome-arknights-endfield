@@ -149,6 +149,10 @@
 - [zhangtengjin-byte/Endfield-Belt-Font](https://github.com/zhangtengjin-byte/Endfield-Belt-Font)
   - A custom font created in the style of Arknights: Endfield's belt text, available in Black and Bold variants.
 
+- [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
+  - [Home Page](https://web-status.xiao-feishu.top/)
+  - An Endfield official-site–styled showcase of Cloudflare traffic and request analytics, runnable via GitHub Actions.
+
 ## Gacha
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

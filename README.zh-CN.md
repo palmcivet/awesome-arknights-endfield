@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-51-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-52-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
-  - [主页](https://goyfield.moe)
-  - 《明日方舟：终末地》抽卡记录追踪与全服统计数据库，支持云端同步与本地部署。
-
 - [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
   - 《明日方舟：终末地》的原生 Linux 启动器，支持安装、更新，并通过 Proton 启动游戏，无需 Steam 或 Lutris。
 
@@ -71,7 +67,11 @@
 
 - [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
   - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
-  - 《明日方舟：终末地》本地优先的狄江规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
+  - 《明日方舟：终末地》本地优先的帝江号规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
+
+- [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
+  - [主页](https://web-status.xiao-feishu.top/)
+  - 终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

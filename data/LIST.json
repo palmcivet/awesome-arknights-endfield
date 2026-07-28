@@ -1277,5 +1277,31 @@
     "addedAt": "2026-07-25",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "ymh0000123/Cloudflare-Showcase",
+    "description": {
+      "en-US": "An Endfield official-site–styled showcase of Cloudflare traffic and request analytics, runnable via GitHub Actions.",
+      "zh-CN": "终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。"
+    },
+    "repository": "https://github.com/ymh0000123/Cloudflare-Showcase",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://web-status.xiao-feishu.top/"
+      }
+    ],
+    "author": {
+      "name": "ymh0000123",
+      "url": "https://github.com/ymh0000123"
+    },
+    "category": "Themes & Design",
+    "tags": [
+      "UI"
+    ],
+    "id": 52,
+    "addedAt": "2026-07-28",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

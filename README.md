@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-51-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-52-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [ivaqis/arknights-tracker](https://github.com/ivaqis/arknights-tracker)
-  - [Home Page](https://goyfield.moe)
-  - A pull tracker and global statistics database for Arknights: Endfield, with cloud sync and local deployment support.
-
 - [AugustLigh/LLauncher](https://github.com/AugustLigh/LLauncher)
   - A native Linux launcher for Arknights: Endfield, handling installation, updates, and Proton-based launching without Steam or Lutris.
 
@@ -71,6 +67,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
   - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
   - A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.
+
+- [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
+  - [Home Page](https://web-status.xiao-feishu.top/)
+  - An Endfield official-site–styled showcase of Cloudflare traffic and request analytics, runnable via GitHub Actions.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
