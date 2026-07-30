@@ -12,6 +12,7 @@ export const CATEGORIES = [
   'Game Utilities',
   'Themes & Design',
   'Fan Creations',
+  'Games & Mods',
   'Uncategorized',
 ] as const;
 
@@ -41,6 +42,10 @@ export const CATEGORY_LABEL: Record<Category, Record<Language, string>> = {
   'Fan Creations': {
     'en-US': 'Fan Creations',
     'zh-CN': '同人创作',
+  },
+  'Games & Mods': {
+    'en-US': 'Games & Mods',
+    'zh-CN': '游戏与模组',
   },
   Uncategorized: {
     'en-US': 'Uncategorized',

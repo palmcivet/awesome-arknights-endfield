@@ -9,6 +9,7 @@
 - [主题与设计资源](#主题与设计资源)
 - [抽卡分析](#抽卡分析)
 - [游戏工具](#游戏工具)
+- [游戏与模组](#游戏与模组)
 
 ## 生产规划
 
@@ -226,3 +227,8 @@
 
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。
+
+## 游戏与模组
+
+- [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
+  - 基于 Rebar 框架的 Minecraft 工业插件，包含终末地风格的电力系统、农业机械化与研究解锁。

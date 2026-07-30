@@ -1325,5 +1325,26 @@
     "addedAt": "2026-07-28",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "LapisWorks/Lapis-EndfieldIndustry",
+    "description": {
+      "en-US": "A Minecraft industrial plugin built on Rebar, featuring Endfield-inspired power grids, agricultural machines, and research unlocks.",
+      "zh-CN": "基于 Rebar 框架的 Minecraft 工业插件，包含终末地风格的电力系统、农业机械化与研究解锁。"
+    },
+    "repository": "https://github.com/LapisWorks/Lapis-EndfieldIndustry",
+    "author": {
+      "name": "LapisWorks",
+      "url": "https://github.com/LapisWorks"
+    },
+    "category": "Games & Mods",
+    "tags": [
+      "Factory",
+      "Automation"
+    ],
+    "id": 54,
+    "addedAt": "2026-07-30",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

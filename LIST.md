@@ -9,6 +9,7 @@
 - [Themes & Design](#themes--design)
 - [Gacha](#gacha)
 - [Game Utilities](#game-utilities)
+- [Games & Mods](#games--mods)
 
 ## Production & Factory
 
@@ -226,3 +227,8 @@
 
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - An automatic essence recognition tool for Arknights: Endfield, featuring lightweight OCR, resolution adaptation, and background window capture on Windows.
+
+## Games & Mods
+
+- [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
+  - A Minecraft industrial plugin built on Rebar, featuring Endfield-inspired power grids, agricultural machines, and research unlocks.

@@ -23,6 +23,7 @@ Each project must be assigned to exactly **one** of the following categories:
 | **Game Utilities**       | Game-peripheral utilities that don't fit above categories: automation scripts, launchers, API archives, UID lookup, etc. |
 | **Themes & Design**      | Blog themes, presentation themes, icon sets, and other visual/design resources inspired by Arknights: Endfield.          |
 | **Fan Creations**        | Fan-made creative projects and Endfield-themed non-game applications (e.g. themed productivity apps, portfolio sites).   |
+| **Games & Mods**         | Fan games, mods, plugins, and other Endfield-themed gameplay experiences outside the official client.                   |
 | **Uncategorized**        | Reserved for special entries only. Do not use for regular submissions.                                                   |
 
 ## Tags

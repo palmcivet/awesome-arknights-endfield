@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-53-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-54-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
-  - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。
-
 - [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
   - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
   - 《明日方舟：终末地》简制手册素材来源查询工具，覆盖掉落怪、重度能量淤积点以及大地图刷新与采集来源。
@@ -72,6 +69,9 @@
 
 - [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
   - 基于 Wails 的《明日方舟：终末地》本地桌面端寻访记录分析工具，支持官服/B服，数据完全本地存储。
+
+- [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
+  - 基于 Rebar 框架的 Minecraft 工业插件，包含终末地风格的电力系统、农业机械化与研究解锁。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
