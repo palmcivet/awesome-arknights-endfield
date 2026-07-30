@@ -64,6 +64,10 @@
   - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
   - 《明日方舟：终末地》本地优先的帝江号规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
 
+- [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
+  - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
+  - 基于浏览器的《明日方舟：终末地》AIC 生产规划线性规划求解器，可设定产量目标、原料与设施上限，并最大化每小时利润。
+
 ## 地图与攻略
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

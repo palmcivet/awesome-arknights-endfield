@@ -64,6 +64,10 @@
   - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
   - A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.
 
+- [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
+  - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
+  - A browser-based linear programming solver for Arknights: Endfield production planning — set targets, resource and facility limits, and maximize profit per hour.
+
 ## Maps & Guides
 
 - [Terra-Online/Atlos](https://github.com/Terra-Online/Atlos)

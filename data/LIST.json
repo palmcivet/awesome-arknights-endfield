@@ -1346,5 +1346,33 @@
     "addedAt": "2026-07-30",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "hikarin-dev/aic-solver",
+    "description": {
+      "en-US": "A browser-based linear programming solver for Arknights: Endfield production planning — set targets, resource and facility limits, and maximize profit per hour.",
+      "zh-CN": "基于浏览器的《明日方舟：终末地》AIC 生产规划线性规划求解器，可设定产量目标、原料与设施上限，并最大化每小时利润。"
+    },
+    "repository": "https://github.com/hikarin-dev/aic-solver",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://hikarin-dev.github.io/aic-solver/"
+      }
+    ],
+    "author": {
+      "name": "hikarin-dev",
+      "url": "https://github.com/hikarin-dev"
+    },
+    "category": "Production & Factory",
+    "tags": [
+      "Calculator",
+      "Factory",
+      "Planner"
+    ],
+    "id": 55,
+    "addedAt": "2026-07-30",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

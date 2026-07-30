@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-54-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-55-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [SodaXu/endfield-crafting-manual-checklist](https://github.com/SodaXu/endfield-crafting-manual-checklist)
-  - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
-  - A checklist for querying Operational Manual material sources in Arknights: Endfield, covering enemy drops, Heavy Energy Alluvium, and overworld refresh/gathering locations.
-
 - [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
   - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
   - A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.
@@ -71,6 +67,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
   - A Minecraft industrial plugin built on Rebar, featuring Endfield-inspired power grids, agricultural machines, and research unlocks.
+
+- [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
+  - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
+  - A browser-based linear programming solver for Arknights: Endfield production planning — set targets, resource and facility limits, and maximize profit per hour.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
