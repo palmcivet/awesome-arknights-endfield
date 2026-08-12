@@ -735,11 +735,7 @@
     "website": [
       {
         "provider": "Custom",
-        "url": "https://baker.wanye7300.xyz"
-      },
-      {
-        "provider": "Vercel",
-        "url": "https://baker-dx.vercel.app/"
+        "url": "https://baker-neo.wanye7300.xyz"
       }
     ],
     "repository": "https://github.com/Wanye-7300/baker-dx",
