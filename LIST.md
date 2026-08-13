@@ -116,8 +116,7 @@
   - Fan-made Endfield-themed website featuring AI-generated illustration.
 
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
-  - [Home Page](https://baker.wanye7300.xyz)
-  - [Vercel](https://baker-dx.vercel.app/)
+  - [Home Page](https://baker-neo.wanye7300.xyz)
   - A Baker clone project based on Dioxus with session editing and playback functions.
 
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)

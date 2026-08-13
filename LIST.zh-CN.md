@@ -116,8 +116,7 @@
   - 终末地同人项目，提供 AI 生成插图的网页展示。
 
 - [Wanye-7300/baker-dx](https://github.com/Wanye-7300/baker-dx)
-  - [主页](https://baker.wanye7300.xyz)
-  - [Vercel](https://baker-dx.vercel.app/)
+  - [主页](https://baker-neo.wanye7300.xyz)
   - 基于 Dioxus 的 Baker 克隆项目，具有会话编辑和回放功能。
 
 - [Naptie/endfield-docmaker](https://github.com/Naptie/endfield-docmaker)
