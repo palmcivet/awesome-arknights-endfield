@@ -133,6 +133,11 @@
   - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
   - 记录《明日方舟：终末地》咕咕嘎嘎企鹅梗的起源、时间线及 AI 创作工具的参考页面。
 
+- [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
+  - [主页](https://baker.ncreeper.top/)
+  - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
+  - 《明日方舟：终末地》Baker 会话模拟器，可创建和编辑游戏风格的对话。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

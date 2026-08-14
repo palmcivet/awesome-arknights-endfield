@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-55-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-56-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
-  - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
-  - 《明日方舟：终末地》本地优先的帝江号规划器，根据手动录入的干员、已解锁基建技能与房间配方推荐最优设施排班。
-
 - [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
   - [主页](https://web-status.xiao-feishu.top/)
   - 终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。
@@ -72,6 +68,11 @@
 - [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
   - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
   - 基于浏览器的《明日方舟：终末地》AIC 生产规划线性规划求解器，可设定产量目标、原料与设施上限，并最大化每小时利润。
+
+- [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
+  - [主页](https://baker.ncreeper.top/)
+  - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
+  - 《明日方舟：终末地》Baker 会话模拟器，可创建和编辑游戏风格的对话。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

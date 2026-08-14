@@ -133,6 +133,11 @@
   - [GitHub Pages](https://ChipenYip.github.io/gugu-gaga-penguin/)
   - A reference page documenting the origin, timeline, and AI creation tools behind the viral Gugugaga Penguin meme from Arknights: Endfield.
 
+- [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
+  - [Home Page](https://baker.ncreeper.top/)
+  - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
+  - An Arknights: Endfield Baker chat simulator for creating and editing in-game style conversations.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

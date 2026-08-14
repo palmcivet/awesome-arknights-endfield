@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-55-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-56-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [FlamingFox911/endfield-dijiang-optimizer](https://github.com/FlamingFox911/endfield-dijiang-optimizer)
-  - [GitHub Pages](https://flamingfox911.github.io/endfield-dijiang-optimizer/)
-  - A local-first Dijiang planner for Arknights: Endfield that recommends facility assignments from a manually entered roster, unlocked base skills, and room recipes.
-
 - [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
   - [Home Page](https://web-status.xiao-feishu.top/)
   - An Endfield official-site–styled showcase of Cloudflare traffic and request analytics, runnable via GitHub Actions.
@@ -71,6 +67,11 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
   - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
   - A browser-based linear programming solver for Arknights: Endfield production planning — set targets, resource and facility limits, and maximize profit per hour.
+
+- [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
+  - [Home Page](https://baker.ncreeper.top/)
+  - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
+  - An Arknights: Endfield Baker chat simulator for creating and editing in-game style conversations.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

@@ -1370,5 +1370,36 @@
     "addedAt": "2026-07-30",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "NCreeper233/endfield-baker-maker",
+    "description": {
+      "en-US": "An Arknights: Endfield Baker chat simulator for creating and editing in-game style conversations.",
+      "zh-CN": "《明日方舟：终末地》Baker 会话模拟器，可创建和编辑游戏风格的对话。"
+    },
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://baker.ncreeper.top/"
+      },
+      {
+        "provider": "Vercel",
+        "url": "https://endfield-baker-maker-gomrghjyj.vercel.app/"
+      }
+    ],
+    "repository": "https://github.com/NCreeper233/endfield-baker-maker",
+    "author": {
+      "name": "NCreeper233",
+      "url": "https://github.com/NCreeper233"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "UI",
+      "Baker"
+    ],
+    "id": 56,
+    "addedAt": "2026-08-14",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]
