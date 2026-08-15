@@ -138,6 +138,9 @@
   - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
   - An Arknights: Endfield Baker chat simulator for creating and editing in-game style conversations.
 
+- [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
+  - A local Electron research workbench for graduate students, featuring an Arknights: Endfield-themed UI with tasks, literature notes, and an AI assistant.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

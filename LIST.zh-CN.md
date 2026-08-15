@@ -138,6 +138,9 @@
   - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
   - 《明日方舟：终末地》Baker 会话模拟器，可创建和编辑游戏风格的对话。
 
+- [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
+  - 面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

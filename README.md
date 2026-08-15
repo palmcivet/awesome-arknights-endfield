@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-56-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-57-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
-  - [Home Page](https://web-status.xiao-feishu.top/)
-  - An Endfield official-site–styled showcase of Cloudflare traffic and request analytics, runnable via GitHub Actions.
-
 - [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
   - A local desktop gacha history analyzer for Arknights: Endfield, built with Wails, supporting official and Bilibili servers with privacy-first local data storage.
 
@@ -72,6 +68,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
   - [Home Page](https://baker.ncreeper.top/)
   - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
   - An Arknights: Endfield Baker chat simulator for creating and editing in-game style conversations.
+
+- [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
+  - A local Electron research workbench for graduate students, featuring an Arknights: Endfield-themed UI with tasks, literature notes, and an AI assistant.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

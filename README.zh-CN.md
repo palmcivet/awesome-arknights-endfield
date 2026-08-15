@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-56-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-57-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [ymh0000123/Cloudflare-Showcase](https://github.com/ymh0000123/Cloudflare-Showcase)
-  - [主页](https://web-status.xiao-feishu.top/)
-  - 终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。
-
 - [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
   - 基于 Wails 的《明日方舟：终末地》本地桌面端寻访记录分析工具，支持官服/B服，数据完全本地存储。
 
@@ -73,6 +69,9 @@
   - [主页](https://baker.ncreeper.top/)
   - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
   - 《明日方舟：终末地》Baker 会话模拟器，可创建和编辑游戏风格的对话。
+
+- [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
+  - 面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

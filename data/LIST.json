@@ -1401,5 +1401,25 @@
     "addedAt": "2026-08-14",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "rison114514/grad-research-workbench",
+    "description": {
+      "en-US": "A local Electron research workbench for graduate students, featuring an Arknights: Endfield-themed UI with tasks, literature notes, and an AI assistant.",
+      "zh-CN": "面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。"
+    },
+    "repository": "https://github.com/rison114514/grad-research-workbench",
+    "author": {
+      "name": "rison114514",
+      "url": "https://github.com/rison114514"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "Desktop App",
+      "UI"
+    ],
+    "id": 57,
+    "addedAt": "2026-08-15",
+    "openSource": true
   }
 ]
