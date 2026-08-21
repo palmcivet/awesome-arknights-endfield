@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-58-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-59-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
-  - 基于 Rebar 框架的 Minecraft 工业插件，包含终末地风格的电力系统、农业机械化与研究解锁。
-
 - [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
   - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
   - 基于浏览器的《明日方舟：终末地》AIC 生产规划线性规划求解器，可设定产量目标、原料与设施上限，并最大化每小时利润。
@@ -72,6 +69,9 @@
 
 - [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
   - 将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。
+
+- [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
+  - 面向 Codex 的界面设计技能，覆盖包括终末地在内的五种 Ark 风格族与四档应用深度，附带设计令牌、起始模板与样例。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

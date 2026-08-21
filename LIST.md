@@ -165,6 +165,9 @@
   - [Home Page](https://web-status.xiao-feishu.top/)
   - An Endfield official-site–styled showcase of Cloudflare traffic and request analytics, runnable via GitHub Actions.
 
+- [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
+  - A Codex skill for five Ark-adjacent UI families (including Endfield) and four application depths, with design tokens, starter kits, and showcases.
+
 ## Gacha
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

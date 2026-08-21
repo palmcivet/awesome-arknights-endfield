@@ -21,7 +21,7 @@ Each project must be assigned to exactly **one** of the following categories:
 | **Maps & Guides**        | Interactive maps, battle guides, puzzle solvers, event calendars, and other game-content-oriented resources.             |
 | **Gacha**                | Tools for gacha/headhunting record tracking, probability calculation, and strategy simulation.                           |
 | **Game Utilities**       | Game-peripheral utilities that don't fit above categories: automation scripts, launchers, API archives, UID lookup, etc. |
-| **Themes & Design**      | Blog themes, presentation themes, icon sets, and other visual/design resources inspired by Arknights: Endfield.          |
+| **Themes & Design**      | Blog themes, presentation themes, icon sets, design systems, and other visual/design resources inspired by Arknights: Endfield. |
 | **Fan Creations**        | Fan-made creative projects and Endfield-themed non-game applications (e.g. themed productivity apps, portfolio sites).   |
 | **Games & Mods**         | Fan games, mods, plugins, and other Endfield-themed gameplay experiences outside the official client.                   |
 | **Uncategorized**        | Reserved for special entries only. Do not use for regular submissions.                                                   |
@@ -62,10 +62,13 @@ Tags are **multi-select** and describe specific characteristics of a project. Th
 | `Launcher`           | A game launcher or launcher plugin    |
 | `Desktop App`        | A desktop application (e.g. Electron) |
 | `Script`             | A standalone script or CLI tool       |
+| `Agent Skill`        | An installable skill for AI agents     |
+| `UI`                 | A UI kit, design language, or themed interface |
 
 ### Tag Guidelines
 
 - Use **1-3 tags** per project. Avoid over-tagging.
 - Do **not** create tags like `Endfield-themed` — all projects in this list are Endfield-related by definition.
 - Do **not** create single-use tags. If a tag would only apply to one project, consider using an existing tag or omitting it.
+- AI-powered projects are classified by **purpose**. A factory planner that uses an LLM belongs in Production & Factory; a skill that encodes Endfield visual language belongs in Themes & Design. Use `Agent Skill` for installable agent skills. Do not create an `AI` category.
 - Prefer existing tags over creating new ones. New tags can be added when necessary, or discussed via Issues or PRs.

@@ -165,6 +165,9 @@
   - [主页](https://web-status.xiao-feishu.top/)
   - 终末地官网风格的 Cloudflare 流量与请求展示，可通过 GitHub Actions 工作流运行。
 
+- [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
+  - 面向 Codex 的界面设计技能，覆盖包括终末地在内的五种 Ark 风格族与四档应用深度，附带设计令牌、起始模板与样例。
+
 ## 抽卡分析
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)
