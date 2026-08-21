@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-57-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-58-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [RoLingG/endfield-gacha-app](https://github.com/RoLingG/endfield-gacha-app)
-  - 基于 Wails 的《明日方舟：终末地》本地桌面端寻访记录分析工具，支持官服/B服，数据完全本地存储。
-
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
   - 基于 Rebar 框架的 Minecraft 工业插件，包含终末地风格的电力系统、农业机械化与研究解锁。
 
@@ -72,6 +69,9 @@
 
 - [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
   - 面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。
+
+- [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
+  - 将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

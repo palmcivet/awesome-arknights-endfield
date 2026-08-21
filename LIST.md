@@ -239,6 +239,9 @@
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - An automatic essence recognition tool for Arknights: Endfield, featuring lightweight OCR, resolution adaptation, and background window capture on Windows.
 
+- [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
+  - A toolkit that exports a local Windows Endfield client into an offline research browser for story, assets, gameplay data, and update comparisons.
+
 ## Games & Mods
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)

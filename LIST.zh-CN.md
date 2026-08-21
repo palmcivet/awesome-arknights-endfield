@@ -239,6 +239,9 @@
 - [Evoltsuki/Endfield_essence](https://github.com/Evoltsuki/Endfield_essence)
   - 《明日方舟：终末地》的基质自动识别工具，基于轻量 OCR，支持分辨率适配与后台遮挡识别。
 
+- [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
+  - 将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。
+
 ## 游戏与模组
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)

@@ -1421,5 +1421,25 @@
     "id": 57,
     "addedAt": "2026-08-15",
     "openSource": true
+  },
+  {
+    "name": "Variante/endfield_research_kit",
+    "description": {
+      "en-US": "A toolkit that exports a local Windows Endfield client into an offline research browser for story, assets, gameplay data, and update comparisons.",
+      "zh-CN": "将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。"
+    },
+    "repository": "https://github.com/Variante/endfield_research_kit",
+    "author": {
+      "name": "Variante",
+      "url": "https://github.com/Variante"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Archive",
+      "Script"
+    ],
+    "id": 58,
+    "addedAt": "2026-08-21",
+    "openSource": true
   }
 ]
