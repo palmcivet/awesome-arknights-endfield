@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-59-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-60-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
-  - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
-  - A browser-based linear programming solver for Arknights: Endfield production planning — set targets, resource and facility limits, and maximize profit per hour.
-
 - [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
   - [Home Page](https://baker.ncreeper.top/)
   - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
@@ -71,6 +67,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
   - A Codex skill for five Ark-adjacent UI families (including Endfield) and four application depths, with design tokens, starter kits, and showcases.
+
+- [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
+  - A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

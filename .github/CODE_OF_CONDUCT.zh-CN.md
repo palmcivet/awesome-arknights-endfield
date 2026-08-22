@@ -63,6 +63,7 @@
 | `Desktop App`        | 桌面应用程序（如 Electron） |
 | `Script`             | 独立脚本或命令行工具        |
 | `Agent Skill`        | 可安装的 AI Agent 技能     |
+| `DSH Plugin`         | DeepSeek Harness 插件      |
 | `UI`                 | UI 套件、设计语言或主题化界面 |
 
 ### 标签使用规范

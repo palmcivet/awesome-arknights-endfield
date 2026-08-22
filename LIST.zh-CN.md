@@ -141,6 +141,9 @@
 - [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
   - 面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。
 
+- [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
+  - 佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

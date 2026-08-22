@@ -1461,5 +1461,25 @@
     "id": 59,
     "addedAt": "2026-08-21",
     "openSource": true
+  },
+  {
+    "name": "117BS/dsh-perlica-ding",
+    "description": {
+      "en-US": "A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.",
+      "zh-CN": "佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。"
+    },
+    "repository": "https://github.com/117BS/dsh-perlica-ding",
+    "author": {
+      "name": "117BS",
+      "url": "https://github.com/117BS"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "DSH Plugin"
+    ],
+    "id": 60,
+    "addedAt": "2026-08-22",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

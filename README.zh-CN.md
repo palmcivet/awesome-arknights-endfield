@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-59-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-60-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [hikarin-dev/aic-solver](https://github.com/hikarin-dev/aic-solver)
-  - [GitHub Pages](https://hikarin-dev.github.io/aic-solver/)
-  - 基于浏览器的《明日方舟：终末地》AIC 生产规划线性规划求解器，可设定产量目标、原料与设施上限，并最大化每小时利润。
-
 - [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
   - [主页](https://baker.ncreeper.top/)
   - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
@@ -72,6 +68,9 @@
 
 - [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
   - 面向 Codex 的界面设计技能，覆盖包括终末地在内的五种 Ark 风格族与四档应用深度，附带设计令牌、起始模板与样例。
+
+- [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
+  - 佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

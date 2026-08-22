@@ -141,6 +141,9 @@
 - [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
   - A local Electron research workbench for graduate students, featuring an Arknights: Endfield-themed UI with tasks, literature notes, and an AI assistant.
 
+- [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
+  - A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

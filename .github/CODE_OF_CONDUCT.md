@@ -63,6 +63,7 @@ Tags are **multi-select** and describe specific characteristics of a project. Th
 | `Desktop App`        | A desktop application (e.g. Electron) |
 | `Script`             | A standalone script or CLI tool       |
 | `Agent Skill`        | An installable skill for AI agents     |
+| `DSH Plugin`         | A plugin for DeepSeek Harness          |
 | `UI`                 | A UI kit, design language, or themed interface |
 
 ### Tag Guidelines
