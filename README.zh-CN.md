@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-60-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-61-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,11 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
-  - [主页](https://baker.ncreeper.top/)
-  - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
-  - 《明日方舟：终末地》Baker 会话模拟器，可创建和编辑游戏风格的对话。
-
 - [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
   - 面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。
 
@@ -71,6 +66,9 @@
 
 - [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
   - 佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。
+
+- [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
+  - 以《明日方舟：终末地》视觉语言为参考的 Typora 浅色主题，面向中日英混排的长文阅读、编辑与导出。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

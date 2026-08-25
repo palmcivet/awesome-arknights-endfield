@@ -1481,5 +1481,25 @@
     "addedAt": "2026-08-22",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "genskyff/typora-arkfield",
+    "description": {
+      "en-US": "A Typora light theme inspired by the visual language of Arknights: Endfield, for CJK/English mixed long-form reading, editing, and export.",
+      "zh-CN": "以《明日方舟：终末地》视觉语言为参考的 Typora 浅色主题，面向中日英混排的长文阅读、编辑与导出。"
+    },
+    "repository": "https://github.com/genskyff/typora-arkfield",
+    "author": {
+      "name": "genskyff",
+      "url": "https://github.com/genskyff"
+    },
+    "category": "Themes & Design",
+    "tags": [
+      "Typora Theme"
+    ],
+    "id": 61,
+    "addedAt": "2026-08-26",
+    "openSource": true,
+    "license": "GNU Affero General Public License v3.0"
   }
 ]

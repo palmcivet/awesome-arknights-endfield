@@ -171,6 +171,9 @@
 - [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
   - A Codex skill for five Ark-adjacent UI families (including Endfield) and four application depths, with design tokens, starter kits, and showcases.
 
+- [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
+  - A Typora light theme inspired by the visual language of Arknights: Endfield, for CJK/English mixed long-form reading, editing, and export.
+
 ## Gacha
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

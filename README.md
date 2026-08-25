@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-60-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-61-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,11 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [NCreeper233/endfield-baker-maker](https://github.com/NCreeper233/endfield-baker-maker)
-  - [Home Page](https://baker.ncreeper.top/)
-  - [Vercel](https://endfield-baker-maker-gomrghjyj.vercel.app/)
-  - An Arknights: Endfield Baker chat simulator for creating and editing in-game style conversations.
-
 - [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
   - A local Electron research workbench for graduate students, featuring an Arknights: Endfield-themed UI with tasks, literature notes, and an AI assistant.
 
@@ -70,6 +65,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
   - A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.
+
+- [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
+  - A Typora light theme inspired by the visual language of Arknights: Endfield, for CJK/English mixed long-form reading, editing, and export.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
