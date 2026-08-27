@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-61-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-62-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [rison114514/grad-research-workbench](https://github.com/rison114514/grad-research-workbench)
-  - 面向研究生的本地 Electron 科研工作台，采用《明日方舟：终末地》风格界面，支持待办、文献笔记与 AI 助手。
-
 - [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
   - 将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。
 
@@ -69,6 +66,9 @@
 
 - [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
   - 以《明日方舟：终末地》视觉语言为参考的 Typora 浅色主题，面向中日英混排的长文阅读、编辑与导出。
+
+- [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
+  - 本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

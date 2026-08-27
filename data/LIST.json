@@ -1501,5 +1501,24 @@
     "addedAt": "2026-08-26",
     "openSource": true,
     "license": "GNU Affero General Public License v3.0"
+  },
+  {
+    "name": "genrusaii/endfield-playtime-checker",
+    "description": {
+      "en-US": "A local PowerShell script that parses Arknights: Endfield game logs to calculate total playtime, session history, and activity streaks.",
+      "zh-CN": "本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。"
+    },
+    "repository": "https://github.com/genrusaii/endfield-playtime-checker",
+    "author": {
+      "name": "genrusaii",
+      "url": "https://github.com/genrusaii"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Script"
+    ],
+    "id": 62,
+    "addedAt": "2026-08-27",
+    "openSource": true
   }
 ]

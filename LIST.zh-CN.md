@@ -251,6 +251,9 @@
 - [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
   - 将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。
 
+- [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
+  - 本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。
+
 ## 游戏与模组
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)

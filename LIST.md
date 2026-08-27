@@ -251,6 +251,9 @@
 - [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
   - A toolkit that exports a local Windows Endfield client into an offline research browser for story, assets, gameplay data, and update comparisons.
 
+- [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
+  - A local PowerShell script that parses Arknights: Endfield game logs to calculate total playtime, session history, and activity streaks.
+
 ## Games & Mods
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
