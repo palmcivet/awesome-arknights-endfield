@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-62-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-63-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
-  - A toolkit that exports a local Windows Endfield client into an offline research browser for story, assets, gameplay data, and update comparisons.
-
 - [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
   - A Codex skill for five Ark-adjacent UI families (including Endfield) and four application depths, with design tokens, starter kits, and showcases.
 
@@ -68,6 +65,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
   - A local PowerShell script that parses Arknights: Endfield game logs to calculate total playtime, session history, and activity streaks.
+
+- [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
+  - [GitHub Pages](https://susieglitter.github.io/perlica/)
+  - A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

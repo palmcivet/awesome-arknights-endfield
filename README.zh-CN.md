@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-62-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-63-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Variante/endfield_research_kit](https://github.com/Variante/endfield_research_kit)
-  - 将本地 Windows 版终末地客户端导出为离线研究浏览器的工具包，可浏览剧情、资源、玩法数据及版本差异。
-
 - [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
   - 面向 Codex 的界面设计技能，覆盖包括终末地在内的五种 Ark 风格族与四档应用深度，附带设计令牌、起始模板与样例。
 
@@ -69,6 +66,10 @@
 
 - [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
   - 本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。
+
+- [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
+  - [GitHub Pages](https://susieglitter.github.io/perlica/)
+  - 使用 Three.js 实时渲染的宣传型单页动画：佩丽卡沿方兴衢道路网骑行程序化重建的武陵城，支持自动巡游与自由操控。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

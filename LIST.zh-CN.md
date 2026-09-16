@@ -144,6 +144,10 @@
 - [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
   - 佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。
 
+- [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
+  - [GitHub Pages](https://susieglitter.github.io/perlica/)
+  - 使用 Three.js 实时渲染的宣传型单页动画：佩丽卡沿方兴衢道路网骑行程序化重建的武陵城，支持自动巡游与自由操控。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

@@ -144,6 +144,10 @@
 - [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
   - A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.
 
+- [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
+  - [GitHub Pages](https://susieglitter.github.io/perlica/)
+  - A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

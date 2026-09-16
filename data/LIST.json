@@ -1520,5 +1520,31 @@
     "id": 62,
     "addedAt": "2026-08-27",
     "openSource": true
+  },
+  {
+    "name": "SusieGlitter/perlica",
+    "description": {
+      "en-US": "A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.",
+      "zh-CN": "使用 Three.js 实时渲染的宣传型单页动画：佩丽卡沿方兴衢道路网骑行程序化重建的武陵城，支持自动巡游与自由操控。"
+    },
+    "repository": "https://github.com/SusieGlitter/perlica",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://susieglitter.github.io/perlica/"
+      }
+    ],
+    "author": {
+      "name": "SusieGlitter",
+      "url": "https://github.com/SusieGlitter"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "3D",
+      "Animation"
+    ],
+    "id": 63,
+    "addedAt": "2026-09-16",
+    "openSource": true
   }
 ]
