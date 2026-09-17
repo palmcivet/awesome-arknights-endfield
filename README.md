@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-63-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-64-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
-  - A Codex skill for five Ark-adjacent UI families (including Endfield) and four application depths, with design tokens, starter kits, and showcases.
-
 - [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
   - A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.
 
@@ -69,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
   - [GitHub Pages](https://susieglitter.github.io/perlica/)
   - A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.
+
+- [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
+  - A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

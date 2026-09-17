@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-63-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-64-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Brandon030722/ark-ui-skill](https://github.com/Brandon030722/ark-ui-skill)
-  - 面向 Codex 的界面设计技能，覆盖包括终末地在内的五种 Ark 风格族与四档应用深度，附带设计令牌、起始模板与样例。
-
 - [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
   - 佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。
 
@@ -70,6 +67,9 @@
 - [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
   - [GitHub Pages](https://susieglitter.github.io/perlica/)
   - 使用 Three.js 实时渲染的宣传型单页动画：佩丽卡沿方兴衢道路网骑行程序化重建的武陵城，支持自动巡游与自由操控。
+
+- [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
+  - 《明日方舟：终末地》TableCfg、Lua、ExtendData 和 Json 数据备份，由脚本生成，当前已支持 1.5 版本。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

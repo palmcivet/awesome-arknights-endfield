@@ -1546,5 +1546,24 @@
     "id": 63,
     "addedAt": "2026-09-16",
     "openSource": true
+  },
+  {
+    "name": "rmxlinux/EndfieldData",
+    "description": {
+      "en-US": "A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.",
+      "zh-CN": "《明日方舟：终末地》TableCfg、Lua、ExtendData 和 Json 数据备份，由脚本生成，当前已支持 1.5 版本。"
+    },
+    "repository": "https://github.com/rmxlinux/EndfieldData",
+    "author": {
+      "name": "rmxlinux",
+      "url": "https://github.com/rmxlinux"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Archive"
+    ],
+    "id": 64,
+    "addedAt": "2026-09-17",
+    "openSource": true
   }
 ]

@@ -258,6 +258,9 @@
 - [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
   - A local PowerShell script that parses Arknights: Endfield game logs to calculate total playtime, session history, and activity streaks.
 
+- [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
+  - A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.
+
 ## Games & Mods
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)

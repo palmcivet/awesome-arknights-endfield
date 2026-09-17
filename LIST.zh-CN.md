@@ -258,6 +258,9 @@
 - [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
   - 本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。
 
+- [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
+  - 《明日方舟：终末地》TableCfg、Lua、ExtendData 和 Json 数据备份，由脚本生成，当前已支持 1.5 版本。
+
 ## 游戏与模组
 
 - [LapisWorks/Lapis-EndfieldIndustry](https://github.com/LapisWorks/Lapis-EndfieldIndustry)
