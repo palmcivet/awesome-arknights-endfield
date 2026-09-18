@@ -1565,5 +1565,25 @@
     "id": 64,
     "addedAt": "2026-09-17",
     "openSource": true
+  },
+  {
+    "name": "QinAnze/zmd-manager",
+    "description": {
+      "en-US": "A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.",
+      "zh-CN": "仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。"
+    },
+    "repository": "https://github.com/QinAnze/zmd-manager",
+    "author": {
+      "name": "QinAnze",
+      "url": "https://github.com/QinAnze"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "Desktop App",
+      "UI"
+    ],
+    "id": 65,
+    "addedAt": "2026-09-18",
+    "openSource": true
   }
 ]

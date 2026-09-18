@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-64-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-65-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
-  - A Perlica-themed DeepSeek Harness plugin with distinct sounds for plan ready, task done, needs your input, and errors; plain conversation stays silent.
-
 - [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
   - A Typora light theme inspired by the visual language of Arknights: Endfield, for CJK/English mixed long-form reading, editing, and export.
 
@@ -69,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
   - A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.
+
+- [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
+  - A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

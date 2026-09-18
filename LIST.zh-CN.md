@@ -148,6 +148,9 @@
   - [GitHub Pages](https://susieglitter.github.io/perlica/)
   - 使用 Three.js 实时渲染的宣传型单页动画：佩丽卡沿方兴衢道路网骑行程序化重建的武陵城，支持自动巡游与自由操控。
 
+- [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
+  - 仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

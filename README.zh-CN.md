@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-64-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-65-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [117BS/dsh-perlica-ding](https://github.com/117BS/dsh-perlica-ding)
-  - 佩丽卡主题的 DeepSeek Harness 分级任务提示音插件：计划出方案、任务完成、需要回应、出错时播放不同音效，普通问答保持静音。
-
 - [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
   - 以《明日方舟：终末地》视觉语言为参考的 Typora 浅色主题，面向中日英混排的长文阅读、编辑与导出。
 
@@ -70,6 +67,9 @@
 
 - [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
   - 《明日方舟：终末地》TableCfg、Lua、ExtendData 和 Json 数据备份，由脚本生成，当前已支持 1.5 版本。
+
+- [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
+  - 仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

@@ -148,6 +148,9 @@
   - [GitHub Pages](https://susieglitter.github.io/perlica/)
   - A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.
 
+- [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
+  - A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)
