@@ -1585,5 +1585,25 @@
     "id": 65,
     "addedAt": "2026-09-18",
     "openSource": true
+  },
+  {
+    "name": "rison114514/dsh-endfield-ui",
+    "description": {
+      "en-US": "A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.",
+      "zh-CN": "非官方《明日方舟：终末地》工业风 DeepSeek Harness 界面插件与桌面工作台，提供 better-sidebar 布局，并与原生 Goal 同步。"
+    },
+    "repository": "https://github.com/rison114514/dsh-endfield-ui",
+    "author": {
+      "name": "rison114514",
+      "url": "https://github.com/rison114514"
+    },
+    "category": "Themes & Design",
+    "tags": [
+      "DSH Plugin",
+      "Desktop App"
+    ],
+    "id": 66,
+    "addedAt": "2026-09-20",
+    "openSource": true
   }
 ]

@@ -181,6 +181,9 @@
 - [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
   - A Typora light theme inspired by the visual language of Arknights: Endfield, for CJK/English mixed long-form reading, editing, and export.
 
+- [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
+  - A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.
+
 ## Gacha
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

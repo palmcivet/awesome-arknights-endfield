@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-65-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-66-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
-  - A Typora light theme inspired by the visual language of Arknights: Endfield, for CJK/English mixed long-form reading, editing, and export.
-
 - [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
   - A local PowerShell script that parses Arknights: Endfield game logs to calculate total playtime, session history, and activity streaks.
 
@@ -69,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
   - A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.
+
+- [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
+  - A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

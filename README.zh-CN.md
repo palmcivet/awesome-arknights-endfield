@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-65-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-66-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [genskyff/typora-arkfield](https://github.com/genskyff/typora-arkfield)
-  - 以《明日方舟：终末地》视觉语言为参考的 Typora 浅色主题，面向中日英混排的长文阅读、编辑与导出。
-
 - [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
   - 本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。
 
@@ -70,6 +67,9 @@
 
 - [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
   - 仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。
+
+- [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
+  - 非官方《明日方舟：终末地》工业风 DeepSeek Harness 界面插件与桌面工作台，提供 better-sidebar 布局，并与原生 Goal 同步。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
