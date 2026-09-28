@@ -3,6 +3,16 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useI18nContext } from '@/i18n/i18n-react.js';
 
+const screenshotUrls = Object.fromEntries(
+  Object.entries(
+    import.meta.glob('../../data/screenshots/**/*.webp', {
+      eager: true,
+      query: '?url',
+      import: 'default',
+    })
+  ).map(([path, url]) => [path.split('/screenshots/')[1], url])
+);
+
 interface ScreenshotCarouselProps {
   screenshots: string[];
   projectName: string;
@@ -34,10 +44,7 @@ export default function ScreenshotCarousel({
     );
   }
 
-  const src = new URL(
-    `../../data/screenshots/${screenshots[currentIndex]}`,
-    import.meta.url
-  ).href;
+  const src = screenshotUrls[screenshots[currentIndex]];
 
   return (
     <div className="relative border-b border-border">

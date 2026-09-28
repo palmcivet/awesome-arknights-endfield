@@ -119,7 +119,7 @@
     "website": [
       {
         "provider": "Custom",
-        "url": "https://lieyuan.top/Endaxis/"
+        "url": "https://www.end-axis.com/"
       }
     ],
     "author": {
@@ -135,20 +135,16 @@
     "openSource": true
   },
   {
-    "name": "HetmesAskalana/efsim",
+    "name": "HetmesAskalana/efsim-ec",
     "description": {
       "en-US": "Endfield originium circuit repair calculator.",
       "zh-CN": "终末地源石电路修复计算器。"
     },
-    "repository": "https://github.com/HetmesAskalana/efsim",
+    "repository": "https://github.com/HetmesAskalana/efsim-ec",
     "website": [
       {
         "provider": "Custom",
-        "url": "https://efsim.unacas.com/"
-      },
-      {
-        "provider": "GitHub Pages",
-        "url": "https://hetmesaskalana.github.io/efsim/"
+        "url": "https://efsimp.unacas.com/"
       }
     ],
     "author": {

@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { resolve } from 'node:path';
 import { createInterface } from 'node:readline';
@@ -117,22 +117,24 @@ function generateSlug(name: string): string {
     .replace(/^-|-$/g, '');
 }
 
+function projectScreenshotDir(projectId: number, slug: string): string {
+  return resolve(SCREENSHOTS_DIR, `${projectId}-${slug}`);
+}
+
 function getNextScreenshotNumber(projectId: number, slug: string): number {
-  if (!existsSync(SCREENSHOTS_DIR)) {
+  const dir = projectScreenshotDir(projectId, slug);
+  if (!existsSync(dir)) {
     return 1;
   }
 
-  const prefix = `${projectId}-${slug}-`;
-  const files = readdirSync(SCREENSHOTS_DIR);
+  const files = readdirSync(dir);
   let maxNum = 0;
 
   for (const file of files) {
-    if (file.startsWith(prefix) && file.endsWith('.png')) {
-      const numStr = file.slice(prefix.length, -4); // remove prefix and .png
-      const num = parseInt(numStr, 10);
-      if (!isNaN(num) && num > maxNum) {
-        maxNum = num;
-      }
+    if (!file.endsWith('.webp')) continue;
+    const num = parseInt(file.slice(0, -'.webp'.length), 10);
+    if (!isNaN(num) && num > maxNum) {
+      maxNum = num;
     }
   }
 
@@ -241,7 +243,7 @@ async function main() {
   const browser = await puppeteer.launch({
     executablePath: chromePath,
     headless: false,
-    defaultViewport: { width, height, deviceScaleFactor: 2 },
+    defaultViewport: null, // use the window's actual size & native DPR — WYSIWYG
     args: [`--window-size=${width},${height}`],
   });
 
@@ -254,6 +256,8 @@ async function main() {
   // Interactive screenshot loop
   const rl = createReadlineInterface();
   const newScreenshots: string[] = [];
+  const dirName = `${projectId}-${slug}`;
+  const projectDir = projectScreenshotDir(projectId, slug);
   let screenshotNum = getNextScreenshotNumber(projectId, slug);
 
   while (true) {
@@ -262,35 +266,38 @@ async function main() {
       chalk.yellow('\n📸 Adjust the page in the browser, then press Enter to capture...')
     );
 
-    const filename = `${projectId}-${slug}-${screenshotNum}.png`;
-    const outputPath = resolve(SCREENSHOTS_DIR, filename);
+    const filename = `${screenshotNum}.webp`;
+    const relativePath = `${dirName}/${filename}`;
+    const outputPath = resolve(projectDir, filename);
 
     console.info(chalk.bold.blue(`> Capturing screenshot #${screenshotNum}...`));
 
-    // Take screenshot
+    // Capture the *current* viewport (respects user's scroll/tab state)
     const rawBuffer = await page.screenshot({
       type: 'png',
-      clip: { x: 0, y: 0, width, height },
+      captureBeyondViewport: false,
     });
 
     const rawSize = rawBuffer.byteLength;
 
-    // Compress with sharp (lossless, max DEFLATE compression)
-    const compressed = await sharp(rawBuffer).png({ compressionLevel: 9 }).toBuffer();
+    // Convert to WebP — lossy at quality 80 gives excellent visual fidelity
+    // for UI screenshots while being 60-80% smaller than PNG.
+    const finalBuffer = await sharp(rawBuffer).webp({ quality: 80 }).toBuffer();
 
-    writeFileSync(outputPath, compressed);
+    mkdirSync(projectDir, { recursive: true });
+    writeFileSync(outputPath, finalBuffer);
 
-    const compressedSize = compressed.byteLength;
-    const ratio = ((1 - compressedSize / rawSize) * 100).toFixed(1);
+    const finalSize = finalBuffer.byteLength;
+    const ratio = ((1 - finalSize / rawSize) * 100).toFixed(1);
 
-    console.info(chalk.green(`✓ Saved: ${filename}`));
+    console.info(chalk.green(`✓ Saved: ${relativePath}`));
     console.info(
       chalk.dim(
-        `  Size: ${formatBytes(rawSize)} → ${formatBytes(compressedSize)} (${ratio}% reduced)`
+        `  Size: ${formatBytes(rawSize)} → ${formatBytes(finalSize)} (${ratio}% reduced)`
       )
     );
 
-    newScreenshots.push(filename);
+    newScreenshots.push(relativePath);
     screenshotNum++;
 
     const cont = await ask(rl, chalk.yellow('Continue capturing? (y/n): '));
