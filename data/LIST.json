@@ -334,7 +334,11 @@
     ],
     "id": 11,
     "addedAt": "2026-01-19",
-    "openSource": true
+    "openSource": true,
+    "screenshots": [
+      "11-endspace/1.webp",
+      "11-endspace/2.webp"
+    ]
   },
   {
     "name": "daydreamer-json/ak-endfield-gacha-link-gen",
@@ -404,7 +408,10 @@
     ],
     "id": 14,
     "addedAt": "2026-02-06",
-    "openSource": true
+    "openSource": true,
+    "screenshots": [
+      "14-endfield-icons/1.webp"
+    ]
   },
   {
     "name": "MoguJunn/endfield-gacha",
@@ -430,7 +437,11 @@
     ],
     "id": 15,
     "addedAt": "2026-02-06",
-    "openSource": true
+    "openSource": true,
+    "screenshots": [
+      "15-endfield-gacha/1.webp",
+      "15-endfield-gacha/2.webp"
+    ]
   },
   {
     "name": "Mapleawaa/Hypergryph-Endfield-UID-Checker",
@@ -474,7 +485,10 @@
     ],
     "id": 17,
     "addedAt": "2026-02-06",
-    "openSource": true
+    "openSource": true,
+    "screenshots": [
+      "17-endfield-schedule/1.webp"
+    ]
   },
   {
     "name": "vvhusbyudust/ArknightsEndfieldGachaStrategiesCompare",
@@ -520,7 +534,10 @@
     ],
     "id": 19,
     "addedAt": "2026-02-06",
-    "openSource": true
+    "openSource": true,
+    "screenshots": [
+      "19-endfield-gacha-calculator/1.webp"
+    ]
   },
   {
     "name": "yawarakatai/endfield-production-planner",

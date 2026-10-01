@@ -5,7 +5,7 @@ import { useI18nContext } from '@/i18n/i18n-react.js';
 
 const screenshotUrls = Object.fromEntries(
   Object.entries(
-    import.meta.glob('../../data/screenshots/**/*.webp', {
+    import.meta.glob<string>('../../data/screenshots/**/*.webp', {
       eager: true,
       query: '?url',
       import: 'default',
