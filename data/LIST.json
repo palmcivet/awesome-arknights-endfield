@@ -155,16 +155,16 @@
     ]
   },
   {
-    "name": "HetmesAskalana/efsim-ec",
+    "name": "HetmesAskalana/EFSim",
     "description": {
-      "en-US": "Endfield originium circuit repair calculator.",
-      "zh-CN": "终末地源石电路修复计算器。"
+      "en-US": "Puzzle calculators for Arknights: Endfield, covering circuit repair and floating recovery.",
+      "zh-CN": "《明日方舟：终末地》解密计算器，支持电路修复与浮空回收。"
     },
-    "repository": "https://github.com/HetmesAskalana/efsim-ec",
+    "repository": "https://github.com/HetmesAskalana/EFSim",
     "website": [
       {
         "provider": "Custom",
-        "url": "https://efsimp.unacas.com/"
+        "url": "https://efsim.unacas.com/"
       }
     ],
     "author": {
@@ -179,6 +179,7 @@
     "id": 6,
     "addedAt": "2025-12-13",
     "openSource": true,
+    "license": "GNU General Public License v3.0",
     "screenshots": [
       "6-efsim-ec/1.webp"
     ]
@@ -1657,5 +1658,32 @@
     "id": 66,
     "addedAt": "2026-09-20",
     "openSource": true
+  },
+  {
+    "name": "Logical-Byte/open-endfield-assistant",
+    "description": {
+      "en-US": "A free Windows desktop assistant for Arknights: Endfield that scans the in-game archive, syncs collection progress to the OEM map, and auto-draws Arena of Games until a chosen hand is reached.",
+      "zh-CN": "开源免费的 Windows 终末地小助手，一键识别档案库并同步到终末地地图集（OEM），并支持百趣演武自动抽牌，直到抽到目标牌型。"
+    },
+    "repository": "https://github.com/Logical-Byte/open-endfield-assistant",
+    "website": [
+      {
+        "provider": "Custom",
+        "url": "https://ef.yituliu.cn/resources/oea"
+      }
+    ],
+    "author": {
+      "name": "Logical-Byte",
+      "url": "https://github.com/Logical-Byte"
+    },
+    "category": "Game Utilities",
+    "tags": [
+      "Desktop App",
+      "Automation"
+    ],
+    "id": 67,
+    "addedAt": "2026-11-04",
+    "openSource": true,
+    "license": "GNU Affero General Public License v3.0"
   }
 ]

@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-66-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-67-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
-  - A local PowerShell script that parses Arknights: Endfield game logs to calculate total playtime, session history, and activity streaks.
-
 - [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
   - [GitHub Pages](https://susieglitter.github.io/perlica/)
   - A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.
@@ -69,6 +66,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
   - A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.
+
+- [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
+  - [Home Page](https://ef.yituliu.cn/resources/oea)
+  - A free Windows desktop assistant for Arknights: Endfield that scans the in-game archive, syncs collection progress to the OEM map, and auto-draws Arena of Games until a chosen hand is reached.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

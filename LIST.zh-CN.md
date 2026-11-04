@@ -79,13 +79,12 @@
   - 终末地地图资源查询。
 
 - [Lieyuan621/Endaxis](https://github.com/Lieyuan621/Endaxis)
-  - [主页](https://lieyuan.top/Endaxis/)
+  - [主页](https://www.end-axis.com/)
   - 基于 Web 专为《明日方舟：终末地》设计的可视化时间轴编辑工具。
 
-- [HetmesAskalana/efsim](https://github.com/HetmesAskalana/efsim)
+- [HetmesAskalana/EFSim](https://github.com/HetmesAskalana/EFSim)
   - [主页](https://efsim.unacas.com/)
-  - [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
-  - 终末地源石电路修复计算器。
+  - 《明日方舟：终末地》解密计算器，支持电路修复与浮空回收。
 
 - [zigotan/endfield-schedule](https://github.com/zigotan/endfield-schedule)
   - [Vercel](https://endfield-schedule.vercel.app/)
@@ -266,6 +265,10 @@
 
 - [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
   - 《明日方舟：终末地》TableCfg、Lua、ExtendData 和 Json 数据备份，由脚本生成，当前已支持 1.5 版本。
+
+- [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
+  - [主页](https://ef.yituliu.cn/resources/oea)
+  - 开源免费的 Windows 终末地小助手，一键识别档案库并同步到终末地地图集（OEM），并支持百趣演武自动抽牌，直到抽到目标牌型。
 
 ## 游戏与模组
 

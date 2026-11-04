@@ -79,13 +79,12 @@
   - Interactive Resource Map for Arknights: Endfield.
 
 - [Lieyuan621/Endaxis](https://github.com/Lieyuan621/Endaxis)
-  - [Home Page](https://lieyuan.top/Endaxis/)
+  - [Home Page](https://www.end-axis.com/)
   - A web-based visual timeline editing tool specifically designed for Arknights: Endfield.
 
-- [HetmesAskalana/efsim](https://github.com/HetmesAskalana/efsim)
+- [HetmesAskalana/EFSim](https://github.com/HetmesAskalana/EFSim)
   - [Home Page](https://efsim.unacas.com/)
-  - [GitHub Pages](https://hetmesaskalana.github.io/efsim/)
-  - Endfield originium circuit repair calculator.
+  - Puzzle calculators for Arknights: Endfield, covering circuit repair and floating recovery.
 
 - [zigotan/endfield-schedule](https://github.com/zigotan/endfield-schedule)
   - [Vercel](https://endfield-schedule.vercel.app/)
@@ -266,6 +265,10 @@
 
 - [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
   - A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.
+
+- [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
+  - [Home Page](https://ef.yituliu.cn/resources/oea)
+  - A free Windows desktop assistant for Arknights: Endfield that scans the in-game archive, syncs collection progress to the OEM map, and auto-draws Arena of Games until a chosen hand is reached.
 
 ## Games & Mods
 

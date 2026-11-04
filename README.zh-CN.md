@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-66-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-67-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [genrusaii/endfield-playtime-checker](https://github.com/genrusaii/endfield-playtime-checker)
-  - 本地 PowerShell 脚本，通过分析《明日方舟：终末地》游戏日志计算总游玩时长、会话记录和活跃连续天数。
-
 - [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
   - [GitHub Pages](https://susieglitter.github.io/perlica/)
   - 使用 Three.js 实时渲染的宣传型单页动画：佩丽卡沿方兴衢道路网骑行程序化重建的武陵城，支持自动巡游与自由操控。
@@ -70,6 +67,10 @@
 
 - [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
   - 非官方《明日方舟：终末地》工业风 DeepSeek Harness 界面插件与桌面工作台，提供 better-sidebar 布局，并与原生 Goal 同步。
+
+- [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
+  - [主页](https://ef.yituliu.cn/resources/oea)
+  - 开源免费的 Windows 终末地小助手，一键识别档案库并同步到终末地地图集（OEM），并支持百趣演武自动抽牌，直到抽到目标牌型。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
