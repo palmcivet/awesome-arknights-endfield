@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-67-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-68-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [SusieGlitter/perlica](https://github.com/SusieGlitter/perlica)
-  - [GitHub Pages](https://susieglitter.github.io/perlica/)
-  - A Three.js real-time promotional animation of Perlica cycling through a procedurally built Wuling City, with auto-cruise and free-ride controls.
-
 - [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
   - A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.
 
@@ -70,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
   - [Home Page](https://ef.yituliu.cn/resources/oea)
   - A free Windows desktop assistant for Arknights: Endfield that scans the in-game archive, syncs collection progress to the OEM map, and auto-draws Arena of Games until a chosen hand is reached.
+
+- [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
+  - A cross-platform companion for the Zipliner zipline planner that shows live Arknights: Endfield coordinates via Skland and collects zipline positions on Windows, Android, and Linux.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

@@ -1685,5 +1685,26 @@
     "addedAt": "2026-11-04",
     "openSource": true,
     "license": "GNU Affero General Public License v3.0"
+  },
+  {
+    "name": "ZipField/zipliner-client",
+    "description": {
+      "en-US": "A cross-platform companion for the Zipliner zipline planner that shows live Arknights: Endfield coordinates via Skland and collects zipline positions on Windows, Android, and Linux.",
+      "zh-CN": "Zipliner 滑索规划的跨平台辅助工具，通过森空岛实时显示《明日方舟：终末地》角色坐标，并在 Windows、Android 与 Linux 上采集滑索位置。"
+    },
+    "repository": "https://github.com/ZipField/zipliner-client",
+    "author": {
+      "name": "ZipField",
+      "url": "https://github.com/ZipField"
+    },
+    "category": "Maps & Guides",
+    "tags": [
+      "Desktop App",
+      "Map"
+    ],
+    "id": 68,
+    "addedAt": "2026-11-04",
+    "openSource": true,
+    "license": "GNU General Public License v3.0"
   }
 ]

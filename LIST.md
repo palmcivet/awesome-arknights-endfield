@@ -103,6 +103,9 @@
   - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
   - A checklist for querying Operational Manual material sources in Arknights: Endfield, covering enemy drops, Heavy Energy Alluvium, and overworld refresh/gathering locations.
 
+- [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
+  - A cross-platform companion for the Zipliner zipline planner that shows live Arknights: Endfield coordinates via Skland and collects zipline positions on Windows, Android, and Linux.
+
 ## Fan Creations
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)

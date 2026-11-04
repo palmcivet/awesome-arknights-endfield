@@ -103,6 +103,9 @@
   - [GitHub Pages](https://sodaxu.github.io/endfield-crafting-manual-checklist/)
   - 《明日方舟：终末地》简制手册素材来源查询工具，覆盖掉落怪、重度能量淤积点以及大地图刷新与采集来源。
 
+- [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
+  - Zipliner 滑索规划的跨平台辅助工具，通过森空岛实时显示《明日方舟：终末地》角色坐标，并在 Windows、Android 与 Linux 上采集滑索位置。
+
 ## 同人创作
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
