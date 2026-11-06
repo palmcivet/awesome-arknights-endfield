@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-70-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-71-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
-  - A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.
-
 - [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
   - [Home Page](https://ef.yituliu.cn/resources/oea)
   - A free Windows desktop assistant for Arknights: Endfield that scans the in-game archive, syncs collection progress to the OEM map, and auto-draws Arena of Games until a chosen hand is reached.
@@ -69,6 +66,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield)
   - A DeepSeek Harness web theme plugin styled after the official Arknights: Endfield site, with cream paper, ink-black type, signal-yellow accents, and a sharp-cornered industrial layout.
+
+- [DaliBerr/EndBalloonPuzzle](https://github.com/DaliBerr/EndBalloonPuzzle)
+  - [GitHub Pages](https://daliberr.github.io/EndBalloonPuzzle/)
+  - A local browser solver for the Arknights: Endfield floating balloon puzzle that configures the board and number tiles, then searches for a valid placement, enumerates solutions, or checks uniqueness.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

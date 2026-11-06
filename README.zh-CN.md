@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-70-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-71-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
-  - 非官方《明日方舟：终末地》工业风 DeepSeek Harness 界面插件与桌面工作台，提供 better-sidebar 布局，并与原生 Goal 同步。
-
 - [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
   - [主页](https://ef.yituliu.cn/resources/oea)
   - 开源免费的 Windows 终末地小助手，一键识别档案库并同步到终末地地图集（OEM），并支持百趣演武自动抽牌，直到抽到目标牌型。
@@ -70,6 +67,10 @@
 
 - [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield)
   - 参考《明日方舟：终末地》官网的 DeepSeek Harness Web 主题插件，采用奶油纸底、墨黑文字、信号黄强调与全直角工业编辑风。
+
+- [DaliBerr/EndBalloonPuzzle](https://github.com/DaliBerr/EndBalloonPuzzle)
+  - [GitHub Pages](https://daliberr.github.io/EndBalloonPuzzle/)
+  - 《明日方舟：终末地》浮空气球解密的浏览器本地求解工具，可配置棋盘与数字块，搜索可行摆放、枚举答案或判断唯一性。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

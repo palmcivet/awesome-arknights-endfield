@@ -1748,5 +1748,31 @@
     "addedAt": "2026-11-06",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "DaliBerr/EndBalloonPuzzle",
+    "description": {
+      "en-US": "A local browser solver for the Arknights: Endfield floating balloon puzzle that configures the board and number tiles, then searches for a valid placement, enumerates solutions, or checks uniqueness.",
+      "zh-CN": "《明日方舟：终末地》浮空气球解密的浏览器本地求解工具，可配置棋盘与数字块，搜索可行摆放、枚举答案或判断唯一性。"
+    },
+    "repository": "https://github.com/DaliBerr/EndBalloonPuzzle",
+    "website": [
+      {
+        "provider": "GitHub Pages",
+        "url": "https://daliberr.github.io/EndBalloonPuzzle/"
+      }
+    ],
+    "author": {
+      "name": "DaliBerr",
+      "url": "https://github.com/DaliBerr"
+    },
+    "category": "Maps & Guides",
+    "tags": [
+      "Puzzle",
+      "Calculator"
+    ],
+    "id": 71,
+    "addedAt": "2026-11-06",
+    "openSource": true
   }
 ]

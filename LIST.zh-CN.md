@@ -106,6 +106,10 @@
 - [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
   - Zipliner 滑索规划的跨平台辅助工具，通过森空岛实时显示《明日方舟：终末地》角色坐标，并在 Windows、Android 与 Linux 上采集滑索位置。
 
+- [DaliBerr/EndBalloonPuzzle](https://github.com/DaliBerr/EndBalloonPuzzle)
+  - [GitHub Pages](https://daliberr.github.io/EndBalloonPuzzle/)
+  - 《明日方舟：终末地》浮空气球解密的浏览器本地求解工具，可配置棋盘与数字块，搜索可行摆放、枚举答案或判断唯一性。
+
 ## 同人创作
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)

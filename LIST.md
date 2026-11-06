@@ -106,6 +106,10 @@
 - [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
   - A cross-platform companion for the Zipliner zipline planner that shows live Arknights: Endfield coordinates via Skland and collects zipline positions on Windows, Android, and Linux.
 
+- [DaliBerr/EndBalloonPuzzle](https://github.com/DaliBerr/EndBalloonPuzzle)
+  - [GitHub Pages](https://daliberr.github.io/EndBalloonPuzzle/)
+  - A local browser solver for the Arknights: Endfield floating balloon puzzle that configures the board and number tiles, then searches for a valid placement, enumerates solutions, or checks uniqueness.
+
 ## Fan Creations
 
 - [ChuwuYo/Endfield-Pomodoro](https://github.com/ChuwuYo/Endfield-Pomodoro)
