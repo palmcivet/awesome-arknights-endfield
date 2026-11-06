@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-68-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-69-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
-  - 《明日方舟：终末地》TableCfg、Lua、ExtendData 和 Json 数据备份，由脚本生成，当前已支持 1.5 版本。
-
 - [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
   - 仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。
 
@@ -70,6 +67,9 @@
 
 - [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
   - Zipliner 滑索规划的跨平台辅助工具，通过森空岛实时显示《明日方舟：终末地》角色坐标，并在 Windows、Android 与 Linux 上采集滑索位置。
+
+- [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
+  - 仿《明日方舟：终末地》工业风的 Windows 电量 HUD，插拔充电器时从屏幕顶部弹出灵动岛式胶囊，显示剩余电量（mWh 与百分比），并支持低电量与充满提醒。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。

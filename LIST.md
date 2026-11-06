@@ -153,6 +153,9 @@
 - [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
   - A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.
 
+- [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
+  - A Windows battery HUD styled after Arknights: Endfield that pops a Dynamic Island-style capsule from the top of the screen when the charger is plugged or unplugged, showing charge in mWh and percent with low-battery and full-charge alerts.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

@@ -1706,5 +1706,26 @@
     "addedAt": "2026-11-04",
     "openSource": true,
     "license": "GNU General Public License v3.0"
+  },
+  {
+    "name": "QinAnze/zmd-charge",
+    "description": {
+      "en-US": "A Windows battery HUD styled after Arknights: Endfield that pops a Dynamic Island-style capsule from the top of the screen when the charger is plugged or unplugged, showing charge in mWh and percent with low-battery and full-charge alerts.",
+      "zh-CN": "仿《明日方舟：终末地》工业风的 Windows 电量 HUD，插拔充电器时从屏幕顶部弹出灵动岛式胶囊，显示剩余电量（mWh 与百分比），并支持低电量与充满提醒。"
+    },
+    "repository": "https://github.com/QinAnze/zmd-charge",
+    "author": {
+      "name": "QinAnze",
+      "url": "https://github.com/QinAnze"
+    },
+    "category": "Fan Creations",
+    "tags": [
+      "Desktop App",
+      "UI"
+    ],
+    "id": 69,
+    "addedAt": "2026-11-06",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

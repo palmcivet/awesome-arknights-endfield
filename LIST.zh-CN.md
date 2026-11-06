@@ -153,6 +153,9 @@
 - [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
   - 仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。
 
+- [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
+  - 仿《明日方舟：终末地》工业风的 Windows 电量 HUD，插拔充电器时从屏幕顶部弹出灵动岛式胶囊，显示剩余电量（mWh 与百分比），并支持低电量与充满提醒。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

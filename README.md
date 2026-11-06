@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-68-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-69-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [rmxlinux/EndfieldData](https://github.com/rmxlinux/EndfieldData)
-  - A script-generated backup of Arknights: Endfield TableCfg, Lua, ExtendData, and Json data, currently covering version 1.5.
-
 - [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
   - A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.
 
@@ -69,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
   - A cross-platform companion for the Zipliner zipline planner that shows live Arknights: Endfield coordinates via Skland and collects zipline positions on Windows, Android, and Linux.
+
+- [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
+  - A Windows battery HUD styled after Arknights: Endfield that pops a Dynamic Island-style capsule from the top of the screen when the charger is plugged or unplugged, showing charge in mWh and percent with low-battery and full-charge alerts.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).
