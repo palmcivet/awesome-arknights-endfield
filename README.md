@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-69-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-70-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,9 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
-  - A local Windows task and performance monitor styled after Arknights: Endfield's power system, with a Tauri 2 shell and a localhost collector for CPU, GPU, memory, disk, and network stats.
-
 - [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
   - A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.
 
@@ -69,6 +66,9 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 
 - [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
   - A Windows battery HUD styled after Arknights: Endfield that pops a Dynamic Island-style capsule from the top of the screen when the charger is plugged or unplugged, showing charge in mWh and percent with low-battery and full-charge alerts.
+
+- [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield)
+  - A DeepSeek Harness web theme plugin styled after the official Arknights: Endfield site, with cream paper, ink-black type, signal-yellow accents, and a sharp-cornered industrial layout.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

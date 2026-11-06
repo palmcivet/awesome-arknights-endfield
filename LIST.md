@@ -189,6 +189,9 @@
 - [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
   - A non-official Arknights: Endfield industrial-style UI plugin and desktop workbench for DeepSeek Harness, with a better-sidebar layout and native Goal sync.
 
+- [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield)
+  - A DeepSeek Harness web theme plugin styled after the official Arknights: Endfield site, with cream paper, ink-black type, signal-yellow accents, and a sharp-cornered industrial layout.
+
 ## Gacha
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

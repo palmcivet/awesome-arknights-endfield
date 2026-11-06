@@ -189,6 +189,9 @@
 - [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
   - 非官方《明日方舟：终末地》工业风 DeepSeek Harness 界面插件与桌面工作台，提供 better-sidebar 布局，并与原生 Goal 同步。
 
+- [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield)
+  - 参考《明日方舟：终末地》官网的 DeepSeek Harness Web 主题插件，采用奶油纸底、墨黑文字、信号黄强调与全直角工业编辑风。
+
 ## 抽卡分析
 
 - [daydreamer-json/ak-endfield-gacha-link-gen](https://github.com/daydreamer-json/ak-endfield-gacha-link-gen)

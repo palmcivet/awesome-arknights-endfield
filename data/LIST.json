@@ -1727,5 +1727,26 @@
     "addedAt": "2026-11-06",
     "openSource": true,
     "license": "MIT License"
+  },
+  {
+    "name": "ymh0000123/dsh-theme-endfield",
+    "description": {
+      "en-US": "A DeepSeek Harness web theme plugin styled after the official Arknights: Endfield site, with cream paper, ink-black type, signal-yellow accents, and a sharp-cornered industrial layout.",
+      "zh-CN": "参考《明日方舟：终末地》官网的 DeepSeek Harness Web 主题插件，采用奶油纸底、墨黑文字、信号黄强调与全直角工业编辑风。"
+    },
+    "repository": "https://github.com/ymh0000123/dsh-theme-endfield",
+    "author": {
+      "name": "ymh0000123",
+      "url": "https://github.com/ymh0000123"
+    },
+    "category": "Themes & Design",
+    "tags": [
+      "DSH Plugin",
+      "UI"
+    ],
+    "id": 70,
+    "addedAt": "2026-11-06",
+    "openSource": true,
+    "license": "MIT License"
   }
 ]

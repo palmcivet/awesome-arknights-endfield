@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-69-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-70-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,9 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [QinAnze/zmd-manager](https://github.com/QinAnze/zmd-manager)
-  - 仿《明日方舟：终末地》电量系统风格的本机任务与性能监视器，基于 Tauri 2 壳与本地采集端，展示 CPU、显卡、内存、磁盘和网络占用。
-
 - [rison114514/dsh-endfield-ui](https://github.com/rison114514/dsh-endfield-ui)
   - 非官方《明日方舟：终末地》工业风 DeepSeek Harness 界面插件与桌面工作台，提供 better-sidebar 布局，并与原生 Goal 同步。
 
@@ -70,6 +67,9 @@
 
 - [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
   - 仿《明日方舟：终末地》工业风的 Windows 电量 HUD，插拔充电器时从屏幕顶部弹出灵动岛式胶囊，显示剩余电量（mWh 与百分比），并支持低电量与充满提醒。
+
+- [ymh0000123/dsh-theme-endfield](https://github.com/ymh0000123/dsh-theme-endfield)
+  - 参考《明日方舟：终末地》官网的 DeepSeek Harness Web 主题插件，采用奶油纸底、墨黑文字、信号黄强调与全直角工业编辑风。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
