@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-71-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-72-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -54,10 +54,6 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 ## Recent Updates
 
 <!-- RECENT_START -->
-- [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
-  - [Home Page](https://ef.yituliu.cn/resources/oea)
-  - A free Windows desktop assistant for Arknights: Endfield that scans the in-game archive, syncs collection progress to the OEM map, and auto-draws Arena of Games until a chosen hand is reached.
-
 - [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
   - A cross-platform companion for the Zipliner zipline planner that shows live Arknights: Endfield coordinates via Skland and collects zipline positions on Windows, Android, and Linux.
 
@@ -70,6 +66,10 @@ If you are looking for content related to [Arknights](https://ak.hypergryph.com/
 - [DaliBerr/EndBalloonPuzzle](https://github.com/DaliBerr/EndBalloonPuzzle)
   - [GitHub Pages](https://daliberr.github.io/EndBalloonPuzzle/)
   - A local browser solver for the Arknights: Endfield floating balloon puzzle that configures the board and number tiles, then searches for a valid placement, enumerates solutions, or checks uniqueness.
+
+- [rwynx/RWX-Baker](https://github.com/rwynx/RWX-Baker)
+  - [Home Page](https://baker.rwyn.app/)
+  - A client-side recreation of the Arknights: Endfield Baker app for composing single and group chats, stickers, reactions, and mission events, with tablet, phone, and terminal views plus PNG export.
 <!-- RECENT_END -->
 
 More projects can be found in the [LIST.md](./LIST.md).

@@ -160,6 +160,10 @@
 - [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
   - 仿《明日方舟：终末地》工业风的 Windows 电量 HUD，插拔充电器时从屏幕顶部弹出灵动岛式胶囊，显示剩余电量（mWh 与百分比），并支持低电量与充满提醒。
 
+- [rwynx/RWX-Baker](https://github.com/rwynx/RWX-Baker)
+  - [主页](https://baker.rwyn.app/)
+  - 浏览器本地复刻《明日方舟：终末地》Baker，可编排单聊与群聊、贴纸、表情回应和任务事件，支持平板、手机与终端视图，并导出 PNG。
+
 ## 主题与设计资源
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

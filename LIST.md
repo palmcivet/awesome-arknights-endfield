@@ -160,6 +160,10 @@
 - [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge)
   - A Windows battery HUD styled after Arknights: Endfield that pops a Dynamic Island-style capsule from the top of the screen when the charger is plugged or unplugged, showing charge in mWh and percent with low-battery and full-charge alerts.
 
+- [rwynx/RWX-Baker](https://github.com/rwynx/RWX-Baker)
+  - [Home Page](https://baker.rwyn.app/)
+  - A client-side recreation of the Arknights: Endfield Baker app for composing single and group chats, stickers, reactions, and mission events, with tablet, phone, and terminal views plus PNG export.
+
 ## Themes & Design
 
 - [cloud-oc/endspace](https://github.com/cloud-oc/endspace)

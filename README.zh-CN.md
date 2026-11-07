@@ -24,7 +24,7 @@
   </a>
 
   <!-- BADGE_COUNT_START -->
-  <img src="https://img.shields.io/badge/Projects-71-blue" alt="Projects" />
+  <img src="https://img.shields.io/badge/Projects-72-blue" alt="Projects" />
   <!-- BADGE_COUNT_END -->
 </p>
 
@@ -55,10 +55,6 @@
 ## 最近更新
 
 <!-- RECENT_START -->
-- [Logical-Byte/open-endfield-assistant](https://github.com/Logical-Byte/open-endfield-assistant)
-  - [主页](https://ef.yituliu.cn/resources/oea)
-  - 开源免费的 Windows 终末地小助手，一键识别档案库并同步到终末地地图集（OEM），并支持百趣演武自动抽牌，直到抽到目标牌型。
-
 - [ZipField/zipliner-client](https://github.com/ZipField/zipliner-client)
   - Zipliner 滑索规划的跨平台辅助工具，通过森空岛实时显示《明日方舟：终末地》角色坐标，并在 Windows、Android 与 Linux 上采集滑索位置。
 
@@ -71,6 +67,10 @@
 - [DaliBerr/EndBalloonPuzzle](https://github.com/DaliBerr/EndBalloonPuzzle)
   - [GitHub Pages](https://daliberr.github.io/EndBalloonPuzzle/)
   - 《明日方舟：终末地》浮空气球解密的浏览器本地求解工具，可配置棋盘与数字块，搜索可行摆放、枚举答案或判断唯一性。
+
+- [rwynx/RWX-Baker](https://github.com/rwynx/RWX-Baker)
+  - [主页](https://baker.rwyn.app/)
+  - 浏览器本地复刻《明日方舟：终末地》Baker，可编排单聊与群聊、贴纸、表情回应和任务事件，支持平板、手机与终端视图，并导出 PNG。
 <!-- RECENT_END -->
 
 更多项目请参阅 [LIST.zh-CN.md](./LIST.zh-CN.md)。
